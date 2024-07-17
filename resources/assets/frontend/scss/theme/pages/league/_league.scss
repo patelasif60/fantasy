@@ -1,0 +1,26 @@
+.league-invitee {
+    height: 64px;
+    width: 64px;
+
+    .league-invitee-crest {
+        border-radius: 2px;
+        max-width: 100%;
+        width: 100%;
+        object-position: center;
+    }
+}
+
+.league-name {
+    @extend .font-weight-bold;
+}
+
+.approval-block {
+    @include gradient-directional(#F2F2F4, #CCCCD5, 180deg);
+    padding: 1.25rem;
+    border-radius: 2px;
+    box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.5), 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+
+    .manager-name {
+        @extend .font-weight-bold;
+    }
+}

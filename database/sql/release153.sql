@@ -1,0 +1,10 @@
+UPDATE `team_player_contracts` SET `end_date` = NULL WHERE `id` = '47680'; 
+DELETE FROM `team_player_contracts` WHERE `id` = '238474';
+UPDATE `team_player_contracts` SET `end_date` = '2019-08-18 16:30:51' WHERE `id` = '26727'; 
+DELETE FROM `team_player_contracts` WHERE `id` = '237436';
+UPDATE `team_player_contracts` SET `end_date` = NULL WHERE `id` = '237427';
+UPDATE `team_player_contracts` SET `end_date` = NULL WHERE `id` = '204350';
+DELETE FROM `team_player_contracts` WHERE `id` = '244815';
+DELETE FROM `team_player_contracts` WHERE `id` = '189058';
+DELETE FROM `team_player_contracts` WHERE `id` = '297199';
+DELETE FROM `team_player_contracts` WHERE `id` = '238117';

@@ -1,0 +1,19 @@
+html, body {
+    overflow-x:hidden;
+    *:focus {
+        outline: none;
+    }
+}
+
+section {
+    min-height: calc(100vh);
+    padding: 50px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bm-multiply {
+    mix-blend-mode: multiply;
+    // z-index: 1;
+}

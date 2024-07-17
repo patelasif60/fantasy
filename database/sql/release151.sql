@@ -1,0 +1,3 @@
+INSERT INTO `transfers` (`team_id`, `player_in`, `transfer_type`, `transfer_value`, `transfer_date`, `created_at`, `updated_at`) VALUES ('7626', '295', 'auction', '0.00', '2019-08-08 10:21:09', '2019-08-08 10:21:09', '2019-08-08 10:21:09'); 
+
+INSERT INTO `transfers` (`team_id`, `player_in`, `transfer_type`, `transfer_value`, `transfer_date`, `created_at`, `updated_at`) VALUES ('8355', '247', 'auction', '0.00', '2019-08-09 12:54:34', '2019-08-09 12:54:34', '2019-08-09 12:54:34'); 

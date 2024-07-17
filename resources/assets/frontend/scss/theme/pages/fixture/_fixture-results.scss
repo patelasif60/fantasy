@@ -1,0 +1,172 @@
+$fixture-detail-team-player-img: 56px;
+$team-img-area-margin: 10px;
+
+.fixture-scheduled-time {
+    @extend .bg-secondary;
+    @extend .p-2;
+    font-family: $font-family-secondary;
+}
+
+.fixture-detail-wrapper {
+    @extend .list-unstyled;
+    margin-bottom: 0;
+
+    .fixture-detail {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        padding: 5px 0;
+
+        // &:first-child {
+        //     margin-top: 1rem;
+        // }
+
+        &:not(:last-child) {
+            border-bottom: 1px solid rgba(mix(theme-color('secondary'), $white, 50%), 0.4);
+        }
+
+        .home-team-info,
+        .away-team-info,
+        .match-score-info {
+            display: inline-flex;
+            align-items: center;
+            flex-flow: row nowrap;
+            word-wrap: anywhere;
+        }
+
+        .home-team-info,
+        .away-team-info {
+            flex: 2;
+
+            .team-img-area {
+                flex: 0 0 $fixture-detail-team-player-img - 20;
+
+                @include media-breakpoint-up(md) {
+                    flex: 0 0 $fixture-detail-team-player-img;
+                    max-height: $fixture-detail-team-player-img;
+                }
+            }
+
+            .team-img {
+                display: inline-block;
+                width: $fixture-detail-team-player-img - 20;
+                // max-width: 100%;
+                height: $fixture-detail-team-player-img - 20;
+
+                @include media-breakpoint-up(md) {
+                    width: $fixture-detail-team-player-img;
+                    height: $fixture-detail-team-player-img;
+                }
+            }
+
+            .team-name {
+                @include font-size(12);
+
+                @include media-breakpoint-up(md) {
+                    @include font-size(16);
+                }
+
+                font-weight: $font-weight-bold;
+            }
+
+        }
+
+        .home-team-info {
+
+            .team-img-area {
+                margin-right: $team-img-area-margin;
+            }
+        }
+
+        .away-team-info {
+            justify-content: flex-end;
+
+            .team-img-area {
+                margin-left: $team-img-area-margin;
+            }
+        }
+
+        .match-score-info {
+            justify-content: center;
+            flex: 1;
+        }
+    }
+
+    .player-info {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+
+        &:first-child {
+            padding-top: 3px;
+        }
+
+        .player-badge-area {
+            flex: 0 0 20px;
+            margin-right: 10px;
+        }
+
+        .player-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            @include font-size(12);
+
+            @include media-breakpoint-up(md) {
+                @include font-size(14);
+            }
+
+            text-transform: uppercase;
+
+        }
+
+        @each $color,
+        $value in $theme-colors {
+            .player-badge-#{$color} {
+                @include badge-variant($value);
+            }
+        }
+
+        .player-name {
+            @include font-size(12);
+
+            @include media-breakpoint-up(md) {
+                @include font-size(14);
+            }
+        }
+    }
+}
+
+.team-fixture-detail {
+    margin-bottom: .5rem;
+
+    [class^="col-"],
+    [class*=" col-"] {
+        &:not(:last-child) {
+            border-right: 1px solid rgba(mix(theme-color('secondary'), $white, 50%), 0.4);
+
+            @include media-breakpoint-up(md) {
+                display: flex;
+
+                .fixture-detail-wrapper {
+                    padding-left: $fixture-detail-team-player-img+$team-img-area-margin;
+                }
+            }
+        }
+
+        &:last-child {
+            @include media-breakpoint-up(md) {
+                display: flex;
+                justify-content: flex-end;
+
+                .fixture-detail-wrapper {
+                    padding-right: $fixture-detail-team-player-img+$team-img-area-margin;
+                }
+            }
+        }
+    }
+}

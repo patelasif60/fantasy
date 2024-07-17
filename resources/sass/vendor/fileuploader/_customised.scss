@@ -1,0 +1,187 @@
+// Extends
+%fileuploader-icon {
+    // @extend %fa-icon;
+    // @extend .fal;
+    font-family: 'Font Awesome 5 Pro' !important;
+    font-weight: 300 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    display: inline-block !important;
+    vertical-align: -.125em !important;
+}
+
+/* main */
+.fileuploader {
+    padding: 0;
+}
+
+/* items */
+.fileuploader-items {
+    .fileuploader-item {
+        .fileuploader-action {
+            &.fileuploader-action-remove i {
+                font-size: 12px;
+                &:after {
+                    content: fa-content($fa-var-trash-alt);
+                }
+            }
+
+            &.fileuploader-action-download i:after {
+                content: fa-content($fa-var-download);
+            }
+
+            &.fileuploader-action-start i:after {
+                content: fa-content($fa-var-upload);
+            }
+
+            &.fileuploader-action-sort i:after {
+                content: fa-content($fa-var-arrows-alt);
+            }
+
+            &.fileuploader-action-edit i:after {
+                content: fa-content($fa-var-edit);
+            }
+
+            &.fileuploader-action-retry i:after {
+                content: fa-content($fa-var-redo);
+            }
+
+            &.fileuploader-action-settings i:after {
+                content: fa-content($fa-var-cogs);
+            }
+
+            &.fileuploader-action-preview i:after {
+                content: fa-content($fa-var-eye);
+            }
+
+            &.fileuploader-action-success i {
+                &:after {
+                    content: fa-content($fa-var-check-circle);
+                }
+
+                &:hover {
+                    &:after {
+                        content: fa-content($fa-var-trash-alt);
+                    }
+                }
+
+                &:active {
+                    &:after {
+                        content: fa-content($fa-var-trash-alt);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* popup */
+.fileuploader-popup {
+    // background: rgba($modal-backdrop-bg,.5);
+    background: $modal-backdrop-bg;
+
+    .fileuploader-popup-content {
+        ul {
+            li {
+                padding-bottom: 16px;
+
+                span {
+                    font-size: $font-size-base;
+                }
+
+                h5 {
+                    font-size: $font-size-base;
+                }
+            }
+        }
+
+        .fileuploader-popup-tools {
+            li {
+
+                a {
+                    i {
+                        font-size: 24px;
+                    }
+
+                    &[data-action="remove"] i:after {
+                        content: fa-content($fa-var-trash-alt);
+                    }
+
+                    &[data-action="crop"] i:after {
+                        content: fa-content($fa-var-crop-alt);
+                    }
+
+                    &[data-action="rotate-cw"] i:after {
+                        content: fa-content($fa-var-redo-alt);
+                    }
+                }
+            }
+        }
+
+        .fileuploader-popup-button {
+            background: initial;
+            color: initial;
+            display: inline-block;
+            font-weight: $btn-font-weight;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            user-select: none;
+            @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
+            @include transition($btn-transition);
+            height: $pbf-height;
+            font-family: $font-family-base;
+            @include button-alt-variant($body-color, $body-bg-dark);
+
+            // Share hover and focus styles
+            @include hover-focus {
+                text-decoration: none;
+            }
+
+            &:focus,
+            &.focus {
+                outline: 0;
+                box-shadow: $btn-focus-box-shadow;
+            }
+
+            &+.fileuploader-popup-button {
+                margin-left: $grid-gutter-width/2;
+            }
+
+            &.button-success {
+                background: initial;
+                color: initial;
+                display: inline-block;
+                font-weight: $btn-font-weight;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                user-select: none;
+                // border: $btn-border-width solid transparent;
+                @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
+                @include transition($btn-transition);
+                height: $pbf-height;
+                font-family: $font-family-base;
+                @include button-variant($brand-primary, $brand-primary);
+            }
+        }
+    }
+
+    .fileuploader-popup-move {
+        font-size: 24px;
+        color: $white !important;
+
+        &[data-action="prev"] {
+            &:after {
+                content: fa-content($fa-var-arrow-circle-left);
+            }
+        }
+
+        &[data-action="next"] {
+            &:after {
+                content: fa-content($fa-var-arrow-circle-right);
+            }
+        }
+
+    }
+}

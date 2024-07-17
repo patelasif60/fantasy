@@ -1,0 +1,9 @@
+@function player-position($key: "gk") {
+    @return map-get($player-positions, $key);
+}
+
+@each $color, $value in $player-positions {
+    .is-#{$color} {
+        background-color: $value;
+    }
+}

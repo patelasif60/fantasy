@@ -1,0 +1,118 @@
+.info-card-area {
+    height: inherit !important;
+
+    &:not(.show) {
+        display: block;
+
+        &:after {
+            content: '';
+            position: relative;
+            display: block;
+            margin-top: -150px;
+            height: 150px;
+            width: 100%;
+            background-image: linear-gradient(to bottom, rgba($body-bg, 0) 0, $body-bg 100%);
+            margin-bottom: 10px;
+        }
+    }
+
+    .info-card-block {
+        position: relative;
+        height: 60vh;
+        overflow: hidden;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+        transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+        transition: 0.2s;
+    }
+
+    &.collapsing {
+        height: inherit;
+        overflow: auto;
+        transition: all 0.35s ease;
+    }
+
+    &.show {
+        .info-card-block {
+            height: inherit;
+        }
+    }
+
+    &.read-more-wrapper {
+        .info-card-block {
+            height: 0;
+        }
+
+        &:not(.show) {
+            &:after {
+                display: none;
+            }
+        }
+
+        &.show {
+            .info-card-block {
+                height: 100%;
+                overflow: visible;
+            }
+
+            &+.read-more-trigger {
+                .collapse-action-btn {
+                    &:before {
+                        content: 'Read Less';
+                    }
+                }
+            }
+        }
+
+        &+.read-more-trigger {
+            .collapse-action-btn {
+                &:before {
+                    content: 'Read More';
+                }
+            }
+        }
+    }
+}
+
+.collapse-action-btn {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: theme-color('secondary');
+    transform: rotate(180deg);
+    transition: all 0.25s ease;
+
+    @include hover {
+        text-decoration: none;
+    }
+}
+
+.info-card-area {
+    &.show+.collapse-action-btn {
+        transform: rotate(0deg);
+    }
+
+    &.read-more-wrapper {
+        &+.read-more-trigger {
+            .collapse-action-btn {
+                transform: rotate(0deg);
+            }
+        }
+    }
+}
+
+.read-more-trigger {
+    text-align: center;
+    .collapse-action-btn {
+        color: #e55a05;
+        @extend .text-uppercase;
+        @extend .font-weight-bold;
+        font-family: $font-family-secondary;
+        letter-spacing: 1px;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+    }
+}

@@ -1,0 +1,46 @@
+.keypoint-section {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .keypoint-number {
+        font-size: 21vh;
+        line-height: 17vh;
+        font-family: $font-family-secondary;
+    }
+
+    .keypoint-title {
+        font-size: 7vh;
+        line-height: 6vh;
+        text-transform: uppercase;
+        font-family: $font-family-secondary;
+    }
+
+    .keypoint-alt-title {
+        font-size: 4vh;
+        text-transform: uppercase;
+        font-family: $font-family-secondary;
+    }
+
+    .keypoint-desc {
+        font-size: 3vh;
+        line-height: 3vh;
+        font-family: $font-family-secondary;
+    }
+
+    .keypoint-alt-desc {
+        font-size: 2vh;
+        line-height: 2.3vh;
+        text-align: left;
+    }
+
+    .star-group {
+        font-size: 8vh;
+        line-height: 0;
+
+        span {
+            line-height: 0.5;
+        }
+    }
+}

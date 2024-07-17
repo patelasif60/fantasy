@@ -1,0 +1,62 @@
+@import '~bootstrap/scss/functions';
+// custom variables
+@import 'variables';
+@import 'custom-variables';
+@import 'vendor-variable';
+@import '~bootstrap/scss/variables';
+// Remove merge
+@import 'remove-merge';
+@import '~bootstrap/scss/mixins';
+// Mixin override
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/reboot';
+@import 'fonts/fonts-path';
+// FL Icons
+@import 'fonts/fl-icons/style';
+@import '~bootstrap/scss/type';
+@import '~bootstrap/scss/images';
+// @import '~bootstrap/scss/code';
+@import '~bootstrap/scss/grid';
+// @import '~bootstrap/scss/tables';
+// @import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/transitions';
+// @import '~bootstrap/scss/dropdown';
+// @import '~bootstrap/scss/button-group';
+// @import '~bootstrap/scss/input-group';
+// @import '~bootstrap/scss/custom-forms';
+@import '~bootstrap/scss/nav';
+@import '~bootstrap/scss/navbar';
+// @import '~bootstrap/scss/card';
+// @import '~bootstrap/scss/breadcrumb';
+// @import '~bootstrap/scss/pagination';
+// @import '~bootstrap/scss/badge';
+// @import '~bootstrap/scss/jumbotron';
+// @import '~bootstrap/scss/alert';
+// @import '~bootstrap/scss/progress';
+// @import '~bootstrap/scss/media';
+// @import '~bootstrap/scss/list-group';
+// @import '~bootstrap/scss/close';
+// @import '~bootstrap/scss/toasts';
+// @import '~bootstrap/scss/modal';
+// @import '~bootstrap/scss/tooltip';
+// @import '~bootstrap/scss/popover';
+// @import '~bootstrap/scss/carousel';
+// @import '~bootstrap/scss/spinners';
+@import '~bootstrap/scss/utilities';
+// @import '~bootstrap/scss/print';
+
+// Elements
+@import 'elements/buttons';
+@import 'elements/navigation';
+@import 'elements/general';
+@import 'elements/hero';
+@import 'elements/shear-shape';
+@import 'elements/keypoint-section';
+@import 'elements/footer';
+@import 'elements/accordian';
+@import 'elements/terms';
+@import 'elements/contact';
+@import 'elements/image';
+
+@import 'vendor';

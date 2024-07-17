@@ -1,0 +1,42 @@
+.custom-badge {
+    @include border-radius($badge-border-radius);
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
+    @extend .text-uppercase;
+    @include font-size(9);
+    width: 12px;
+    height: 12px;
+    color: $white;
+
+    &.is-circle {
+        @extend .rounded-circle;
+    }
+
+    &.is-square {
+        @extend .rounded-0;
+    }
+
+    &-lg {
+        height: 18px;
+        width: 18px;
+        min-width: 18px;
+        min-height: 18px;
+    }
+
+    &-xl {
+        height: 30px;
+        width: 30px;
+        min-height: 30px;
+        min-width: 30px;
+        @include font-size(12);
+        @extend .font-weight-bold;
+    }
+}
+
+@each $color,
+$value in $theme-colors {
+    .custom-badge-#{$color} {
+        @include badge-variant($value);
+    }
+}

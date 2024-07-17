@@ -1,0 +1,21 @@
+.btn {
+    font-family: $font-family-secondary;
+    text-transform: uppercase;
+    transform: skew(-21deg);
+
+    &>span {
+        display: inline-block;
+        transform: skew(21deg);
+        margin-top: 3px;
+    }
+
+    /* Un-skew the text */
+}
+
+.btn-secondary {
+    @include button-variant($background: theme-color('secondary'), $border: theme-color('secondary'), $hover-background: theme-color('success'), $hover-border: theme-color('success'), $active-background: theme-color('success'), $active-border: theme-color('success'));
+}
+
+.btn-outline-secondary {
+    @include button-outline-variant($color: theme-color('secondary') , $color-hover: color-yiq(theme-color('success')), $active-background: theme-color('success'), $active-border: theme-color('success'));
+}

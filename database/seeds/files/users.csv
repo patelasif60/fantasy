@@ -1,0 +1,7 @@
+first_name,last_name,email,username,password,status,dob,address_1,address_2,town,county,post_code,country,telephone,country_code,favourite_club,introduction,has_games_news,has_third_parities
+Ben,Grout,bgrout+fl1@aecordigital.com,bgrout,password,Active,1970-01-01 0:00:00,123 Test Street,,Test Town,,TE5 T5,UK,,,,,,
+Richard,Stenson,rstenson+fl1@aecordigital.com,rstenson,password,Active,1970-01-02 0:00:00,124 Test Street,,Test Town,,TE5 T6,UK,,,,,,
+Johan,Haynes,jhaynes+fl1@aecordigital.com,jhaynes,password,Active,1970-01-03 0:00:00,125 Test Street,,Test Town,,TE5 T7,UK,,,,,,
+Stuart,Walsh,sfnwalsh@me.com,swalsh,password,Active,1970-01-04 0:00:00,126 Test Street,,Test Town,,TE5 T8,UK,,,,,,
+Matt,Sims,matts@fantasyleague.com,msims,password,Active,1970-01-05 0:00:00,127 Test Street,,Test Town,,TE5 T9,UK,,,,,,
+Stuart,Walsh,stuart@thinkandthing.com,stuartwalsh,password,Active,1970-01-05 0:00:00,127 Test Street,,Test Town,,TE5 T9,UK,,,,,,

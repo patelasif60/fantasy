@@ -1,0 +1,42 @@
+.modal {
+    -webkit-overflow-scrolling: touch;
+}
+
+.theme-modal {
+    .modal-close-area {
+        padding: $modal-header-padding;
+        @extend .d-flex;
+        @extend .align-items-center;
+
+        .close {
+            float: none;
+            @extend .f-14;
+            font-weight: $close-font-weight;
+            line-height: 1;
+            color: theme-color('dark');
+            text-shadow: none;
+            opacity: 1;
+        }
+    }
+
+    .modal-header {
+        .modal-title {
+            @include font-size(18);
+            font-weight: $font-weight-bold;
+        }
+        .close {
+            opacity: 1;
+        }
+    }
+
+    .modal-body {
+        @include font-size(14);
+        line-height: 25px;
+    }
+
+    .modal-foter {
+        .btn {
+            box-shadow: 0 5px 10px 0 rgba($black, 0.12);
+        }
+    }
+}

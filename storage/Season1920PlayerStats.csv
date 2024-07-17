@@ -1,0 +1,459 @@
+Code,Player,Club,Season,Played,(Def) GP,Goals,Assists,Clean Sheets,Goals Against,Points
+614,J. Vardy,Leicester,2019/20,33,0,23,7,0,0,83
+530,K. De Bruyne,Man City,2019/20,32,0,13,21,0,0,81
+543,M. Salah,Liverpool,2019/20,33,0,19,11,0,0,79
+688,P. Aubameyang,Arsenal,2019/20,35,0,22,4,0,0,74
+667,D. Ings,Southampton,2019/20,32,0,22,3,0,0,72
+465,S. Mane,Liverpool,2019/20,30,0,18,9,0,0,72
+230,T. Alexander-Arnold,Liverpool,2019/20,36,36,4,14,13,32,70
+477,R. Sterling,Man City,2019/20,31,0,20,5,0,0,70
+631,M. Rashford,Man Utd,2019/20,31,0,17,8,0,0,67
+629,R. Jimenez,Wolves,2019/20,37,0,17,7,0,0,65
+484,A. Martial,Man Utd,2019/20,31,0,17,7,0,0,65
+239,A. Robertson,Liverpool,2019/20,35,35,2,12,13,31,60
+684,S. Aguero,Man City,2019/20,17,0,16,6,0,0,60
+445,R. Mahrez,Man City,2019/20,22,0,11,13,0,0,59
+603,H. Kane,Tottenham,2019/20,29,0,18,2,0,0,58
+678,G. Jesus,Man City,2019/20,23,0,14,8,0,0,58
+481,H. Son,Tottenham,2019/20,30,0,11,12,0,0,57
+640,T. Abraham,Chelsea,2019/20,25,0,15,5,0,0,55
+231,M. Doherty,Wolves,2019/20,33,33,4,8,12,31,54
+375,V. Van Dijk,Liverpool,2019/20,38,38,5,1,15,33,52
+470,Richarlison,Everton,2019/20,36,0,13,5,0,0,49
+627,R. Firmino,Liverpool,2019/20,35,0,9,9,0,0,45
+545,Willian,Chelsea,2019/20,29,0,9,9,0,0,45
+669,C. Wood,Burnley,2019/20,28,0,14,1,0,0,44
+652,A. Lacazette,Arsenal,2019/20,22,0,10,7,0,0,44
+928,B. Fernandes,Man Utd,2019/20,14,0,8,9,0,0,42
+681,D. Calvert-Lewin,Everton,2019/20,30,0,13,1,0,0,41
+416,C. Pulisic,Chelsea,2019/20,19,0,9,7,0,0,41
+318,J. Egan,Sheff Utd,2019/20,36,36,2,1,13,30,40
+576,D. Silva,Man City,2019/20,22,0,6,11,0,0,40
+211,G. Baldock,Sheff Utd,2019/20,38,38,2,4,13,39,39
+213,E. Stevens,Sheff Utd,2019/20,38,38,2,5,12,39,39
+608,T. Pukki,Norwich,2019/20,33,0,11,3,0,0,39
+118,Ederson,Man City,2019/20,34,34,0,0,16,28,38
+451,H. Barnes,Leicester,2019/20,26,0,6,10,0,0,38
+472,M. Antonio,West Ham,2019/20,22,0,10,4,0,0,38
+404,J. Grealish,Aston Villa,2019/20,36,0,8,6,0,0,36
+642,N. Maupay,Brighton,2019/20,31,0,10,3,0,0,36
+264,K. Walker,Man City,2019/20,29,29,1,4,10,24,36
+271,B. Chilwell,Leicester,2019/20,27,27,3,4,9,26,36
+552,D. Alli,Tottenham,2019/20,21,0,8,6,0,0,36
+132,Alisson,Liverpool,2019/20,28,28,0,1,14,23,35
+222,R. Pereira,Leicester,2019/20,28,28,3,2,10,27,34
+485,A. Perez,Leicester,2019/20,26,0,8,5,0,0,34
+651,T. Deeney,Watford,2019/20,26,0,10,2,0,0,34
+549,M. Mount,Chelsea,2019/20,34,0,7,6,0,0,33
+256,S. Aurier,Tottenham,2019/20,30,30,1,7,9,32,33
+328,W. Boly,Wolves,2019/20,22,22,0,1,12,15,33
+292,A. Wan-Bissaka,Man Utd,2019/20,35,35,0,4,11,33,32
+277,J. Castro Otto,Wolves,2019/20,33,33,2,3,11,35,32
+607,C. Wilson,Bournemouth,2019/20,33,0,8,4,0,0,32
+457,B. Silva,Man City,2019/20,23,0,6,7,0,0,32
+665,M. Greenwood,Man Utd,2019/20,13,0,10,1,0,0,32
+366,H. Maguire,Man Utd,2019/20,38,38,1,0,13,36,31
+637,J. Ayew,Crystal Palace,2019/20,37,0,9,2,0,0,31
+336,J. Gomez,Liverpool,2019/20,23,23,0,0,12,16,31
+362,V. Lindelof,Man Utd,2019/20,35,35,1,0,12,32,30
+387,C. Soyuncu,Leicester,2019/20,34,34,1,1,12,33,30
+319,J. O'Connell,Sheff Utd,2019/20,32,32,0,1,12,28,30
+580,A. Traore,Wolves,2019/20,29,0,4,9,0,0,30
+137,D. Henderson,Sheff Utd,2019/20,36,36,0,0,13,33,29
+286,M. Alonso,Chelsea,2019/20,17,17,4,3,6,18,29
+357,J. Tarkowski,Burnley,2019/20,38,38,2,2,15,50,28
+332,J. Evans,Leicester,2019/20,38,38,1,2,12,41,28
+135,D. De Gea,Man Utd,2019/20,38,38,0,0,13,36,28
+486,J. Maddison,Leicester,2019/20,30,0,6,5,0,0,28
+626,J. Rodriguez,Burnley,2019/20,22,0,8,2,0,0,28
+323,C. Basham,Sheff Utd,2019/20,38,38,0,1,12,37,27
+567,N. Pepe,Arsenal,2019/20,25,0,5,6,0,0,27
+634,S. Haller,West Ham,2019/20,25,0,7,3,0,0,27
+910,I. Sarr,Watford,2019/20,22,0,5,6,0,0,27
+403,A. El Ghazi,Aston Villa,2019/20,25,0,4,7,0,0,26
+659,J. King,Bournemouth,2019/20,24,0,6,4,0,0,26
+611,O. Giroud,Chelsea,2019/20,12,0,8,1,0,0,26
+610,L. Mousset,Sheff Utd,2019/20,12,0,6,4,0,0,26
+621,D. Jota,Wolves,2019/20,27,0,7,2,0,0,25
+523,L. Trossard,Brighton,2019/20,23,0,5,5,0,0,25
+233,C. Taylor,Burnley,2019/20,21,21,0,1,10,18,25
+490,S. Armstrong,Southampton,2019/20,18,0,5,5,0,0,25
+590,R. Snodgrass,West Ham,2019/20,17,0,5,5,0,0,25
+335,C. Coady,Wolves,2019/20,38,38,0,0,13,40,24
+122,R. Patricio,Wolves,2019/20,38,38,0,0,13,40,24
+126,K. Schmeichel,Leicester,2019/20,38,38,0,0,13,41,23
+511,J. Ward-Prowse,Southampton,2019/20,38,0,5,4,0,0,23
+437,J. Lundstram,Sheff Utd,2019/20,27,0,5,4,0,0,23
+247,B. Mendy,Man City,2019/20,18,18,0,2,7,13,23
+696,K. Iheanacho,Leicester,2019/20,13,0,5,4,0,0,23
+617,W. Zaha,Crystal Palace,2019/20,36,0,4,5,0,0,22
+540,A. Westwood,Burnley,2019/20,35,0,2,8,0,0,22
+420,T. Cantwell,Norwich,2019/20,30,0,6,2,0,0,22
+522,J. Henderson,Liverpool,2019/20,26,0,4,5,0,0,22
+480,J. Shelvey,Newcastle,2019/20,25,0,6,2,0,0,22
+622,G. Deulofeu,Watford,2019/20,25,0,4,5,0,0,22
+558,Trezeguet,Aston Villa,2019/20,22,0,6,2,0,0,22
+235,P. Bardsley,Burnley,2019/20,21,21,0,1,9,19,22
+538,Y. Tielemans,Leicester,2019/20,32,0,3,6,0,0,21
+510,D. James,Man Utd,2019/20,26,0,3,6,0,0,21
+904,H. Wilson,Bournemouth,2019/20,21,0,7,0,0,0,21
+412,C. Hourihane,Aston Villa,2019/20,18,0,3,6,0,0,21
+320,A. Laporte,Man City,2019/20,13,13,1,0,5,5,21
+493,A. Doucoure,Watford,2019/20,37,0,4,4,0,0,20
+309,B. Mee,Burnley,2019/20,32,32,1,2,13,45,20
+417,N. Redmond,Southampton,2019/20,32,0,4,4,0,0,20
+579,M. Noble,West Ham,2019/20,31,0,4,4,0,0,20
+463,L. Moura,Tottenham,2019/20,27,0,4,4,0,0,20
+641,O. McBurnie,Sheff Utd,2019/20,25,0,6,1,0,0,20
+301,L. Dunk,Brighton,2019/20,36,36,3,3,9,50,19
+284,L. Digne,Everton,2019/20,34,34,0,9,8,49,19
+217,P. Van Aanholt,Crystal Palace,2019/20,28,28,3,2,8,38,19
+436,J. Fleck,Sheff Utd,2019/20,28,0,5,2,0,0,19
+902,A. St-Maximin,Newcastle,2019/20,22,0,3,5,0,0,19
+504,P. Foden,Man City,2019/20,9,0,5,2,0,0,19
+140,N. Pope,Burnley,2019/20,38,38,0,0,15,50,18
+456,D. McNeil,Burnley,2019/20,38,0,2,6,0,0,18
+355,T. Alderweireld,Tottenham,2019/20,33,33,2,2,7,39,18
+422,P. Gross,Brighton,2019/20,22,0,2,6,0,0,18
+275,L. Shaw,Man Utd,2019/20,19,19,0,0,7,15,18
+605,A. Barnes,Burnley,2019/20,17,0,6,0,0,0,18
+625,C. Adams,Southampton,2019/20,13,0,4,3,0,0,18
+620,D. Origi,Liverpool,2019/20,6,0,4,3,0,0,18
+234,C. Azpilicueta,Chelsea,2019/20,36,36,2,6,8,53,17
+571,J. Moutinho,Wolves,2019/20,34,0,1,7,0,0,17
+379,D. Luiz,Arsenal,2019/20,31,31,2,1,8,38,17
+418,E. Buendia,Norwich,2019/20,27,0,1,7,0,0,17
+623,Wesley,Aston Villa,2019/20,21,0,5,1,0,0,17
+371,N. Otamendi,Man City,2019/20,18,18,2,1,6,21,17
+539,A. Yarmolenko,West Ham,2019/20,13,0,5,1,0,0,17
+482,M. Almiron,Newcastle,2019/20,36,0,4,2,0,0,16
+555,Jorginho,Chelsea,2019/20,28,0,4,2,0,0,16
+520,P. Fornals,West Ham,2019/20,26,0,2,5,0,0,16
+356,M. Kelly,Crystal Palace,2019/20,18,18,0,1,6,16,16
+565,E. Lamela,Tottenham,2019/20,12,0,2,5,0,0,16
+645,D. Gayle,Newcastle,2019/20,9,0,4,2,0,0,16
+582,D. Gray,Leicester,2019/20,5,0,2,5,0,0,16
+388,F. Fernandez,Newcastle,2019/20,29,29,2,3,8,42,15
+379,D. Luiz,Aston Villa,2019/20,28,0,3,3,0,0,15
+415,J. McGinn,Aston Villa,2019/20,26,0,3,3,0,0,15
+914,B. Saka,Arsenal,2019/20,21,0,1,6,0,0,15
+254,B. Williams,Man Utd,2019/20,11,11,1,1,5,11,15
+619,B. Sharp,Sheff Utd,2019/20,10,0,3,3,0,0,15
+915,P. Neto,Wolves,2019/20,9,0,3,3,0,0,15
+500,A. Oxlade-Chamberlain,Liverpool,2019/20,19,0,4,1,0,0,14
+506,T. Walcott,Everton,2019/20,16,0,2,4,0,0,14
+329,C. Clark,Newcastle,2019/20,14,14,2,0,4,14,14
+105,V. Guaita,Crystal Palace,2019/20,35,35,0,0,10,42,13
+536,Rodri,Man City,2019/20,29,0,3,2,0,0,13
+358,J. Stephens,Southampton,2019/20,28,28,1,3,7,38,13
+541,L. Milivojevic,Crystal Palace,2019/20,28,0,3,2,0,0,13
+501,R. Fraser,Bournemouth,2019/20,22,0,1,5,0,0,13
+453,S. McTominay,Man Utd,2019/20,20,0,3,2,0,0,13
+655,A. Connolly,Brighton,2019/20,16,0,3,2,0,0,13
+598,Bernard,Everton,2019/20,15,0,3,2,0,0,13
+287,O. Zinchenko,Man City,2019/20,14,14,0,0,6,13,13
+516,R. Barkley,Chelsea,2019/20,12,0,1,5,0,0,13
+508,J. Schlupp,Crystal Palace,2019/20,12,0,3,2,0,0,13
+925,S. Bergwijn,Tottenham,2019/20,8,0,3,2,0,0,13
+653,M. Obafemi,Southampton,2019/20,8,0,3,2,0,0,13
+589,C. Hudson-Odoi,Chelsea,2019/20,7,0,1,5,0,0,13
+491,G. Wijnaldum,Liverpool,2019/20,35,0,4,0,0,0,12
+372,D. Burn,Brighton,2019/20,32,32,0,2,9,42,12
+593,L. Dendoncker,Wolves,2019/20,32,0,4,0,0,0,12
+553,G. Sigurdsson,Everton,2019/20,31,0,2,3,0,0,12
+438,Fabinho,Liverpool,2019/20,22,0,2,3,0,0,12
+374,A. Rudiger,Chelsea,2019/20,20,20,2,0,5,24,12
+632,S. Long,Southampton,2019/20,16,0,2,3,0,0,12
+331,S. Dann,Crystal Palace,2019/20,14,14,0,1,5,14,12
+232,J. Cancelo,Man City,2019/20,13,13,0,0,5,11,12
+439,N. Keita,Liverpool,2019/20,9,0,2,3,0,0,12
+514,D. Rice,West Ham,2019/20,38,0,1,4,0,0,11
+330,J. Lascelles,Newcastle,2019/20,23,23,1,0,8,31,11
+114,H. Lloris,Tottenham,2019/20,20,20,0,0,6,21,11
+557,F. Anderson,West Ham,2019/20,20,0,1,4,0,0,11
+248,C. Soares,Arsenal,2019/20,18,18,1,1,4,20,11
+237,J. Manquillo,Newcastle,2019/20,18,18,0,1,6,21,11
+644,D. Solanke,Bournemouth,2019/20,17,0,3,1,0,0,11
+559,D. Gosling,Bournemouth,2019/20,14,0,3,1,0,0,11
+496,P. Pogba,Man Utd,2019/20,14,0,1,4,0,0,11
+931,J. Bowen,West Ham,2019/20,11,0,1,4,0,0,11
+389,E. Garcia,Man City,2019/20,10,10,0,0,4,7,11
+408,J. Stanislas,Bournemouth,2019/20,9,0,3,1,0,0,11
+624,G. Martinelli,Arsenal,2019/20,6,0,3,1,0,0,11
+448,R. Neves,Wolves,2019/20,35,0,2,2,0,0,10
+635,Joelinton,Newcastle,2019/20,33,0,2,2,0,0,10
+449,R. Saiss,Wolves,2019/20,30,0,2,2,0,0,10
+911,A. Mooy,Brighton,2019/20,24,0,2,2,0,0,10
+518,J. Hendrick,Burnley,2019/20,22,0,2,2,0,0,10
+618,D. McGoldrick,Sheff Utd,2019/20,22,0,2,2,0,0,10
+537,T. Ndombele,Tottenham,2019/20,12,0,2,2,0,0,10
+454,C. Eriksen,Tottenham,2019/20,11,0,2,2,0,0,10
+524,M. Djenepo,Southampton,2019/20,10,0,2,2,0,0,10
+305,J. Matip,Liverpool,2019/20,8,8,1,0,2,5,10
+410,J. Milner,Liverpool,2019/20,8,0,2,2,0,0,10
+279,D. Janmaat,Watford,2019/20,7,7,0,1,3,5,10
+646,M. Kean,Everton,2019/20,6,0,2,2,0,0,10
+649,A. Carroll,Newcastle,2019/20,4,0,0,5,0,0,10
+446,O. Norwood,Sheff Utd,2019/20,37,0,1,3,0,0,9
+326,C. Cathcart,Watford,2019/20,28,28,0,0,9,37,9
+281,D. Rico,Bournemouth,2019/20,27,27,0,5,5,38,9
+591,M. Kovacic,Chelsea,2019/20,24,0,1,3,0,0,9
+220,E. Pieters,Burnley,2019/20,22,22,0,5,6,35,9
+499,R. Pereyra,Watford,2019/20,21,0,3,0,0,0,9
+505,N. Kante,Chelsea,2019/20,19,0,3,0,0,0,9
+581,A. Pereira,Man Utd,2019/20,18,0,1,3,0,0,9
+229,J. Willems,Newcastle,2019/20,17,17,2,2,3,24,9
+908,D. Praet,Leicester,2019/20,14,0,1,3,0,0,9
+334,C. Chambers,Arsenal,2019/20,13,13,1,1,3,15,9
+926,T. Soucek,West Ham,2019/20,12,0,3,0,0,0,9
+468,J. McArthur,Crystal Palace,2019/20,37,0,0,4,0,0,8
+533,W. Ndidi,Leicester,2019/20,30,0,2,1,0,0,8
+467,E. Capoue,Watford,2019/20,30,0,0,4,0,0,8
+519,M. Sissoko,Tottenham,2019/20,28,0,2,1,0,0,8
+348,C. Kabasele,Watford,2019/20,26,26,0,2,6,34,8
+452,I. Gundogan,Man City,2019/20,23,0,2,1,0,0,8
+236,D. Sidibe,Everton,2019/20,20,20,0,4,5,30,8
+307,S. Papastathopoulos,Arsenal,2019/20,19,19,2,0,4,25,8
+396,J. Vertonghen,Tottenham,2019/20,19,19,1,1,4,24,8
+377,F. Tomori,Chelsea,2019/20,15,15,1,0,4,18,8
+475,M. Ritchie,Newcastle,2019/20,15,0,2,1,0,0,8
+636,C. Benteke,Crystal Palace,2019/20,13,0,2,1,0,0,8
+647,M. Vydra,Burnley,2019/20,8,0,2,1,0,0,8
+606,A. Gray,Watford,2019/20,8,0,2,1,0,0,8
+648,D. Welbeck,Watford,2019/20,7,0,2,1,0,0,8
+570,A. Jahanbakhsh,Brighton,2019/20,3,0,2,1,0,0,8
+569,D. Propper,Brighton,2019/20,32,0,1,2,0,0,7
+578,J. Lerma,Bournemouth,2019/20,32,0,1,2,0,0,7
+354,A. Ogbonna,West Ham,2019/20,31,31,2,0,7,44,7
+405,G. Xhaka,Arsenal,2019/20,30,0,1,2,0,0,7
+127,A. McCarthy,Southampton,2019/20,28,28,0,0,7,35,7
+473,I. Hayden,Newcastle,2019/20,24,0,1,2,0,0,7
+575,M. Ozil,Arsenal,2019/20,18,0,1,2,0,0,7
+421,O. Hernandez,Norwich,2019/20,16,0,1,2,0,0,7
+373,S. Mustafi,Arsenal,2019/20,14,14,0,1,4,17,7
+476,S. Longstaff,Newcastle,2019/20,14,0,1,2,0,0,7
+214,J. Justin,Leicester,2019/20,11,11,0,1,4,14,7
+546,C. Robinson,Sheff Utd,2019/20,9,0,1,2,0,0,7
+515,Pedro,Chelsea,2019/20,8,0,1,2,0,0,7
+259,T. Lamptey,Brighton,2019/20,7,7,0,1,3,8,7
+542,R. Brady,Burnley,2019/20,5,0,1,2,0,0,7
+257,R. Bertrand,Southampton,2019/20,31,31,1,1,7,44,6
+364,A. Webster,Brighton,2019/20,29,29,3,1,5,44,6
+308,M. Keane,Everton,2019/20,28,28,2,0,7,42,6
+268,J. Ward,Crystal Palace,2019/20,26,26,0,1,7,36,6
+382,Y. Mina,Everton,2019/20,25,25,2,1,5,37,6
+224,R. Fredericks,West Ham,2019/20,25,25,0,3,7,39,6
+381,M. Holgate,Everton,2019/20,22,22,0,4,5,34,6
+547,M. Guendouzi,Arsenal,2019/20,20,0,0,3,0,0,6
+310,J. Tomkins,Crystal Palace,2019/20,18,18,1,1,3,23,6
+909,G. Lo Celso,Tottenham,2019/20,17,0,0,3,0,0,6
+586,M. Lanzini,West Ham,2019/20,15,0,0,3,0,0,6
+278,H. Bellerin,Arsenal,2019/20,13,13,1,0,4,18,6
+101,E. Martinez,Arsenal,2019/20,9,9,0,0,3,9,6
+583,M. Albrighton,Leicester,2019/20,9,0,0,3,0,0,6
+464,C. Atsu,Newcastle,2019/20,8,0,0,3,0,0,6
+664,E. Nketiah,Arsenal,2019/20,7,0,2,0,0,0,6
+917,M. Longstaff,Newcastle,2019/20,6,0,2,0,0,0,6
+639,P. Cutrone,Wolves,2019/20,4,0,2,0,0,0,6
+424,K. McLean,Norwich,2019/20,32,0,1,1,0,0,5
+577,C. Kouyate,Crystal Palace,2019/20,31,0,1,1,0,0,5
+574,P. Billing,Bournemouth,2019/20,30,0,1,1,0,0,5
+352,K. Zouma,Chelsea,2019/20,28,28,0,0,7,37,5
+429,A. Tettey,Norwich,2019/20,28,0,1,1,0,0,5
+479,W. Hughes,Watford,2019/20,28,0,1,1,0,0,5
+369,G. Cahill,Crystal Palace,2019/20,24,24,0,1,7,35,5
+285,M. Montoya,Brighton,2019/20,23,23,0,1,6,32,5
+228,S. Coleman,Everton,2019/20,21,21,0,1,5,28,5
+551,A. Iwobi,Everton,2019/20,19,0,1,1,0,0,5
+544,L. Torreira,Arsenal,2019/20,18,0,1,1,0,0,5
+252,R. James,Chelsea,2019/20,16,16,0,2,4,23,5
+263,B. Davies,Tottenham,2019/20,16,16,0,0,4,19,5
+432,A. Townsend,Crystal Palace,2019/20,14,0,1,1,0,0,5
+930,S. Berge,Sheff Utd,2019/20,13,0,1,1,0,0,5
+246,A. Young,Man Utd,2019/20,11,11,0,0,2,10,5
+462,H. Choudhury,Leicester,2019/20,10,0,1,1,0,0,5
+613,G. Murray,Brighton,2019/20,9,0,1,1,0,0,5
+492,J. Willock,Arsenal,2019/20,8,0,1,1,0,0,5
+487,J. Gudmundsson,Burnley,2019/20,8,0,1,1,0,0,5
+317,K. Long,Burnley,2019/20,6,6,0,0,2,5,5
+478,A. Lallana,Liverpool,2019/20,3,0,1,1,0,0,5
+927,D. Podence,Wolves,2019/20,3,0,1,1,0,0,5
+604,M. Batshuayi,Chelsea,2019/20,1,0,1,1,0,0,5
+612,C. Wickham,Crystal Palace,2019/20,0,0,1,1,0,0,5
+596,P. Hojbjerg,Southampton,2019/20,30,0,0,2,0,0,4
+124,B. Leno,Arsenal,2019/20,29,29,0,0,7,39,4
+227,M. Targett,Aston Villa,2019/20,27,27,1,3,4,40,4
+561,D. Ceballos,Arsenal,2019/20,20,0,0,2,0,0,4
+488,N. Matic,Man Utd,2019/20,18,0,0,2,0,0,4
+584,E. Dier,Tottenham,2019/20,15,0,0,2,0,0,4
+216,P. Dummett,Newcastle,2019/20,14,14,0,1,4,20,4
+249,K. Walker-Peters,Southampton,2019/20,12,12,0,0,2,12,4
+139,Adrian,Liverpool,2019/20,10,10,0,0,2,10,4
+435,J. Mata,Man Utd,2019/20,8,0,0,2,0,0,4
+912,S. Boufal,Southampton,2019/20,8,0,0,2,0,0,4
+269,R. Vinagre,Wolves,2019/20,6,6,0,0,2,6,4
+932,W. Smallbone,Southampton,2019/20,5,0,0,2,0,0,4
+386,D. Sanchez,Tottenham,2019/20,28,28,0,2,4,37,3
+426,T. Davies,Everton,2019/20,23,0,1,0,0,0,3
+267,A. Masina,Watford,2019/20,21,21,1,0,5,31,3
+566,Y. Bissouma,Brighton,2019/20,15,0,1,0,0,0,3
+306,S. Duffy,Brighton,2019/20,14,14,1,0,2,18,3
+273,A. Maitland-Niles,Arsenal,2019/20,14,14,0,2,3,21,3
+657,M. Samatta,Aston Villa,2019/20,11,0,1,0,0,0,3
+534,J. Lingard,Man Utd,2019/20,10,0,1,0,0,0,3
+594,T. Cleverley,Watford,2019/20,10,0,1,0,0,0,3
+529,D. Brooks,Bournemouth,2019/20,8,0,1,0,0,0,3
+483,R. Nelson,Arsenal,2019/20,7,0,1,0,0,0,3
+638,J. Drmic,Norwich,2019/20,7,0,1,0,0,0,3
+395,J. Tanganga,Tottenham,2019/20,6,6,0,0,2,7,3
+434,M. Vrancic,Norwich,2019/20,6,0,1,0,0,0,3
+368,F. Lejeune,Newcastle,2019/20,5,5,2,0,1,10,3
+924,V. Lazaro,Newcastle,2019/20,4,0,1,0,0,0,3
+325,E. Bailly,Man Utd,2019/20,2,2,0,0,1,1,3
+554,X. Shaqiri,Liverpool,2019/20,2,0,1,0,0,0,3
+398,P. Mari,Arsenal,2019/20,1,1,0,0,1,0,3
+934,C. Jones,Liverpool,2019/20,1,0,1,0,0,0,3
+661,J. Hernandez,West Ham,2019/20,1,0,1,0,0,0,3
+601,F. Andone,Brighton,2019/20,0,0,1,0,0,0,3
+609,D. Srbeny,Norwich,2019/20,0,0,1,0,0,0,3
+106,M. Ryan,Brighton,2019/20,38,38,0,0,9,54,2
+156,M. Dubravka,Newcastle,2019/20,38,38,0,0,11,58,2
+146,K. Arrizabalaga,Chelsea,2019/20,33,33,0,0,8,47,2
+409,D. Stephens,Brighton,2019/20,28,0,0,1,0,0,2
+564,Fernandinho,Man City,2019/20,28,0,0,1,0,0,2
+489,Fred,Man Utd,2019/20,23,0,0,1,0,0,2
+260,D. Rose,Newcastle,2019/20,20,20,0,0,5,28,2
+201,S. Kolasinac,Arsenal,2019/20,18,18,0,2,3,26,2
+360,J. Vestergaard,Southampton,2019/20,17,17,1,0,4,26,2
+444,A. Gomes,Everton,2019/20,16,0,0,1,0,0,2
+433,S. March,Brighton,2019/20,14,0,0,1,0,0,2
+315,J. Stones,Man City,2019/20,12,12,0,0,3,16,2
+525,M. Schneiderlin,Everton,2019/20,12,0,0,1,0,0,2
+240,K. Tierney,Arsenal,2019/20,11,11,1,1,1,16,2
+532,N. Chalobah,Watford,2019/20,10,0,0,1,0,0,2
+901,A. Groeneveld,Bournemouth,2019/20,9,0,0,1,0,0,2
+918,O. Duda,Norwich,2019/20,9,0,0,1,0,0,2
+243,C. Fuchs,Leicester,2019/20,8,8,0,0,2,10,2
+673,A. Gordon,Everton,2019/20,6,0,0,1,0,0,2
+413,Jota,Aston Villa,2019/20,4,0,0,1,0,0,2
+528,L. Freeman,Sheff Utd,2019/20,4,0,0,1,0,0,2
+556,R. Loftus-Cheek,Chelsea,2019/20,2,0,0,1,0,0,2
+443,M. Gibbs-White,Wolves,2019/20,1,0,0,1,0,0,2
+347,T. Mings,Aston Villa,2019/20,32,32,2,2,6,53,1
+343,E. Konsa,Aston Villa,2019/20,24,24,1,2,5,40,1
+327,R. Bennett,Leicester,2019/20,12,12,0,0,3,17,1
+206,N. Monreal,Arsenal,2019/20,3,3,0,0,1,4,1
+272,N. Williams,Liverpool,2019/20,3,3,0,0,0,2,1
+350,S. Prodl,Watford,2019/20,1,1,0,0,0,0,1
+141,J. Pickford,Everton,2019/20,38,38,0,0,9,56,0
+521,J. Cork,Burnley,2019/20,30,0,0,0,0,0,0
+531,H. Winks,Tottenham,2019/20,28,0,0,0,0,0,0
+568,O. Romeu,Southampton,2019/20,22,0,0,0,0,0,0
+592,M. Nakamba,Aston Villa,2019/20,20,0,0,0,0,0,0
+497,J. McCarthy,Crystal Palace,2019/20,20,0,0,0,0,0,0
+298,M. Lowton,Burnley,2019/20,17,17,0,1,6,31,0
+427,M. Stiepermann,Norwich,2019/20,16,0,0,0,0,0,0
+595,L. Cook,Bournemouth,2019/20,15,0,0,0,0,0,0
+431,T. Trybull,Norwich,2019/20,14,0,0,0,0,0,0
+513,F. Delph,Everton,2019/20,13,0,0,0,0,0,0
+913,S. Alzate,Brighton,2019/20,12,0,0,0,0,0,0
+929,J. Brownhill,Burnley,2019/20,9,0,0,0,0,0,0
+597,J. Riedewald,Crystal Palace,2019/20,9,0,0,0,0,0,0
+923,N. Bentaleb,Newcastle,2019/20,9,0,0,0,0,0,0
+907,I. Amadou,Norwich,2019/20,9,0,0,0,0,0,0
+423,M. Leitner,Norwich,2019/20,8,0,0,0,0,0,0
+921,L. Rupp,Norwich,2019/20,8,0,0,0,0,0,0
+365,R. Holding,Arsenal,2019/20,7,7,0,0,1,9,0
+572,M. Meyer,Crystal Palace,2019/20,7,0,0,0,0,0,0
+563,B. Osborn,Sheff Utd,2019/20,7,0,0,0,0,0,0
+221,Angelino,Man City,2019/20,5,5,0,1,0,7,0
+119,W. Caballero,Chelsea,2019/20,5,5,0,0,1,7,0
+419,D. Drinkwater,Aston Villa,2019/20,5,0,0,0,0,0,0
+349,W. Morgan,Leicester,2019/20,4,4,0,0,1,6,0
+394,K. Danso,Southampton,2019/20,4,4,0,1,1,8,0
+936,A. MacAllister,Brighton,2019/20,4,0,0,0,0,0,0
+441,A. Lennon,Burnley,2019/20,4,0,0,0,0,0,0
+666,K. Davis,Aston Villa,2019/20,4,0,0,0,0,0,0
+407,A. Surman,Bournemouth,2019/20,3,0,0,0,0,0,0
+450,N. Mendy,Leicester,2019/20,3,0,0,0,0,0,0
+906,T. Minamino,Liverpool,2019/20,3,0,0,0,0,0,0
+414,H. Lansbury,Aston Villa,2019/20,2,0,0,0,0,0,0
+933,B. Gilmour,Chelsea,2019/20,2,0,0,0,0,0,0
+903,J. Gbamin,Everton,2019/20,2,0,0,0,0,0,0
+503,S. Ki,Newcastle,2019/20,2,0,0,0,0,0,0
+411,J. Wilshere,West Ham,2019/20,2,0,0,0,0,0,0
+643,Y. Muto,Newcastle,2019/20,2,0,0,0,0,0,0
+675,A. Idah,Norwich,2019/20,2,0,0,0,0,0,0
+223,D. Dalot,Man Utd,2019/20,1,1,0,0,0,1,0
+587,H. Mkhitaryan,Arsenal,2019/20,1,0,0,0,0,0,0
+512,J. Locadia,Brighton,2019/20,1,0,0,0,0,0,0
+469,O. Skipp,Tottenham,2019/20,1,0,0,0,0,0,0
+599,C. Sanchez,West Ham,2019/20,1,0,0,0,0,0,0
+654,A. Ajeti,West Ham,2019/20,1,0,0,0,0,0,0
+241,A. Cresswell,West Ham,2019/20,31,31,3,0,5,51,-1
+339,N. Ake,Bournemouth,2019/20,27,27,2,2,4,46,-1
+251,F. Guilbert,Aston Villa,2019/20,23,23,0,2,4,36,-1
+129,L. Fabianski,West Ham,2019/20,23,23,0,0,5,34,-1
+314,D. Lovren,Liverpool,2019/20,8,8,0,1,0,11,-1
+282,L. Baines,Everton,2019/20,5,5,0,1,0,8,-1
+238,R. Sessegnon,Tottenham,2019/20,4,4,0,0,0,5,-1
+144,C. Bravo,Man City,2019/20,4,4,0,0,1,7,-1
+322,P. Jones,Man Utd,2019/20,2,2,0,0,0,3,-1
+380,A. Tuanzebe,Man Utd,2019/20,2,2,0,0,0,3,-1
+344,M. Rojo,Man Utd,2019/20,1,1,0,0,0,2,-1
+203,C. Daniels,Bournemouth,2019/20,1,1,0,0,0,2,-1
+370,F. Balbuena,West Ham,2019/20,13,13,1,0,3,24,-2
+283,D. Yedlin,Newcastle,2019/20,11,11,1,0,1,18,-2
+390,J. Foyth,Tottenham,2019/20,1,1,0,0,0,3,-2
+205,G. Bong,Brighton,2019/20,1,1,0,0,0,3,-2
+153,M. Travers,Bournemouth,2019/20,1,1,0,0,0,3,-2
+316,C. Zimmermann,Norwich,2019/20,16,16,0,1,3,27,-3
+225,S. Byram,Norwich,2019/20,14,14,0,0,3,23,-3
+258,J. Robinson,Sheff Utd,2019/20,6,6,0,0,1,11,-3
+393,J. Simpson,Bournemouth,2019/20,3,3,0,0,0,6,-3
+150,D. Randolph,West Ham,2019/20,2,2,0,0,0,5,-3
+367,J. Bednarek,Southampton,2019/20,34,34,1,1,7,57,-4
+351,I. Diop,West Ham,2019/20,31,31,3,1,4,54,-4
+363,F. Schar,Newcastle,2019/20,19,19,2,0,4,37,-4
+151,P. Gazzaniga,Tottenham,2019/20,18,18,0,0,2,26,-4
+219,J. Stacey,Bournemouth,2019/20,17,17,0,2,1,27,-4
+149,J. Reina,Aston Villa,2019/20,12,12,0,0,2,20,-4
+391,C. Mepham,Bournemouth,2019/20,10,10,1,0,1,19,-4
+299,A. Masuaku,West Ham,2019/20,10,10,0,1,1,18,-4
+112,O. Nyland,Aston Villa,2019/20,6,6,0,0,1,12,-4
+340,P. Jagielka,Sheff Utd,2019/20,2,2,0,0,0,6,-4
+359,J. Vallejo,Wolves,2019/20,2,2,0,0,0,6,-4
+123,M. McGovern,Norwich,2019/20,2,2,0,0,0,6,-4
+131,S. Moore,Sheff Utd,2019/20,2,2,0,0,0,6,-4
+250,E. Krafth,Newcastle,2019/20,12,12,0,1,2,23,-5
+148,W. Hennessey,Crystal Palace,2019/20,3,3,0,0,0,8,-5
+128,B. Foster,Watford,2019/20,38,38,0,1,9,64,-6
+313,T. Klose,Norwich,2019/20,7,7,0,0,0,13,-6
+218,L. Kelly,Bournemouth,2019/20,7,7,0,0,1,15,-6
+383,A. Christensen,Chelsea,2019/20,20,20,0,0,3,33,-7
+104,T. Heaton,Aston Villa,2019/20,20,20,0,0,4,35,-7
+312,G. Hanley,Norwich,2019/20,14,14,0,0,2,25,-7
+215,K. Femenia,Watford,2019/20,26,26,0,1,5,46,-8
+202,A. Smith,Bournemouth,2019/20,24,24,0,1,3,40,-8
+353,B. Engels,Aston Villa,2019/20,17,17,1,0,2,32,-8
+288,Emerson,Chelsea,2019/20,11,11,0,0,1,21,-8
+293,Y. Valery,Southampton,2019/20,10,10,0,0,1,20,-8
+253,P. Zabaleta,West Ham,2019/20,6,6,0,0,0,14,-8
+338,C. Dawson,Watford,2019/20,26,26,2,0,4,49,-9
+376,A. Mariappa,Watford,2019/20,18,18,0,0,3,33,-9
+208,N. Taylor,Aston Villa,2019/20,12,12,0,0,2,25,-9
+204,A. El Mohamady,Aston Villa,2019/20,10,10,1,1,2,28,-9
+242,S. Francis,Bournemouth,2019/20,10,10,0,0,1,21,-9
+274,Bernardo,Brighton,2019/20,8,8,0,0,0,17,-9
+136,Roberto,West Ham,2019/20,8,8,0,0,0,17,-9
+333,K. Hause,Aston Villa,2019/20,17,17,1,0,2,34,-10
+397,M. Yoshida,Southampton,2019/20,6,6,0,0,1,18,-10
+341,S. Cook,Bournemouth,2019/20,27,27,1,0,3,47,-11
+265,J. Holebas,Watford,2019/20,11,11,0,1,2,28,-11
+361,M. Sakho,Crystal Palace,2019/20,10,10,0,0,0,21,-11
+120,A. Gunn,Southampton,2019/20,10,10,0,0,2,25,-11
+145,A. Ramsdale,Bournemouth,2019/20,37,37,0,1,5,62,-13
+209,M. Aarons,Norwich,2019/20,36,36,0,2,5,71,-21
+210,J. Lewis,Norwich,2019/20,26,26,1,0,3,56,-21
+116,T. Krul,Norwich,2019/20,36,36,0,0,5,68,-22
+311,B. Godfrey,Norwich,2019/20,30,30,0,0,3,62,-26

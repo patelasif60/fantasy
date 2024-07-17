@@ -1,0 +1,181 @@
+.blog-section {
+    background: mix(theme-color('dark'), $white, 85%);
+    padding: $grid-gutter-width;
+
+    .blog-area {
+        margin-bottom: $grid-gutter-width/2;
+        position: relative;
+        transition: all 0.25s ease;
+
+        @include hover {
+            // @extend .link-nostyle;
+            opacity: 0.8;
+            text-decoration: none;
+        }
+
+        .blog-title {
+            font-family: $font-family-secondary;
+            color: theme-color('tertiary');
+            @include font-size(24);
+            line-height: 1.2;
+            margin-bottom: 3px;
+
+            a {
+                color: theme-color('tertiary');
+                transition: all 0.25s ease;
+                font-weight: bold;
+
+                @include hover {
+                    // @extend .link-nostyle;
+                    opacity: 0.8;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .blog-info {
+            margin-bottom: 3px;
+
+            .time,
+            .author {
+                @include font-size(10);
+                color: rgba(theme-color('light'), .25);
+                margin-right: 10px;
+            }
+
+            .author {
+                font-weight: bold;
+            }
+        }
+
+        .blog-desc {
+            @include font-size(14);
+            letter-spacing: .2px;
+            line-height: 1.5;
+        }
+
+    }
+}
+
+.blog-post {
+
+	background: mix(theme-color('dark'), $white, 85%);
+
+    .blog-area {
+        padding: $grid-gutter-width;
+
+        .blog-title {
+            font-family: $font-family-secondary;
+            color: theme-color('tertiary');
+            @include font-size(34);
+            line-height: 1.2;
+            margin-bottom: 15px;
+        }
+
+        .blog-info {
+            margin-bottom: 3px;
+
+            .time,
+            .author {
+                @include font-size(10);
+                color: rgba(theme-color('light'), .25);
+                margin-right: 10px;
+            }
+
+            .author {
+                font-weight: bold;
+            }
+        }
+
+        .blog-desc,
+        .blog-desc p {
+        	color: theme-color('light');
+            @include font-size(14);
+            letter-spacing: .3px;
+            line-height: 1.7;
+        }
+
+        img,
+        .blog-desc img,
+        .blog-desc p>img {
+            max-width: 100%;
+            display: block;
+            margin: $grid-gutter-width auto;
+            box-shadow: 0 2px 20px 0 rgba(theme-color('dark'), 0.25)
+        }
+
+        .blog-desc a,
+        .blog-desc p a {
+            color: theme-color('tertiary');
+            transition: all 0.25s ease;
+            font-weight: bold;
+
+            @include hover {
+                // @extend .link-nostyle;
+                opacity: 0.8;
+                text-decoration: none;
+
+            }
+        }
+
+        .blog-desc,
+        .blog-desc p {
+            blockquote {
+                font-style: italic;
+                @include font-size(22);
+                line-height: 1.5;
+                border-left: 3px solid rgba(theme-color('light'), .8);
+                padding-left: $grid-gutter-width/2;
+            }
+        }
+
+        .blog-desc h1,
+        .blog-desc p h1 {
+            font-family: $font-family-secondary;
+            @include font-size(24);
+            line-height: 1.2;
+        }
+
+        .blog-desc h2,
+        .blog-desc p h2 {
+            font-family: $font-family-secondary;
+            @include font-size(22);
+            line-height: 1.2;
+        }
+
+        .blog-desc h3,
+        .blog-desc p h3 {
+            font-family: $font-family-secondary;
+            @include font-size(20);
+            line-height: 1.2;
+        }
+
+        .blog-desc h4,
+        .blog-desc p h4 {
+            font-family: $font-family-secondary;
+            @include font-size(18);
+            line-height: 1.2;
+        }
+
+        .blog-desc h5,
+        .blog-desc p h5 {
+            font-family: $font-family-secondary;
+            @include font-size(16);
+            line-height: 1.2;
+        }
+
+        .blog-desc h6,
+        .blog-desc p h6 {
+            font-family: $font-family-secondary;
+            @include font-size(14);
+            line-height: 1.2;
+        }
+
+        .blog-desc {
+        	hr {
+        		background: theme-color('light');
+        	}
+        }
+    }
+
+}

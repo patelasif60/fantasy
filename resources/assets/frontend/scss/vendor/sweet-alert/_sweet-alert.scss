@@ -1,0 +1,33 @@
+body.swal2-toast-shown {
+    &>.swal2-container.swal2-top {
+        right: 0;
+        left: 0;
+        transform: translateX(0%);
+    }
+}
+
+.swal2-popup {
+    &.swal2-toast {
+        @include media-breakpoint-down(xs) {
+            flex-direction: column;
+        }
+
+        &.swal2-show {
+            .swal2-header {
+                flex: 0 0 auto;
+            }
+
+            .swal2-content {
+                flex: 1 1 auto;
+
+                @include media-breakpoint-down(xs) {
+                    margin-top: 15px;
+                }
+
+                #swal2-content {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

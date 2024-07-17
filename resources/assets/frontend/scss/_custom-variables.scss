@@ -1,0 +1,35 @@
+$font-family-secondary: 'TeXGyreHeros', sans-serif !default;
+$fl-font-path: "./../../../frontend/fonts" !default;
+
+$icomoon-font-family: "fl-icons" !default;
+$icomoon-font-path: "./../../../frontend/fonts" !default;
+
+$header-footer-height: 56px !default;
+$sidebar-width: 250px;
+$space-row-gutter-sm: 8px;
+$space-row-gutter-md: 20px;
+$label-font-size: 0.75rem !default; // 12px
+$auth-card-background-color: rgba(theme-color('dark'), 0.75) !default;
+$auth-card-padding-x: 15px !default;
+$auth-card-padding-y: 20px !default;
+$btn-icon-font-size: 1.5rem !default;
+
+$custom-table-striped-bg: #f2f2f2;
+$custom-table-hover-bg: #ececec;
+
+$form-group-margin-bottom: 0.5rem;
+
+$player-positions: () !default;
+$player-positions: map-merge(
+    (
+        "gk": #ED9524,
+        "fb": #6FA4FF,
+        "st": #c41515,
+        "mf": #009B2D,
+        "cb": #6FA4FF,
+        "dmf": #009B2D,
+        "df": #6FA4FF,
+        "dm": #009B2D,
+    ),
+    $player-positions
+);

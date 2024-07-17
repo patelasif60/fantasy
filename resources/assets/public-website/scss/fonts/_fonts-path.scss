@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'TeXGyreHeros';
+    src: url('#{$fl-font-path}/TeXGyreHeros-Regular.eot');
+    src: url('#{$fl-font-path}/TeXGyreHeros-Regular.eot?#iefix') format('embedded-opentype'),
+        url('#{$fl-font-path}/TeXGyreHeros-Regular.woff2') format('woff2'),
+        url('#{$fl-font-path}/TeXGyreHeros-Regular.woff') format('woff'),
+        url('#{$fl-font-path}/TeXGyreHeros-Regular.ttf') format('truetype'),
+        url('#{$fl-font-path}/TeXGyreHeros-Regular.svg#TeXGyreHeros-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TeXGyreHeros';
+    src: url('#{$fl-font-path}/TeXGyreHeros-Italic.eot');
+    src: url('#{$fl-font-path}/TeXGyreHeros-Italic.eot?#iefix') format('embedded-opentype'),
+        url('#{$fl-font-path}/TeXGyreHeros-Italic.woff2') format('woff2'),
+        url('#{$fl-font-path}/TeXGyreHeros-Italic.woff') format('woff'),
+        url('#{$fl-font-path}/TeXGyreHeros-Italic.ttf') format('truetype'),
+        url('#{$fl-font-path}/TeXGyreHeros-Italic.svg#TeXGyreHeros-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TeXGyreHeros';
+    src: url('#{$fl-font-path}/TeXGyreHeros-BoldItalic.eot');
+    src: url('#{$fl-font-path}/TeXGyreHeros-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('#{$fl-font-path}/TeXGyreHeros-BoldItalic.woff2') format('woff2'),
+        url('#{$fl-font-path}/TeXGyreHeros-BoldItalic.woff') format('woff'),
+        url('#{$fl-font-path}/TeXGyreHeros-BoldItalic.ttf') format('truetype'),
+        url('#{$fl-font-path}/TeXGyreHeros-BoldItalic.svg#TeXGyreHeros-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TeXGyreHeros';
+    src: url('#{$fl-font-path}/TeXGyreHeros-Bold.eot');
+    src: url('#{$fl-font-path}/TeXGyreHeros-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$fl-font-path}/TeXGyreHeros-Bold.woff2') format('woff2'),
+        url('#{$fl-font-path}/TeXGyreHeros-Bold.woff') format('woff'),
+        url('#{$fl-font-path}/TeXGyreHeros-Bold.ttf') format('truetype'),
+        url('#{$fl-font-path}/TeXGyreHeros-Bold.svg#TeXGyreHeros-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Trump Gothic Pro';
+    src: url('#{$fl-font-path}/TrumpGothicPro-Bold.eot');
+    src: url('#{$fl-font-path}/TrumpGothicPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$fl-font-path}/TrumpGothicPro-Bold.woff2') format('woff2'),
+        url('#{$fl-font-path}/TrumpGothicPro-Bold.woff') format('woff'),
+        url('#{$fl-font-path}/TrumpGothicPro-Bold.ttf') format('truetype'),
+        url('#{$fl-font-path}/TrumpGothicPro-Bold.svg#TrumpGothicPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

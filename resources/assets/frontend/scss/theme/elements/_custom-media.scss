@@ -1,0 +1,7 @@
+.custom-media {
+    @extend .d-flex;
+
+    .custom-media-body {
+        flex: 1;
+    }
+}

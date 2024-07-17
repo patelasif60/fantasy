@@ -1,0 +1,557 @@
+﻿First name,Last name,Club,Position,Contract active status,Shirt name,UID,Correct first name,Correct last name,Correct Shirt name,Correct position,Corrected active status,Shortcode
+Artur,Boruc,AFC Bournemouth,Goalkeeper (GK),Active,A Boruc,25,,,,,,112
+Asmir,Begović,AFC Bournemouth,Goalkeeper (GK),Active,A Begović,6,,Begovic,A Begovic,,,152
+Mark,Travers,AFC Bournemouth,Goalkeeper (GK),Active,M Travers,1,,,,,Inactive,NULL
+Steve,Cook,AFC Bournemouth,Centre-back (CB),Active,S Cook,18,,,,,,341
+Simon,Francis,AFC Bournemouth,Centre-back (CB),Active,S Francis,12,,,,Full-back (FB),,242
+Jack,Simpson,AFC Bournemouth,Centre-back (CB),Active,J Simpson,19,,,,,Inactive,NULL
+Adam,Smith,AFC Bournemouth,Centre-back (CB),Active,A Smith,13,,,,Full-back (FB),,202
+Nathaniel Edwin,Clyne,AFC Bournemouth,Centre-back (CB),Active,N Clyne,26,Nathaniel,,,Full-back (FB),,226
+Chris,Mepham,AFC Bournemouth,Centre-back (CB),Active,C Mepham,21,,,,,,391
+Charlie,Daniels,AFC Bournemouth,Centre-back (CB),Active,C Daniels,9,,,,Full-back (FB),,203
+Diego,Rico Salguero,AFC Bournemouth,Centre-back (CB),Active,D Rico,23,,Rico,,Full-back (FB),,281
+Nathan,Aké,AFC Bournemouth,Centre-back (CB),Active,N Aké,11,,Ake,N Ake,,,339
+Jordon,Ibe,AFC Bournemouth,Defensive Midfielder (DMF),Active,J Ibe,3,,,,Midfielder (MF),,507
+Nnamdi,Ofoborh,AFC Bournemouth,Midfielder (MF),Active,N Ofoborh,20,,,,,Inactive,NULL
+Dan,Gosling,AFC Bournemouth,Midfielder (MF),Active,D Gosling,14,,,,Defensive Midfielder (DMF),,559
+Andrew,Surman,AFC Bournemouth,Midfielder (MF),Active,A Surman,27,,,,Defensive Midfielder (DMF),,407
+Jefferson Andrés,Lerma Solís,AFC Bournemouth,Midfielder (MF),Active,J Lerma,8,Jefferson,Lerma,J Lerma,Defensive Midfielder (DMF),,578
+Kyle,Taylor,AFC Bournemouth,Midfielder (MF),Active,K Taylor,2,,,,,Inactive,NULL
+Lewis,Cook,AFC Bournemouth,Midfielder (MF),Active,L Cook,22,,,,Defensive Midfielder (DMF),,595
+David,Brooks,AFC Bournemouth,Midfielder (MF),Active,D Brooks,16,,,,,,529
+Ryan,Fraser,AFC Bournemouth,Midfielder (MF),Active,R Fraser,10,,,,,,501
+Junior,Stanislas,AFC Bournemouth,Midfielder (MF),Active,J Stanislas,4,,,,,,408
+Matt,Butcher,AFC Bournemouth,Midfielder (MF),Active,M Butcher,17,,,,,Inactive,NULL
+Lys,Mousset,AFC Bournemouth,Striker (ST),Active,L Mousset,5,,,,,,610
+Callum,Wilson,AFC Bournemouth,Striker (ST),Active,C Wilson,7,,,,,,607
+Joshua,King,AFC Bournemouth,Striker (ST),Active,J King,15,,,,,,659
+Dominic,Solanke,AFC Bournemouth,Striker (ST),Active,D Solanke,24,,,,,,644
+Dejan,Iliev,Arsenal,Goalkeeper (GK),Active,D Iliev,54,,,,,Inactive,NULL
+Bernd,Leno,Arsenal,Goalkeeper (GK),Active,B Leno,31,,,,,,124
+Petr,Čech,Arsenal,Goalkeeper (GK),Active,P Čech,57,,Cech,P Cech,,,138
+Shkodran,Mustafi,Arsenal,Centre-back (CB),Active,S Mustafi,41,,,,,,373
+Jordi,Osei-Tutu,Arsenal,Centre-back (CB),Active,J Osei-Tutu,35,,,,,Inactive,NULL
+Carl,Jenkinson,Arsenal,Centre-back (CB),Active,C Jenkinson,48,,,,Full-back (FB),Inactive,NULL
+Sokratis,Papastathopoulos,Arsenal,Centre-back (CB),Active,S Papastathopoulos,55,,,,,,307
+Rob,Holding,Arsenal,Centre-back (CB),Active,R Holding,36,,,,,,365
+Julio José,Pleguezuelo Selva,Arsenal,Centre-back (CB),Active,J Pleguezuelo,56,Julio,Pleguezuelo,,,Inactive,NULL
+Konstantinos,Mavropanos,Arsenal,Centre-back (CB),Active,K Mavropanos,37,,,,,,345
+Ignacio,Monreal Eraso,Arsenal,Centre-back (CB),Active,I Monreal,50,Nacho,Monreal,N Monreal,Full-back (FB),,206
+Zechariah,Medley,Arsenal,Centre-back (CB),Active,Z Medley,29,Zech,,,,Inactive,NULL
+Héctor,Bellerín Moruno,Arsenal,Centre-back (CB),Active,H Bellerín,33,Hector,Bellerin,H Bellerin,Full-back (FB),,278
+Sead,Kolašinac,Arsenal,Centre-back (CB),Active,S Kolašinac,46,,Kolasinac,S Kolasinac,Full-back (FB),,201
+Laurent,Koscielny,Arsenal,Centre-back (CB),Active,L Koscielny,59,,,,,,302
+Stephan,Lichtsteiner,Arsenal,Centre-back (CB),Active,S Lichtsteiner,47,,,,Full-back (FB),,219
+Mesut,Özil,Arsenal,Midfielder (MF),Active,M Özil,42,,Ozil,M Ozil,,,575
+Alex,Iwobi,Arsenal,Midfielder (MF),Active,A Iwobi,43,,,,,,551
+Bukayo,Saka,Arsenal,Midfielder (MF),Active,B Saka,44,,,,,Inactive,NULL
+Aaron,Ramsey,Arsenal,Midfielder (MF),Active,A Ramsey,38,,,,,,425
+Mattéo,Guendouzi Olié,Arsenal,Midfielder (MF),Active,M Guendouzi,51,Matteo,Guendouzi,M Guendouzi,Defensive Midfielder (DMF),,547
+Henrikh,Mkhitaryan,Arsenal,Midfielder (MF),Active,H Mkhitaryan,28,,,,,,587
+Charlie,Gilmour,Arsenal,Midfielder (MF),Active,C Gilmour,45,,,,,Inactive,NULL
+Ainsley,Maitland-Niles,Arsenal,Midfielder (MF),Active,A Maitland-Niles,58,,,,Full-back (FB),,273
+Joseph,Willock,Arsenal,Midfielder (MF),Active,J Willock,39,,,,,Inactive,NULL
+Granit,Xhaka,Arsenal,Midfielder (MF),Active,G Xhaka,40,,,,Defensive Midfielder (DMF),,405
+Lucas,Torreira Di Pascua,Arsenal,Midfielder (MF),Active,L Torreira,53,,Torreira,,Defensive Midfielder (DMF),,544
+Denis,Suárez Fernández,Arsenal,Midfielder (MF),Active,D Suárez,30,,Suarez,D Suarez,,,914
+Mohamed Naser,Elsayed Elneny,Arsenal,Midfielder (MF),Active,M Elsayed,34,Mohamed,Elneny,M Elneny,Defensive Midfielder (DMF),,535
+Tyreece,John-Jules,Arsenal,Striker (ST),Active,T John-Jules,60,,,,,Inactive,NULL
+Alexandre,Lacazette,Arsenal,Striker (ST),Active,A Lacazette,61,,,,,,652
+Pierre-Emerick,Aubameyang,Arsenal,Striker (ST),Active,P Aubameyang,49,,,,,,688
+Edward,Nketiah,Arsenal,Striker (ST),Active,E Nketiah,32,,,,,Inactive,NULL
+Daniel Nii,Tackie Mensah Welbeck,Arsenal,Striker (ST),Active,D Tackie,52,Daniel,Welbeck,D Welbeck,,,695
+Robert,Lynch Sanchez,Brighton & Hove Albion,Goalkeeper (GK),Active,R Lynch,86,,Sanchez,R Sanchez,,Inactive,NULL
+Jason,Steele,Brighton & Hove Albion,Goalkeeper (GK),Active,J Steele,67,,,,,,123
+Mathew,Ryan,Brighton & Hove Albion,Goalkeeper (GK),Active,M Ryan,76,,,,,,106
+David,Button,Brighton & Hove Albion,Goalkeeper (GK),Active,D Button,84,,,,,,113
+Shane,Duffy,Brighton & Hove Albion,Centre-back (CB),Active,S Duffy,78,,,,,,306
+Dan,Burn,Brighton & Hove Albion,Centre-back (CB),Active,D Burn,72,,,,,Inactive,NULL
+Leon-Aderemi,Balogun,Brighton & Hove Albion,Centre-back (CB),Active,L Balogun,79,,,,,,303
+Gaëtan,Bong Songo,Brighton & Hove Albion,Centre-back (CB),Active,G Bong,87,Gaetan,Bong,,Full-back (FB),,205
+Martín,Montoya Torralbo,Brighton & Hove Albion,Centre-back (CB),Active,M Montoya,88,Martin,,,Full-back (FB),,285
+Lewis,Dunk,Brighton & Hove Albion,Centre-back (CB),Active,L Dunk,89,,,,,,301
+Bernardo,Fernandes da Silva Junior,Brighton & Hove Albion,Centre-back (CB),Active,B Fernandes,70,,NULL,Bernardo,Full-back (FB),,274
+Bruno,Saltor Grau,Brighton & Hove Albion,Centre-back (CB),Active,B Saltor,64,,Saltor,,Full-back (FB),,209
+Solomon,March,Brighton & Hove Albion,Midfielder (MF),Active,S March,66,,,,,,433
+Dale,Stephens,Brighton & Hove Albion,Midfielder (MF),Active,D Stephens,73,,,,Defensive Midfielder (DMF),,409
+Yves,Bissouma,Brighton & Hove Albion,Midfielder (MF),Active,Y Bissouma,62,,,,,,566
+Pascal,Groß,Brighton & Hove Albion,Midfielder (MF),Active,P Groß,68,,Gross,P Gross,,,422
+William Guy,Collar,Brighton & Hove Albion,Midfielder (MF),Active,W Collar,81,William,,,,Inactive,NULL
+Max Harrison,Sanders,Brighton & Hove Albion,Midfielder (MF),Active,M Sanders,75,Max,,,,Inactive,NULL
+Davy,Pröpper,Brighton & Hove Albion,Midfielder (MF),Active,D Pröpper,63,,Propper,D Propper,Defensive Midfielder (DMF),,569
+Beram,Kayal,Brighton & Hove Albion,Midfielder (MF),Active,B Kayal,77,,,,Defensive Midfielder (DMF),,428
+Anthony,Knockaert,Brighton & Hove Albion,Midfielder (MF),Active,A Knockaert,71,,,,,,430
+José Heriberto,Izquierdo Mena,Brighton & Hove Albion,Striker (ST),Active,J Izquierdo,65,Jose,Izquierdo,,Midfielder (MF),,471
+Aaron Anthony,Connolly,Brighton & Hove Albion,Striker (ST),Active,A Connolly,85,,,,,Inactive,NULL
+Alireza,Jahanbakhsh,Brighton & Hove Albion,Striker (ST),Active,A Jahanbakhsh,80,,,,Midfielder (MF),,570
+Viktor,Gyökeres,Brighton & Hove Albion,Striker (ST),Active,V Gyökeres,74,,Gyokeres,V Gyokeres,,Inactive,NULL
+Glenn,Murray,Brighton & Hove Albion,Striker (ST),Active,G Murray,69,,,,,,613
+Florin,Andone,Brighton & Hove Albion,Striker (ST),Active,F Andone,82,,,,,,601
+Jürgen,Locadia,Brighton & Hove Albion,Striker (ST),Active,J Locadia,83,,,,,,682
+Tom,Heaton,Burnley,Goalkeeper (GK),Active,T Heaton,104,,,,,,104
+Adam,Legzdins,Burnley,Goalkeeper (GK),Active,A Legzdins,111,,,,,Inactive,NULL
+Joe,Hart,Burnley,Goalkeeper (GK),Active,J Hart,105,,,,,,147
+Nick,Pope,Burnley,Goalkeeper (GK),Active,N Pope,109,,,,,,140
+Anders,Lindegaard,Burnley,Goalkeeper (GK),Active,A Lindegaard,103,,,,,,142
+Ben,Mee,Burnley,Centre-back (CB),Active,B Mee,98,,,,,,309
+Ben,Gibson,Burnley,Centre-back (CB),Active,B Gibson,99,,,,,,378
+Matthew,Lowton,Burnley,Centre-back (CB),Active,M Lowton,106,,,,Full-back (FB),,298
+James,Tarkowski,Burnley,Centre-back (CB),Active,J Tarkowski,93,,,,,,357
+Phil,Bardsley,Burnley,Centre-back (CB),Active,P Bardsley,94,,,,Full-back (FB),,235
+Kevin,Long,Burnley,Centre-back (CB),Active,K Long,114,,,,,,317
+Stephen,Ward,Burnley,Centre-back (CB),Active,S Ward,95,,,,Full-back (FB),,210
+Charlie,Taylor,Burnley,Centre-back (CB),Active,C Taylor,108,,,,Full-back (FB),,233
+Jack,Cork,Burnley,Midfielder (MF),Active,J Cork,91,,,,Defensive Midfielder (DMF),,521
+Steven,Defour,Burnley,Midfielder (MF),Active,S Defour,92,,,,Defensive Midfielder (DMF),,498
+Robbie,Brady,Burnley,Midfielder (MF),Active,R Brady,100,,,,,,542
+Ashley,Westwood,Burnley,Midfielder (MF),Active,A Westwood,107,,,,Defensive Midfielder (DMF),,540
+Johann,Berg Guðmunds­son,Burnley,Midfielder (MF),Active,J Berg,102,,Gudmundsson,J Gudmundsson,,,487
+Aaron,Lennon,Burnley,Midfielder (MF),Active,A Lennon,115,,,,,,441
+Josh,Benson,Burnley,Midfielder (MF),Active,J Benson,96,,,,,Inactive,NULL
+Jeff,Hendrick,Burnley,Midfielder (MF),Active,J Hendrick,97,,,,,,518
+Ashley,Barnes,Burnley,Striker (ST),Active,A Barnes,112,,,,,,605
+Chris,Wood,Burnley,Striker (ST),Active,C Wood,113,,,,,,669
+Dwight,McNeil,Burnley,Striker (ST),Active,D McNeil,101,,,,Midfielder (MF),,905
+Peter,Crouch,Burnley,Striker (ST),Active,P Crouch,90,,,,,,662
+Matěj,Vydra,Burnley,Striker (ST),Active,M Vydra,110,,,,,,647
+Alex,Smithies,Cardiff City,Goalkeeper (GK),Active,A Smithies,119,,,,,,103
+Brian,Murphy,Cardiff City,Goalkeeper (GK),Active,B Murphy,142,,,,,Inactive,NULL
+Neil Leonard,Dula Etheridge,Cardiff City,Goalkeeper (GK),Active,N Dula,122,Neil,Etheridge,N Etheridge,,,101
+Bruno,Écuélé Manga,Cardiff City,Centre-back (CB),Active,B Écuélé,144,,Ecuele Manga,B Ecuele Manga,,,312
+Callum,Paterson,Cardiff City,Centre-back (CB),Active,C Paterson,138,,,,Midfielder (MF),,412
+Matthew,Connolly,Cardiff City,Centre-back (CB),Active,M Connolly,118,,,,,,311
+Sean,Morrison,Cardiff City,Centre-back (CB),Active,S Morrison,132,,,,,,313
+Cameron,Coxe,Cardiff City,Centre-back (CB),Active,C Coxe,139,,,,,Inactive,NULL
+Joe,Bennett,Cardiff City,Centre-back (CB),Active,J Bennett,128,,,,Full-back (FB),,211
+Jazz,Richards,Cardiff City,Centre-back (CB),Active,J Richards,129,,,,Full-back (FB),,213
+Souleymane,Bamba,Cardiff City,Centre-back (CB),Active,S Bamba,116,,,,,,304
+Greg,Cunningham,Cardiff City,Centre-back (CB),Active,G Cunningham,130,,,,Full-back (FB),,252
+Lee,Peltier,Cardiff City,Centre-back (CB),Active,L Peltier,123,,,,Full-back (FB),,212
+Víctor,Camarasa Ferrando,Cardiff City,Midfielder (MF),Active,V Camarasa,137,,Camarasa,V Camarasa,,,592
+Leandro,Bacuna,Cardiff City,Midfielder (MF),Active,L Bacuna,131,,,,,,916
+Josh,Murphy,Cardiff City,Midfielder (MF),Active,J Murphy,124,,,,,,406
+Joe,Ralls,Cardiff City,Midfielder (MF),Active,J Ralls,126,,,,Defensive Midfielder (DMF),,415
+Kadeem,Harris,Cardiff City,Midfielder (MF),Active,K Harris,127,,,,,,906
+Aron Einar,Gunnarsson,Cardiff City,Midfielder (MF),Active,A Gunnarsson,120,Aron,,,,,536
+Lloyd,Humphries,Cardiff City,Midfielder (MF),Active,L Humphries,134,,,,,Inactive,NULL
+Bobby,Reid,Cardiff City,Midfielder (MF),Active,B Reid,141,,,,Striker (ST),,624
+Loïc,Damour,Cardiff City,Midfielder (MF),Active,L Damour,121,,,,Defensive Midfielder (DMF),,402
+Harry,Arter,Cardiff City,Midfielder (MF),Active,H Arter,136,,,,Defensive Midfielder (DMF),,513
+Rhys,Healey,Cardiff City,Striker (ST),Active,R Healey,117,,,,,Inactive,NULL
+Emiliano,Sala,Cardiff City,Striker (ST),Active,E Sala,125,,,,,Inactive,NULL
+David Junior,Hoilett,Cardiff City,Striker (ST),Active,D Hoilett,145,Junior,,J Hoilett,Midfielder (MF),,403
+Kenneth,Dahrup Zohorè,Cardiff City,Striker (ST),Active,K Dahrup,133,,Zohore,K Zohore,,,620
+Danny,Ward,Cardiff City,Striker (ST),Active,D Ward,140,,,,,,130
+El-Hadji Baye Oumar,Niasse,Cardiff City,Striker (ST),Active,E Niasse,135,Oumar,,O Niasse,,,674
+Nathaniel,Mendez-Laing,Cardiff City,Striker (ST),Active,N Mendez-Laing,143,,,,Midfielder (MF),,404
+Wilfredo Daniel,Caballero,Chelsea,Goalkeeper (GK),Active,W Caballero,150,Wally,,,,,119
+Robert,Green,Chelsea,Goalkeeper (GK),Active,R Green,162,,,,,,133
+Kepa,Arrizabalaga Revuelta,Chelsea,Goalkeeper (GK),Active,K Arrizabalaga,152,,Arrizabalaga,,,,146
+Jamie,Cumming,Chelsea,Goalkeeper (GK),Active,J Cumming,147,,,,,Inactive,NULL
+Marcin,Bulka,Chelsea,Goalkeeper (GK),Active,M Bulka,155,,,,,Inactive,NULL
+Antonio,Rüdiger,Chelsea,Centre-back (CB),Active,A Rüdiger,151,,Rudiger,A Rudiger,,,374
+Emerson,Palmieri dos Santos,Chelsea,Centre-back (CB),Active,E Palmieri,156,,Palmieri,,Full-back (FB),,288
+Marcos,Alonso Mendoza,Chelsea,Centre-back (CB),Active,M Alonso,157,,,,Full-back (FB),,286
+Andreas,Christensen,Chelsea,Centre-back (CB),Active,A Christensen,146,,,,,,383
+César,Azpilicueta Tanco,Chelsea,Centre-back (CB),Active,C Azpilicueta,164,Cesar,,,Full-back (FB),,346
+David Luiz,Moreira Marinho,Chelsea,Centre-back (CB),Active,D Moreira,153,David,Luiz,D Luiz,,,379
+Davide,Zappacosta,Chelsea,Centre-back (CB),Active,D Zappacosta,159,,,,Full-back (FB),,266
+Ethan,Ampadu,Chelsea,Centre-back (CB),Active,E Ampadu,172,,,,Defensive Midfielder (DMF),Inactive,NULL
+Gary,Cahill,Chelsea,Centre-back (CB),Active,G Cahill,167,,,,,,340
+Ross,Barkley,Chelsea,Midfielder (MF),Active,R Barkley,169,,,,,,516
+George,McEachran,Chelsea,Midfielder (MF),Active,G McEachran,163,,,,,Inactive,NULL
+Ruben,Loftus-Cheek,Chelsea,Midfielder (MF),Active,R Loftus-Cheek,170,,,,,,556
+Jorge Luiz,Frello Filho,Chelsea,Midfielder (MF),Active,J Frello,158,Jorginho,NULL,Jorginho,Defensive Midfielder (DMF),,555
+Mateo,Kovačić,Chelsea,Midfielder (MF),Active,M Kovačić,171,,Kovacic,M Kovacic,Defensive Midfielder (DMF),,591
+Danny,Drinkwater,Chelsea,Midfielder (MF),Active,D Drinkwater,165,,,,Defensive Midfielder (DMF),,419
+N'Golo,Kanté,Chelsea,Midfielder (MF),Active,N Kanté,161,,Kante,N Kante,Defensive Midfielder (DMF),,505
+Gonzalo Gerardo,Higuaín,Chelsea,Striker (ST),Active,G Higuaín,168,Gonzalo,Higuain,G Higuain,,,655
+Callum,Hudson-Odoi,Chelsea,Striker (ST),Active,C Hudson-Odoi,154,,,,Midfielder (MF),,589
+Eden,Hazard,Chelsea,Striker (ST),Active,E Hazard,148,,,,Midfielder (MF),,517
+Pedro Eliezer,Rodríguez Ledesma,Chelsea,Striker (ST),Active,P Rodríguez,166,Pedro,NULL,Pedro,Midfielder (MF),,515
+Willian,Borges da Silva,Chelsea,Striker (ST),Active,W Borges,160,,NULL,Willian,Midfielder (MF),,545
+Olivier,Giroud,Chelsea,Striker (ST),Active,O Giroud,149,,,,,,611
+Joe Daniel,Tupper,Crystal Palace,Goalkeeper (GK),Active,J Tupper,181,Joe,,,,Inactive,NULL
+Wayne,Hennessey,Crystal Palace,Goalkeeper (GK),Active,W Hennessey,182,,,,,,148
+Vicente,Guaita Panadero,Crystal Palace,Goalkeeper (GK),Active,V Guaita,183,,Guaita,,,,105
+Lucas,Estella Perri,Crystal Palace,Goalkeeper (GK),Active,L Estella,194,,Estella,,,Inactive,NULL
+Julián,Speroni,Crystal Palace,Goalkeeper (GK),Active,J Speroni,188,Julian,,,,,154
+Mamadou,Sakho,Crystal Palace,Centre-back (CB),Active,M Sakho,198,,,,,,361
+Pape,N'Diaye Souaré,Crystal Palace,Centre-back (CB),Active,P N'Diaye,192,,Souare,P Souare,Full-back (FB),Inactive,NULL
+Martin,Kelly,Crystal Palace,Centre-back (CB),Active,M Kelly,184,,,,,,356
+James,Tomkins,Crystal Palace,Centre-back (CB),Active,J Tomkins,201,,,,,,310
+Scott,Dann,Crystal Palace,Centre-back (CB),Active,S Dann,185,,,,,,331
+Aaron,Wan-Bissaka,Crystal Palace,Centre-back (CB),Active,A Wan-Bissaka,195,,,,Full-back (FB),,292
+Jeffrey,Schlupp,Crystal Palace,Centre-back (CB),Active,J Schlupp,179,,,,Midfielder (MF),,221
+Joel,Ward,Crystal Palace,Centre-back (CB),Active,J Ward,173,,,,Full-back (FB),,268
+Sam,Woods,Crystal Palace,Centre-back (CB),Active,S Woods,196,,,,,Inactive,NULL
+Patrick,van Aanholt,Crystal Palace,Centre-back (CB),Active,P van,180,,,P van Aanholt,,,217
+Andros,Townsend,Crystal Palace,Midfielder (MF),Active,A Townsend,174,,,,,,432
+Giovanni,McGregor,Crystal Palace,Midfielder (MF),Active,G McGregor,197,,,,,Inactive,NULL
+Jaïro,Riedewald,Crystal Palace,Midfielder (MF),Active,J Riedewald,191,Jairo,,,Defensive Midfielder (DMF),,597
+Luka,Milivojević,Crystal Palace,Midfielder (MF),Active,L Milivojević,175,,Milivojevic,L Milivojevic,Defensive Midfielder (DMF),,541
+Max,Meyer,Crystal Palace,Midfielder (MF),Active,M Meyer,178,,,,,,572
+James,McArthur,Crystal Palace,Midfielder (MF),Active,J McArthur,189,,,,Defensive Midfielder (DMF),,468
+Cheikhou,Kouyaté,Crystal Palace,Midfielder (MF),Active,C Kouyaté,190,,Kouyate,C Kouyate,Defensive Midfielder (DMF),,577
+Bakary,Sako,Crystal Palace,Striker (ST),Active,B Sako,176,,,,Midfielder (MF),Inactive,NULL
+Michy,Batshuayi Tunga,Crystal Palace,Striker (ST),Active,M Batshuayi,199,,Batshuayi,,,,604
+Connor,Wickham,Crystal Palace,Striker (ST),Active,C Wickham,193,,,,,,612
+Levi,Lumeka,Crystal Palace,Striker (ST),Active,L Lumeka,177,,,,,Inactive,NULL
+Wilfried,Zaha,Crystal Palace,Striker (ST),Active,W Zaha,187,,,,,,617
+Christian,Benteke Liolo,Crystal Palace,Striker (ST),Active,C Benteke,200,,Benteke,,,,636
+Jordan,Ayew,Crystal Palace,Striker (ST),Active,J Ayew,186,,,,,,649
+Maarten,Stekelenburg,Everton,Goalkeeper (GK),Active,M Stekelenburg,216,,,,,,110
+João Manuel,Neves Virginia,Everton,Goalkeeper (GK),Active,J Neves,210,Joao,Virginia,J Virginia,,Inactive,NULL
+Jordan,Pickford,Everton,Goalkeeper (GK),Active,J Pickford,225,,,,,,141
+Mateusz,Hewelt,Everton,Goalkeeper (GK),Active,M Hewelt,212,,,,,Inactive,NULL
+Leighton,Baines,Everton,Centre-back (CB),Active,L Baines,203,,,,Full-back (FB),,282
+Jonjoe,Kenny,Everton,Centre-back (CB),Active,J Kenny,223,,,,Full-back (FB),,272
+Phil,Jagielka,Everton,Centre-back (CB),Active,P Jagielka,206,,,,,,338
+Lucas,Digne,Everton,Centre-back (CB),Active,L Digne,226,,,,Full-back (FB),,284
+Séamus,Coleman,Everton,Centre-back (CB),Active,S Coleman,213,Seamus,,,Full-back (FB),,228
+Tyias,Browning,Everton,Centre-back (CB),Active,T Browning,207,,,,Full-back (FB),Inactive,NULL
+Kurt Happy,Zouma,Everton,Centre-back (CB),Active,K Zouma,214,Kurt,,,,,352
+Michael,Keane,Everton,Centre-back (CB),Active,M Keane,208,,,,,,308
+Yerry Fernando,Mina González,Everton,Centre-back (CB),Active,Y Mina,222,Yerry,Mina,,,,382
+André Filipe,Tavares Gomes,Everton,Midfielder (MF),Active,A Tavares,217,Andre,Tavares,,,Inactive,NULL
+Morgan,Schneiderlin,Everton,Midfielder (MF),Active,M Schneiderlin,224,,,,Defensive Midfielder (DMF),,525
+Idrissa Gana,Gueye,Everton,Midfielder (MF),Active,I Gueye,219,Idrissa,,,Defensive Midfielder (DMF),,495
+Tom,Davies,Everton,Midfielder (MF),Active,T Davies,220,,,,Defensive Midfielder (DMF),,426
+Bernard,Anício Caldeira Duarte,Everton,Midfielder (MF),Active,B Anício,221,,NULL,Bernard,,,598
+James,McCarthy,Everton,Midfielder (MF),Active,J McCarthy,215,,,,,,497
+Gylfi Þór,Sigurðsson,Everton,Midfielder (MF),Active,G Sigurðsson,209,Gylfi,Sigurdsson,G Sigurdsson,,,553
+Dominic,Calvert-Lewin,Everton,Striker (ST),Active,D Calvert-Lewin,204,,,,,,681
+Ademola,Lookman,Everton,Striker (ST),Active,A Lookman,211,,,,Midfielder (MF),,509
+Cenk,Tosun,Everton,Striker (ST),Active,C Tosun,205,,,,,,679
+Richarlison,de Andrade,Everton,Striker (ST),Active,R de,218,,NULL,Richarlison,,,470
+Theo,Walcott,Everton,Striker (ST),Active,T Walcott,202,,,,Midfielder (MF),,506
+Sergio,Rico González,Fulham,Goalkeeper (GK),Active,S Rico,248,,Rico,,,,150
+Fabricio Martín,Agosto Ramírez,Fulham,Goalkeeper (GK),Active,F Agosto,236,Fabri,NULL,Fabri,,,139
+Marcus,Bettinelli,Fulham,Goalkeeper (GK),Active,M Bettinelli,241,,,,,,111
+Cyrus,Christie,Fulham,Centre-back (CB),Active,C Christie,242,,,,Full-back (FB),,218
+Tim,Ream,Fulham,Centre-back (CB),Active,T Ream,243,,,,,,319
+Alfie,Mawson,Fulham,Centre-back (CB),Active,A Mawson,254,,,,,,372
+Håvard,Nordtveit,Fulham,Centre-back (CB),Active,H Nordtveit,237,Havard,,,Defensive Midfielder (DMF),,917
+Timothy Evans,Fosu-Mensah,Fulham,Centre-back (CB),Active,T Fosu-Mensah,232,Timothy,,,,,384
+Denis,Odoi,Fulham,Centre-back (CB),Active,D Odoi,245,,,,,,316
+Maxime,Le Marchand,Fulham,Centre-back (CB),Active,M Le,233,,Le Marchand,M Le Marchand,Full-back (FB),,276
+Calum,Chambers,Fulham,Centre-back (CB),Active,C Chambers,227,,,,,,334
+Zeze  Steven,Sessegnon,Fulham,Centre-back (CB),Active,Z Sessegnon,234,Steven,,S Sessegnon,Full-back (FB),Inactive,NULL
+Joe,Bryan,Fulham,Centre-back (CB),Active,J Bryan,235,,,,Full-back (FB),,289
+Luca,de la Torre,Fulham,Midfielder (MF),Active,L de,229,,de la Torre,L de la Torre,,Inactive,NULL
+Kevin,McDonald,Fulham,Midfielder (MF),Active,K McDonald,253,,,,Defensive Midfielder (DMF),,431
+Lazar,Marković,Fulham,Midfielder (MF),Active,L Marković,230,,Markovic,L Markovic,,,918
+André-Frank,Zambo Anguissa,Fulham,Midfielder (MF),Active,A Zambo,231,,Zambo Anguissa,A Zambo Anguissa,Defensive Midfielder (DMF),,902
+Matthew,O'Riley,Fulham,Midfielder (MF),Active,M O'Riley,249,,,,,Inactive,NULL
+Ibrahima,Cissé,Fulham,Midfielder (MF),Active,I Cissé,239,,Cisse,I Cisse,Defensive Midfielder (DMF),,420
+Jean Michaël,Seri,Fulham,Midfielder (MF),Active,J Seri,250,,,,,,550
+Kouassi Ryan,Sessegnon,Fulham,Midfielder (MF),Active,K Sessegnon,246,Ryan,,R Sessegnon,,,437
+André,Schürrle,Fulham,Midfielder (MF),Active,A Schürrle,240,,Schurrle,A Schurrle,,,567
+Tom,Cairney,Fulham,Midfielder (MF),Active,T Cairney,247,,,,,,451
+Neeskens,Kebano,Fulham,Midfielder (MF),Active,N Kebano,228,,,,Defensive Midfielder (DMF),,424
+Aleksandar,Mitrović,Fulham,Striker (ST),Active,A Mitrović,244,,Mitrovic,A Mitrovic,,,623
+Luciano,Vietto,Fulham,Striker (ST),Active,L Vietto,255,,,,,,650
+Ryan Guno,Babel,Fulham,Striker (ST),Active,R Babel,238,Ryan,,,Midfielder (MF),,913
+Harvey,Elliot,Fulham,Striker (ST),Active,H Elliot,251,,,,,Inactive,NULL
+Floyd,Ayité,Fulham,Striker (ST),Active,F Ayité,252,,Ayite,F Ayite,Midfielder (MF),,416
+Jonas,Lössl,Huddersfield Town,Goalkeeper (GK),Active,J Lössl,262,,Lossl,J Lossl,,,143
+Ben,Hamer,Huddersfield Town,Goalkeeper (GK),Active,B Hamer,257,,,,,,157
+Joel,Coleman,Huddersfield Town,Goalkeeper (GK),Active,J Coleman,271,,,,,Inactive,NULL
+Jon,Gorenc Stankovič,Huddersfield Town,Centre-back (CB),Active,J Gorenc,278,,Stankovic,J Stankovic,,,389
+Erik,Durm,Huddersfield Town,Centre-back (CB),Active,E Durm,259,,,,Full-back (FB),,280
+Chris,Löwe,Huddersfield Town,Centre-back (CB),Active,C Löwe,280,,Lowe,C Lowe,Full-back (FB),,204
+Tom,Smith,Huddersfield Town,Centre-back (CB),Active,T Smith,260,,,,Full-back (FB),,214
+Terence,Kongolo,Huddersfield Town,Centre-back (CB),Active,T Kongolo,274,,,,,,250
+Mathias,Jattah-Njie Jørgensen,Huddersfield Town,Centre-back (CB),Active,M Jattah-Njie,263,,Jorgensen,M Jorgensen,,,369
+Christopher,Schindler,Huddersfield Town,Centre-back (CB),Active,C Schindler,276,,,,,,324
+Florent,Hadergjonaj,Huddersfield Town,Centre-back (CB),Active,F Hadergjonaj,277,,,,Full-back (FB),,254
+Aaron,Mooy,Huddersfield Town,Midfielder (MF),Active,A Mooy,272,,,,,,458
+Juninho,Bacuna,Huddersfield Town,Midfielder (MF),Active,J Bacuna,266,,,,,,483
+Daniel,Williams,Huddersfield Town,Midfielder (MF),Active,D Williams,279,,,,Defensive Midfielder (DMF),,546
+Jonathan,Hogg,Huddersfield Town,Midfielder (MF),Active,J Hogg,267,,,,Defensive Midfielder (DMF),,414
+Abdelhamid,Sabiri,Huddersfield Town,Midfielder (MF),Active,A Sabiri,261,,,,,,474
+Alex,Pritchard,Huddersfield Town,Midfielder (MF),Active,A Pritchard,256,,,,,,456
+Jason,Puncheon,Huddersfield Town,Midfielder (MF),Active,J Puncheon,270,,,,,,548
+Philip,Billing,Huddersfield Town,Midfielder (MF),Active,P Billing,258,,,,Defensive Midfielder (DMF),,447
+Adama,Diakhaby,Huddersfield Town,Striker (ST),Active,A Diakhaby,265,,,,,,642
+Elias,Kachunga,Huddersfield Town,Striker (ST),Active,E Kachunga,273,,,,Midfielder (MF),,528
+Isaac,Mbenza,Huddersfield Town,Striker (ST),Active,I Mbenza,268,,,,Midfielder (MF),,901
+Laurent,Depoitre,Huddersfield Town,Striker (ST),Active,L Depoitre,275,,,,,,618
+Karlan,Ahearne-Grant,Huddersfield Town,Striker (ST),Active,K Ahearne-Grant,269,,,,,,658
+Steve,Mounié,Huddersfield Town,Striker (ST),Active,S Mounié,264,,Mounie,S Mounie,,,641
+Danny,Ward,Leicester City,Goalkeeper (GK),Active,D Ward,290,,,,,,130
+Eldin,Jakupovic,Leicester City,Goalkeeper (GK),Active,E Jakupovic,297,,,,,,149
+Kasper,Schmeichel,Leicester City,Goalkeeper (GK),Active,K Schmeichel,298,,,,,,126
+Danny,Simpson,Leicester City,Centre-back (CB),Active,D Simpson,305,,,,Full-back (FB),,208
+Wes,Morgan,Leicester City,Centre-back (CB),Active,W Morgan,286,,,,,,349
+Jonny,Evans,Leicester City,Centre-back (CB),Active,J Evans,294,,,,,,332
+Caglar,Söyüncü,Leicester City,Centre-back (CB),Active,C Söyüncü,301,,Soyuncu,C Soyuncu,,,387
+Ben,Chilwell,Leicester City,Centre-back (CB),Active,B Chilwell,295,,,,Full-back (FB),,271
+Christian,Fuchs,Leicester City,Centre-back (CB),Active,C Fuchs,289,,,,Full-back (FB),,243
+Harry,Maguire,Leicester City,Centre-back (CB),Active,H Maguire,283,,,,,,366
+Ricardo Domingos,Barbosa Pereira,Leicester City,Centre-back (CB),Active,R Barbosa,284,Ricardo,Pereira,R Pereira,Full-back (FB),,222
+Onyinye Wilfred,Ndidi,Leicester City,Midfielder (MF),Active,O Ndidi,292,Wilfred,,W Ndidi,Defensive Midfielder (DMF),,533
+Rachid,Ghezzal,Leicester City,Midfielder (MF),Active,R Ghezzal,299,,,,,,573
+Marc,Albrighton,Leicester City,Midfielder (MF),Active,M Albrighton,306,,,,,,583
+James,Maddison,Leicester City,Midfielder (MF),Active,J Maddison,300,,,,,,486
+Harvey Lewis,Barnes,Leicester City,Midfielder (MF),Active,H Barnes,281,Harvey,,,,,911
+Matty,James,Leicester City,Midfielder (MF),Active,M James,282,,,,Defensive Midfielder (DMF),,588
+Hamza,Choudhury,Leicester City,Midfielder (MF),Active,H Choudhury,302,,,,Defensive Midfielder (DMF),,462
+Nampalys,Mendy,Leicester City,Midfielder (MF),Active,N Mendy,296,,,,Defensive Midfielder (DMF),,904
+Daniel,Amartey,Leicester City,Midfielder (MF),Active,D Amartey,303,,,,Full-back (FB),,244
+Thakgalo Khanya,Leshabela,Leicester City,Midfielder (MF),Active,T Leshabela,291,Thakgalo,,,,Inactive,NULL
+Youri,Tielemans,Leicester City,Midfielder (MF),Active,Y Tielemans,304,,,,Defensive Midfielder (DMF),,916
+Demarai,Gray,Leicester City,Midfielder (MF),Active,D Gray,285,,,,,,582
+Jamie,Vardy,Leicester City,Striker (ST),Active,J Vardy,293,,,,,,614
+Shinji,Okazaki,Leicester City,Striker (ST),Active,S Okazaki,287,,,,,,672
+Kelechi Promise,Iheanacho,Leicester City,Striker (ST),Active,K Iheanacho,288,Kelechi,,,,,696
+Alisson Ramsés,Becker,Liverpool,Goalkeeper (GK),Active,A Becker,314,Alisson,,,,,132
+Caoimhin,Kelleher,Liverpool,Goalkeeper (GK),Active,C Kelleher,327,,,,,Inactive,NULL
+Simon,Mignolet,Liverpool,Goalkeeper (GK),Active,S Mignolet,325,,,,,,134
+Dejan,Lovren,Liverpool,Centre-back (CB),Active,D Lovren,333,,,,,,314
+Virgil,van Dijk,Liverpool,Centre-back (CB),Active,V van,328,,,V van Dijk,,,375
+Trent,Alexander-Arnold,Liverpool,Centre-back (CB),Active,T Alexander-Arnold,307,,,,Full-back (FB),,230
+Andrew,Robertson,Liverpool,Centre-back (CB),Active,A Robertson,330,,,,Full-back (FB),,239
+Alberto,Moreno Pérez,Liverpool,Centre-back (CB),Active,A Moreno,324,,,,Full-back (FB),,262
+Joe,Gomez,Liverpool,Centre-back (CB),Active,J Gomez,310,,,,Full-back (FB),,251
+Ki-Jana,Hoever,Liverpool,Centre-back (CB),Active,K Hoever,319,,,,Full-back (FB),Inactive,NULL
+Joël Andre,Job Matip,Liverpool,Centre-back (CB),Active,J Job,332,Joel,Matip,J Matip,,,305
+Isaac,Christie-Davies,Liverpool,Midfielder (MF),Active,I Christie-Davies,320,,,,,Inactive,NULL
+Fábio Henrique,Tavares,Liverpool,Midfielder (MF),Active,F Tavares,321,Fabinho,NULL,Fabinho,Defensive Midfielder (DMF),,438
+Rafael Euclides,Soares Camacho,Liverpool,Midfielder (MF),Active,R Soares,316,Rafael,Camacho,R Camacho,,Inactive,NULL
+Alex,Oxlade-Chamberlain,Liverpool,Midfielder (MF),Active,A Oxlade-Chamberlain,323,,,,,,500
+Georginio,Wijnaldum,Liverpool,Midfielder (MF),Active,G Wijnaldum,311,,,,,,491
+Jordan Brian,Henderson,Liverpool,Midfielder (MF),Active,J Henderson,309,Jordan,,,Defensive Midfielder (DMF),,522
+Naby Deco,Keïta,Liverpool,Midfielder (MF),Active,N Keïta,318,Naby,Keita,N Keita,Defensive Midfielder (DMF),,439
+Adam David,Lallana,Liverpool,Midfielder (MF),Active,A Lallana,331,Adam,,,,,478
+Curtis,Jones,Liverpool,Midfielder (MF),Active,C Jones,312,,,,,Inactive,NULL
+James Philip,Milner,Liverpool,Midfielder (MF),Active,J Milner,313,James,,,,,410
+Mohamed,Salah Ghaly,Liverpool,Striker (ST),Active,M Salah,315,,Salah,,Midfielder (MF),,543
+Xherdan,Shaqiri,Liverpool,Striker (ST),Active,X Shaqiri,322,,,,Midfielder (MF),,554
+Daniel Andre,Sturridge,Liverpool,Striker (ST),Active,D Sturridge,329,Daniel,,,,,656
+Divock,Okoth Origi,Liverpool,Striker (ST),Active,D Okoth,308,,Origi,D Origi,Midfielder (MF),,508
+Roberto Firmino,Barbosa de Oliveira,Liverpool,Striker (ST),Active,R Barbosa,317,Roberto,Firmino,R Firmino,,,627
+Sadio,Mané,Liverpool,Striker (ST),Active,S Mané,326,,Mane,S Mane,Midfielder (MF),,465
+Claudio Andrés,Bravo Muñoz,Manchester City,Goalkeeper (GK),Active,C Bravo,335,Claudio,Bravo,,,,144
+Ederson,Santana de Moraes,Manchester City,Goalkeeper (GK),Active,E Santana,336,Ederson,NULL,Ederson,,,118
+Daniel,Grimshaw,Manchester City,Goalkeeper (GK),Active,D Grimshaw,363,,,,,Inactive,NULL
+Arijanet,Murić,Manchester City,Goalkeeper (GK),Active,A Murić,338,,Muric,A Muric,,Inactive,NULL
+John,Stones,Manchester City,Centre-back (CB),Active,J Stones,339,,,,,,315
+Aymeric,Laporte,Manchester City,Centre-back (CB),Active,A Laporte,348,,,,,,320
+Kyle,Walker,Manchester City,Centre-back (CB),Active,K Walker,361,,,,Full-back (FB),,264
+Danilo Luiz,da Silva,Manchester City,Centre-back (CB),Active,D da,349,Danilo,NULL,Danilo,Full-back (FB),,245
+Eric,García Martret,Manchester City,Centre-back (CB),Active,E García,343,,Garcia,E Garcia,,Inactive,NULL
+Philippe,Sandler,Manchester City,Centre-back (CB),Active,P Sandler,350,,,,,Inactive,NULL
+Benjamin,Mendy,Manchester City,Centre-back (CB),Active,B Mendy,351,,,,Full-back (FB),,247
+Nicolás Hernán,Otamendi,Manchester City,Centre-back (CB),Active,N Otamendi,364,Nicolas,,,,,371
+Vincent,Kompany,Manchester City,Centre-back (CB),Active,V Kompany,358,,,,,,336
+İlkay,Gündoğan,Manchester City,Midfielder (MF),Active,İ Gündoğan,353,Ilkay,Gundogan,I Gundogan,,,452
+Taylor,Richards,Manchester City,Midfielder (MF),Active,T Richards,347,,,,,Inactive,NULL
+Oleksandr,Zinchenko,Manchester City,Midfielder (MF),Active,O Zinchenko,340,,,,Full-back (FB),,287
+Bernardo,Mota Veiga de Carvalho e Silva,Manchester City,Midfielder (MF),Active,B Mota,354,,Silva,B Silva,,,457
+David Josué,Jiménez Silva,Manchester City,Midfielder (MF),Active,D Jiménez,334,David,Silva,D Silva,,,576
+Claudio,Gomes,Manchester City,Midfielder (MF),Active,C Gomes,342,,,,,Inactive,NULL
+Adrian,Bernabe Garcia,Manchester City,Midfielder (MF),Active,A Bernabe,355,,Garcia,A Garcia,,Inactive,NULL
+Riyad,Mahrez,Manchester City,Midfielder (MF),Active,R Mahrez,362,,,,,,445
+Kevin,De Bruyne,Manchester City,Midfielder (MF),Active,K De,356,,De Bruyne,K De Bruyne,,,530
+Fernando Luiz,Rosa,Manchester City,Midfielder (MF),Active,F Rosa,357,Fernandinho,NULL,Fernandinho,Defensive Midfielder (DMF),,564
+Ian,Poveda,Manchester City,Midfielder (MF),Active,I Poveda,337,,,,,Inactive,NULL
+Felix Kalu,Nmecha,Manchester City,Midfielder (MF),Active,F Nmecha,345,Felix,,,,Inactive,NULL
+Fabian,Delph,Manchester City,Midfielder (MF),Active,F Delph,352,,,,Defensive Midfielder (DMF),,240
+Philip,Foden,Manchester City,Midfielder (MF),Active,P Foden,346,,,,,,504
+Raheem Shaquille,Sterling,Manchester City,Striker (ST),Active,R Sterling,360,Raheem,,,Midfielder (MF),,477
+Leroy,Sané,Manchester City,Striker (ST),Active,L Sané,341,,Sane,L Sane,Midfielder (MF),,494
+Sergio Leonel,Agüero del Castillo,Manchester City,Striker (ST),Active,S Agüero,344,Sergio,Aguero,S Aguero,,,684
+Gabriel Fernando,de Jesus,Manchester City,Striker (ST),Active,G de,359,Gabriel,Jesus,G Jesus,,,678
+Sergio Germán,Romero,Manchester United,Goalkeeper (GK),Active,S Romero,367,Sergio,,,,,107
+David,de Gea Quintana,Manchester United,Goalkeeper (GK),Active,D de,391,,de Gea,D de Gea,,,135
+Lee,Grant,Manchester United,Goalkeeper (GK),Active,L Grant,375,,,,,,125
+Eric Bertrand,Bailly,Manchester United,Centre-back (CB),Active,E Bailly,383,Eric,,,,,325
+Victor,Nilsson Lindelöf,Manchester United,Centre-back (CB),Active,V Nilsson,384,,Lindelof,V Lindelof,,,362
+Chris,Smalling,Manchester United,Centre-back (CB),Active,C Smalling,378,,,,,,342
+José Diogo,Dalot Teixeira,Manchester United,Centre-back (CB),Active,J Dalot,368,Diogo,Dalot,D Dalot,Full-back (FB),,223
+Ashley,Young,Manchester United,Centre-back (CB),Active,A Young,379,,,,Full-back (FB),,246
+Faustino Marcos Alberto,Rojo,Manchester United,Centre-back (CB),Active,F Rojo,373,Marcos,,M Rojo,,,344
+Luke,Shaw,Manchester United,Centre-back (CB),Active,L Shaw,380,,,,Full-back (FB),,275
+Phil,Jones,Manchester United,Centre-back (CB),Active,P Jones,370,,,,,,322
+Matteo,Darmian,Manchester United,Centre-back (CB),Active,M Darmian,387,,,,Full-back (FB),,270
+Luis Antonio,Valencia Mosquera,Manchester United,Centre-back (CB),Active,L Valencia,371,Antonio,Valencia,A Valencia,Full-back (FB),,225
+Jesse,Lingard,Manchester United,Midfielder (MF),Active,J Lingard,372,,,,,,534
+Mason,Greenwood,Manchester United,Midfielder (MF),Active,M Greenwood,376,,,,,Inactive,NULL
+Marouane,Fellaini-Bakkioui,Manchester United,Midfielder (MF),Active,M Fellaini-Bakkioui,366,,Fellaini,M Fellaini,,Inactive,NULL
+Nemanja,Matić,Manchester United,Midfielder (MF),Active,N Matić,389,,Matic,N Matic,Defensive Midfielder (DMF),,488
+Angel,Gomes,Manchester United,Midfielder (MF),Active,A Gomes,377,,,,,,903
+Frederico,Rodrigues Santos,Manchester United,Midfielder (MF),Active,F Rodrigues,390,Fred,NULL,Fred,,,489
+Andreas,Hoelgebaum Pereira,Manchester United,Midfielder (MF),Active,A Hoelgebaum,385,,Pereira,A Pereira,Defensive Midfielder (DMF),,581
+Ander,Herrera Agüera,Manchester United,Midfielder (MF),Active,A Herrera,392,,Herrera,,Defensive Midfielder (DMF),,446
+Paul,Pogba,Manchester United,Midfielder (MF),Active,P Pogba,393,,,,,,496
+James,Garner,Manchester United,Midfielder (MF),Active,J Garner,365,,,,,Inactive,NULL
+Juan Manuel,Mata García,Manchester United,Midfielder (MF),Active,J Mata,388,Juan,Mata,J Mata,,,435
+Scott,McTominay,Manchester United,Midfielder (MF),Active,S McTominay,382,,,,,,453
+Anthony,Martial,Manchester United,Striker (ST),Active,A Martial,369,,,,Midfielder (MF),,484
+Tahith,Chong,Manchester United,Striker (ST),Active,T Chong,386,,,,,Inactive,NULL
+Marcus,Rashford,Manchester United,Striker (ST),Active,M Rashford,374,,,,,,631
+Romelu,Lukaku Menama,Manchester United,Striker (ST),Active,R Lukaku,381,,Lukaku,R Lukaku,,,633
+Alexis Alejandro,Sánchez Sánchez,Manchester United,Striker (ST),Active,A Sánchez,394,Alexis,Sanchez,A Sanchez,Midfielder (MF),,466
+Freddie,Woodman,Newcastle United,Goalkeeper (GK),Active,F Woodman,405,,,,,Inactive,NULL
+Martin,Dúbravka,Newcastle United,Goalkeeper (GK),Active,M Dúbravka,406,,Dubravka,M Dubravka,,,156
+Rob,Elliot,Newcastle United,Goalkeeper (GK),Active,R Elliot,400,,,,,,108
+Karl,Darlow,Newcastle United,Goalkeeper (GK),Active,K Darlow,416,,,,,,109
+Nathan,Harker,Newcastle United,Goalkeeper (GK),Active,N Harker,417,,,,,Inactive,NULL
+Florian,Lejeune,Newcastle United,Centre-back (CB),Active,F Lejeune,403,,,,,,368
+Jamal,Lascelles,Newcastle United,Centre-back (CB),Active,J Lascelles,407,,,,,,330
+Fabian Lukas,Schär,Newcastle United,Centre-back (CB),Active,F Schär,420,,Schar,F Schar,,,363
+Javier,Manquillo Gaitán,Newcastle United,Centre-back (CB),Active,J Manquillo,398,,Manquillo,,Full-back (FB),,237
+Federico,Fernández,Newcastle United,Centre-back (CB),Active,F Fernández,421,,Fernandez,F Fernandez,,,388
+DeAndre,Yedlin,Newcastle United,Centre-back (CB),Active,D Yedlin,399,,,,Full-back (FB),,283
+Ciaran,Clark,Newcastle United,Centre-back (CB),Active,C Clark,415,,,,,,329
+Antonio,Barreca,Newcastle United,Centre-back (CB),Active,A Barreca,409,,,,Full-back (FB),,295
+Paul,Dummett,Newcastle United,Centre-back (CB),Active,P Dummett,404,,,,Full-back (FB),,216
+Mohamed,Diamé,Newcastle United,Midfielder (MF),Active,M Diamé,395,,Diame,M Diame,Defensive Midfielder (DMF),,429
+Christian,Atsu Twasam,Newcastle United,Midfielder (MF),Active,C Atsu,411,,Atsu,,,,464
+Robert Kenedy,Nunes do Nascimento,Newcastle United,Midfielder (MF),Active,R Nunes,396,Kenedy,NULL,Kenedy,,,459
+Jonjo,Shelvey,Newcastle United,Midfielder (MF),Active,J Shelvey,412,,,,Defensive Midfielder (DMF),,480
+Sung-Yeung,Ki,Newcastle United,Midfielder (MF),Active,S Ki,413,,,,Defensive Midfielder (DMF),,503
+Miguel Ángel,Almirón Rejala,Newcastle United,Midfielder (MF),Active,M Almirón,414,Miguel,Almiron,M Almiron,,,915
+Matt,Ritchie,Newcastle United,Midfielder (MF),Active,M Ritchie,408,,,,,,475
+Sean,Longstaff,Newcastle United,Midfielder (MF),Active,S Longstaff,410,,,,,,912
+Isaac,Hayden,Newcastle United,Midfielder (MF),Active,I Hayden,401,,,,Defensive Midfielder (DMF),,473
+Yoshinori,Muto,Newcastle United,Striker (ST),Active,Y Muto,402,,,,,,643
+José Luis,Sanmartín Mato,Newcastle United,Striker (ST),Active,J Sanmartín,418,Joselu,NULL,Joselu,,,663
+Ayoze,Pérez Gutiérrez,Newcastle United,Striker (ST),Active,A Pérez,419,,Perez,A Perez,,,625
+José Salomón,Rondón Giménez,Newcastle United,Striker (ST),Active,J Rondón,397,Salomon,Rondon,S Rondon,,,645
+Harry,Lewis,Southampton,Goalkeeper (GK),Active,H Lewis,441,,,,,Inactive,NULL
+Alex,McCarthy,Southampton,Goalkeeper (GK),Active,A McCarthy,444,,,,,,127
+Angus,Gunn,Southampton,Goalkeeper (GK),Active,A Gunn,423,,,,,,120
+Alfie,Jones,Southampton,Centre-back (CB),Active,A Jones,430,,,,,Inactive,NULL
+Jannik,Vestergaard,Southampton,Centre-back (CB),Active,J Vestergaard,424,,,,,,360
+Matt,Targett,Southampton,Centre-back (CB),Active,M Targett,431,,,,Full-back (FB),,227
+Maya,Yoshida,Southampton,Centre-back (CB),Active,M Yoshida,425,,,,,,397
+Jack,Stephens,Southampton,Centre-back (CB),Active,J Stephens,448,,,,,,358
+Yan,Valery,Southampton,Centre-back (CB),Active,Y Valery,436,,,,Full-back (FB),,293
+Tyreke,Johnson,Southampton,Centre-back (CB),Active,T Johnson,427,,,,Midfielder (MF),Inactive,NULL
+Kayne,Ramsey,Southampton,Centre-back (CB),Active,K Ramsey,434,,Ramsay,K Ramsay,Full-back (FB),,294
+Jan,Bednarek,Southampton,Centre-back (CB),Active,J Bednarek,422,,,,,,367
+Ryan,Bertrand,Southampton,Centre-back (CB),Active,R Bertrand,439,,,,Full-back (FB),,257
+Joshua,Sims,Southampton,Midfielder (MF),Active,J Sims,446,,,,,Inactive,NULL
+James,Ward-Prowse,Southampton,Midfielder (MF),Active,J Ward-Prowse,432,,,,,,511
+Pierre-Emile,Højbjerg,Southampton,Midfielder (MF),Active,P Højbjerg,426,,Hojbjerg,P Hojbjerg,Defensive Midfielder (DMF),,596
+Callum,Slattery,Southampton,Midfielder (MF),Active,C Slattery,442,,,,,,919
+Mario,Lemina,Southampton,Midfielder (MF),Active,M Lemina,433,,,,Defensive Midfielder (DMF),,585
+Oriol,Romeu Vidal,Southampton,Midfielder (MF),Active,O Romeu,443,,Romeu,,Defensive Midfielder (DMF),,568
+Nathan,Redmond,Southampton,Midfielder (MF),Active,N Redmond,428,,,,,,417
+Stuart,Armstrong,Southampton,Midfielder (MF),Active,S Armstrong,438,,,,,,490
+Mohamed,Elyounoussi,Southampton,Midfielder (MF),Active,M Elyounoussi,429,,,,,,502
+Marcus,Barnes,Southampton,Striker (ST),Active,M Barnes,440,,,,,Inactive,NULL
+Shane,Long,Southampton,Striker (ST),Active,S Long,447,,,,,,632
+Sam,Gallagher,Southampton,Striker (ST),Active,S Gallagher,435,,,,,Inactive,NULL
+Michael,Obafemi,Southampton,Striker (ST),Active,M Obafemi,449,,,,,,653
+Daniel William John,Ings,Southampton,Striker (ST),Active,D Ings,437,Danny,,,,,667
+Charlie,Austin,Southampton,Striker (ST),Active,C Austin,445,,,,,,699
+Alfie,Whiteman,Tottenham Hotspur,Goalkeeper (GK),Active,A Whiteman,471,,,,,Inactive,NULL
+Michel,Vorm,Tottenham Hotspur,Goalkeeper (GK),Active,M Vorm,462,,,,,,136
+Paulo Dino,Gazzaniga,Tottenham Hotspur,Goalkeeper (GK),Active,P Gazzaniga,474,Paulo,,,,,151
+Hugo,Lloris,Tottenham Hotspur,Goalkeeper (GK),Active,H Lloris,476,,,,,,114
+Timothy,Eyoma,Tottenham Hotspur,Centre-back (CB),Active,T Eyoma,465,,,,,Inactive,NULL
+Jan,Vertonghen,Tottenham Hotspur,Centre-back (CB),Active,J Vertonghen,459,,,,,,396
+Davinson,Sánchez Mina,Tottenham Hotspur,Centre-back (CB),Active,D Sánchez,454,,Sanchez,D Sanchez,,,386
+Ben,Davies,Tottenham Hotspur,Centre-back (CB),Active,B Davies,461,,,,Full-back (FB),,263
+Danny,Rose,Tottenham Hotspur,Centre-back (CB),Active,D Rose,473,,,,Full-back (FB),,260
+Toby,Alderweireld,Tottenham Hotspur,Centre-back (CB),Active,T Alderweireld,467,,,,,,355
+Juan Marcos,Foyth,Tottenham Hotspur,Centre-back (CB),Active,J Foyth,456,Juan,,,,,390
+Kieran,Trippier,Tottenham Hotspur,Centre-back (CB),Active,K Trippier,457,,,,Full-back (FB),,207
+Kyle,Walker-Peters,Tottenham Hotspur,Centre-back (CB),Active,K Walker-Peters,451,,,,Full-back (FB),,249
+Serge,Aurier,Tottenham Hotspur,Centre-back (CB),Active,S Aurier,464,,,,Full-back (FB),,256
+Victor,Wanyama,Tottenham Hotspur,Midfielder (MF),Active,V Wanyama,477,,,,Defensive Midfielder (DMF),,526
+Bamidele,Alli,Tottenham Hotspur,Midfielder (MF),Active,B Alli,453,Dele,,D Alli,,,552
+Erik,Lamela,Tottenham Hotspur,Midfielder (MF),Active,E Lamela,460,,,,,,565
+Luke,Amos,Tottenham Hotspur,Midfielder (MF),Active,L Amos,472,,,,,Inactive,NULL
+Oliver,Skipp,Tottenham Hotspur,Midfielder (MF),Active,O Skipp,466,,,,,,908
+Harry,Winks,Tottenham Hotspur,Midfielder (MF),Active,H Winks,455,,,,Defensive Midfielder (DMF),,531
+Christian,Dannemann Eriksen,Tottenham Hotspur,Midfielder (MF),Active,C Dannemann,468,,Eriksen,C Eriksen,,,454
+Lucas,Rodrigues Moura da Silva,Tottenham Hotspur,Midfielder (MF),Active,L Rodrigues,463,,Moura,L Moura,,,463
+Moussa,Sissoko,Tottenham Hotspur,Midfielder (MF),Active,M Sissoko,475,,,,Defensive Midfielder (DMF),,519
+Eric,Dier,Tottenham Hotspur,Midfielder (MF),Active,E Dier,469,,,,Defensive Midfielder (DMF),,584
+George,Marsh,Tottenham Hotspur,Midfielder (MF),Active,G Marsh,452,,,,,Inactive,NULL
+Heung-Min,Son,Tottenham Hotspur,Striker (ST),Active,H Son,450,,,,Midfielder (MF),,481
+Fernando,Llorente Torres,Tottenham Hotspur,Striker (ST),Active,F Llorente,458,,Llorente,,,,646
+Harry,Kane,Tottenham Hotspur,Striker (ST),Active,H Kane,470,,,,,,603
+Heurelho,da Silva Gomes,Watford,Goalkeeper (GK),Active,H da,478,,Gomes,H Gomes,,,115
+Pontus,Dahlberg,Watford,Goalkeeper (GK),Active,P Dahlberg,500,,,,,Inactive,NULL
+Ben,Foster,Watford,Goalkeeper (GK),Active,B Foster,482,,,,,,128
+Adrian,Mariappa,Watford,Centre-back (CB),Active,A Mariappa,484,,,,,,376
+Craig,Cathcart,Watford,Centre-back (CB),Active,C Cathcart,491,,,,,,326
+Christian,Kabasele,Watford,Centre-back (CB),Active,C Kabasele,485,,,,,,348
+Miguel Ángel,Britos Cabrera,Watford,Centre-back (CB),Active,M Britos,497,Miguel,Britos,,,,359
+Sebastian,Prödl,Watford,Centre-back (CB),Active,S Prödl,498,,Prodl,S Prodl,,,350
+José,Holebas,Watford,Centre-back (CB),Active,J Holebas,480,Jose,,,Full-back (FB),,265
+Adam,Masina,Watford,Centre-back (CB),Active,A Masina,487,,,,Full-back (FB),,267
+Daryl,Janmaat,Watford,Centre-back (CB),Active,D Janmaat,481,,,,Full-back (FB),,279
+Marc,Navarro Ceciliano,Watford,Centre-back (CB),Active,M Navarro,495,,Navarro,,Full-back (FB),,255
+Francisco,Femenía Far,Watford,Centre-back (CB),Active,F Femenía,489,Kiko,Femenia,K Femenia,Full-back (FB),,215
+Nathaniel,Chalobah,Watford,Midfielder (MF),Active,N Chalobah,496,,,,Defensive Midfielder (DMF),,532
+Will,Hughes,Watford,Midfielder (MF),Active,W Hughes,503,,,,,,479
+Tom,Cleverley,Watford,Midfielder (MF),Active,T Cleverley,492,,,,Defensive Midfielder (DMF),,594
+Etienne,Capoue,Watford,Midfielder (MF),Active,E Capoue,486,,,,Defensive Midfielder (DMF),,467
+Domingos,Quina,Watford,Midfielder (MF),Active,D Quina,493,,,,Defensive Midfielder (DMF),,909
+Abdoulaye,Doucouré,Watford,Midfielder (MF),Active,A Doucouré,494,,Doucoure,A Doucoure,Defensive Midfielder (DMF),,493
+Ken,Sema,Watford,Midfielder (MF),Active,K Sema,488,,,,,,527
+Roberto Maximiliano,Pereyra,Watford,Midfielder (MF),Active,R Pereyra,501,Roberto,,,,,499
+Andre,Gray,Watford,Striker (ST),Active,A Gray,490,,,,,,606
+Gerard,Deulofeu Lázaro,Watford,Striker (ST),Active,G Deulofeu,502,,Deulofeu,,,,460
+Adalberto,Peñaranda Maestre,Watford,Striker (ST),Active,A Peñaranda,479,,Penaranda,A Penaranda,,Inactive,NULL
+Troy,Deeney,Watford,Striker (ST),Active,T Deeney,499,,,,,,651
+Isaac,Ajayi Success,Watford,Striker (ST),Active,I Ajayi,483,,Success,I Success,,,650
+Adrián,San Miguel del Castillo,West Ham United,Goalkeeper (GK),Active,A San,505,Adrian,NULL,Adrian,,,116
+Łukasz,Fabiański,West Ham United,Goalkeeper (GK),Active,Ł Fabiański,528,,Fabianski,L Fabianski,,,129
+Ryan,Fredericks,West Ham United,Centre-back (CB),Active,R Fredericks,531,,,,Full-back (FB),,224
+Pablo Javier,Zabaleta Girod,West Ham United,Centre-back (CB),Active,P Zabaleta,509,Pablo,Zabaleta,,Full-back (FB),,253
+Issa,Diop,West Ham United,Centre-back (CB),Active,I Diop,522,,,,,,351
+Arthur,Masuaku,West Ham United,Centre-back (CB),Active,A Masuaku,510,,,,,,299
+Aaron,Cresswell,West Ham United,Centre-back (CB),Active,A Cresswell,517,,,,Full-back (FB),,241
+Fabián Cornelio,Balbuena González,West Ham United,Centre-back (CB),Active,F Balbuena,506,Fabian,Balbuena,,,,370
+Angelo,Obinze Ogbonna,West Ham United,Centre-back (CB),Active,A Obinze,520,,Ogbonna,A Ogbonna,,,354
+Conor,Coventry,West Ham United,Midfielder (MF),Active,C Coventry,521,,,,Full-back (FB),Inactive,NULL
+Pedro,Mba Obiang Avomo,West Ham United,Midfielder (MF),Active,P Mba,516,,Obiang,P Obiang,Defensive Midfielder (DMF),,401
+Nathan,Holland,West Ham United,Midfielder (MF),Active,N Holland,504,,,,,Inactive,NULL
+Robert,Snodgrass,West Ham United,Midfielder (MF),Active,R Snodgrass,511,,,,,,590
+Grady,Diangana,West Ham United,Midfielder (MF),Active,G Diangana,524,,,,Defensive Midfielder (DMF),,907
+Mark,Noble,West Ham United,Midfielder (MF),Active,M Noble,512,,,,Defensive Midfielder (DMF),,579
+Carlos Alberto,Sánchez Moreno,West Ham United,Midfielder (MF),Active,C Sánchez,525,Carlos,Sanchez,C Sanchez,Defensive Midfielder (DMF),,599
+Felipe,Anderson Pereira Gomes,West Ham United,Midfielder (MF),Active,F Anderson,519,,Anderson,,,,557
+Manuel,Lanzini,West Ham United,Midfielder (MF),Active,M Lanzini,529,,,,,,586
+Declan,Rice,West Ham United,Midfielder (MF),Active,D Rice,513,,,,Defensive Midfielder (DMF),,381
+Michail,Antonio,West Ham United,Midfielder (MF),Active,M Antonio,507,,,,,,472
+Samir,Nasri,West Ham United,Midfielder (MF),Active,S Nasri,530,,,,,,910
+Jack,Wilshere,West Ham United,Midfielder (MF),Active,J Wilshere,514,,,,Defensive Midfielder (DMF),,411
+Alexandre Nascimento,Costa Silva,West Ham United,Striker (ST),Active,A Costa,527,Xande,Silva,X Silva,,,NULL
+Andy,Carroll,West Ham United,Striker (ST),Active,A Carroll,508,,,,,,698
+Andriy,Yarmolenko,West Ham United,Striker (ST),Active,A Yarmolenko,515,,,,Midfielder (MF),,539
+Marko,Arnautović,West Ham United,Striker (ST),Active,M Arnautović,523,,Arnautovic,M Arnautovic,,,615
+Lucas,Pérez Martínez,West Ham United,Striker (ST),Active,L Pérez,518,,Perez,L Perez,,,637
+Javier,Hernández Balcázar,West Ham United,Striker (ST),Active,J Hernández,526,,Hernandez,J Hernandez,,,661
+Will,Norris,Wolverhampton Wanderers,Goalkeeper (GK),Active,W Norris,538,,,,,Inactive,NULL
+John,Ruddy,Wolverhampton Wanderers,Goalkeeper (GK),Active,J Ruddy,551,,,,,,121
+Rui Pedro,dos Santos Patrício,Wolverhampton Wanderers,Goalkeeper (GK),Active,R dos,545,Rui,Patricio,R Patricio,,,122
+Rúben Gonçalo Silva,Nascimento Vinagre,Wolverhampton Wanderers,Centre-back (CB),Active,R Nascimento,537,,Vinagre,R Vinagre,Full-back (FB),,269
+Willy,Boly,Wolverhampton Wanderers,Centre-back (CB),Active,W Boly,550,,,,,,328
+Ryan,Bennett,Wolverhampton Wanderers,Centre-back (CB),Active,R Bennett,544,,,,,,327
+Cameron,John,Wolverhampton Wanderers,Centre-back (CB),Active,C John,539,,,,,Inactive,NULL
+Conor,Coady,Wolverhampton Wanderers,Centre-back (CB),Active,C Coady,553,,,,,,335
+Max,Kilman,Wolverhampton Wanderers,Centre-back (CB),Active,M Kilman,535,,,,Full-back (FB),Inactive,NULL
+Matt,Doherty,Wolverhampton Wanderers,Centre-back (CB),Active,M Doherty,536,,,,Full-back (FB),,231
+Leander,Dendoncker,Wolverhampton Wanderers,Midfielder (MF),Active,L Dendoncker,532,,,,,,593
+Rúben Diogo,Da Silva Neves,Wolverhampton Wanderers,Midfielder (MF),Active,R Da,546,Ruben,Neves,R Neves,,,448
+Morgan,Gibbs-White,Wolverhampton Wanderers,Midfielder (MF),Active,M Gibbs-White,540,,,,,,443
+João Filipe,Iria Santos Moutinho,Wolverhampton Wanderers,Midfielder (MF),Active,J Iria,547,Joao,Moutinho,J Moutinho,,,571
+Elliot,Watt,Wolverhampton Wanderers,Midfielder (MF),Active,E Watt,541,,,,,Inactive,NULL
+Pedro António,Pereira Gonçalves,Wolverhampton Wanderers,Midfielder (MF),Active,P Pereira,554,Pedro,Goncalves,,,Inactive,NULL
+Ryan,Giles,Wolverhampton Wanderers,Midfielder (MF),Active,R Giles,548,,,,,Inactive,NULL
+Romain,Saïss,Wolverhampton Wanderers,Midfielder (MF),Active,R Saïss,555,,Saiss,R Saiss,,,449
+Diogo José,Teixeira da Silva,Wolverhampton Wanderers,Midfielder (MF),Active,D Teixeira,549,,Jota,D Jota,Striker (ST),,444
+Bernard Patrick,Ashley-Seal,Wolverhampton Wanderers,Striker (ST),Active,B Ashley-Seal,556,Bernard,,,,Inactive,NULL
+Adama,Traoré Diarra,Wolverhampton Wanderers,Striker (ST),Active,A Traoré,552,,Traore,A Traore,Midfielder (MF),,580
+Hélder Wander,Sousa Azevedo Costa,Wolverhampton Wanderers,Striker (ST),Active,H Sousa,533,Helder,Costa,H Costa,,,442
+Ivan Ricardo,Neves Abreu Cavaleiro,Wolverhampton Wanderers,Striker (ST),Active,I Neves,534,Ivan,Cavaleiro,I Cavaleiro,Midfielder (MF),,440
+Raúl Alonso,Jiménez Rodríguez,Wolverhampton Wanderers,Striker (ST),Active,R Jiménez,542,,Jimenez,R Jimenez,,,629
+Niall,Ennis,Wolverhampton Wanderers,Striker (ST),Active,N Ennis,543,,,,,Inactive,NULL

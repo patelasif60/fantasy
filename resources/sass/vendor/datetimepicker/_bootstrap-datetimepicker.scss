@@ -1,0 +1,69 @@
+/*!
+ * Datetimepicker for Bootstrap 3
+ * version : 4.17.47
+ * https://github.com/Eonasdan/bootstrap-datetimepicker/
+ */
+
+.fa {
+    @extend .fal;
+
+    &.fa-clock-o {
+
+        &:before {
+            content: fa-content($fa-var-clock);
+        }
+    }
+
+    &.fa-calendar {
+
+        &:before {
+            content: fa-content($fa-var-calendar-alt);
+        }
+    }
+}
+
+.bootstrap-datetimepicker-widget {
+
+    table td span,
+    table td i {
+        margin: 2px 0;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .timepicker {
+
+        table td,
+        table th {
+            padding: 0.5em 0;
+        }
+
+        table td {
+            height: 54px;
+            line-height: inherit;
+            width: auto;
+            text-align: center;
+
+            a.btn,
+            .btn,
+            span,
+            i {
+                height: 54px;
+            }
+
+            span,
+            i {
+                height: inherit;
+                line-height: inherit;
+                width: 100%;
+            }
+
+            a.btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

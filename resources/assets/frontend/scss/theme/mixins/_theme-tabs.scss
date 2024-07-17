@@ -1,0 +1,17 @@
+@mixin theme-tabs($color, $background-color: $color) {
+    border: 1px solid $color;
+
+    .nav-link {
+        font-weight: $font-weight-bold;
+        @extend .text-uppercase;
+        background-color: mix(theme-color('secondary'), $white , 50%);
+        border-color: mix(theme-color('secondary'), $white , 50%);
+        color: color-yiq(theme-color('secondary'));
+        border-radius: 0;
+
+        &.active {
+            background-color: $background-color;
+            color: color-yiq($background-color);
+        }
+    }
+}

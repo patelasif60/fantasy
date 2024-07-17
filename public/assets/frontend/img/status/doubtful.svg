@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="11">
+	<path fill="rgb(111,164,255)" stroke="none" d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z"/>
+	<text fill="rgb(255,255,255)" stroke="none" transform="translate(3 1)" font-size="8" font-weight="bold" font-family="Roboto" x="0" y="7.84375">
+			?
+	</text>
+
+</svg>

@@ -1,0 +1,32 @@
+.snippet {
+
+    &.code-copy,
+    &.code-copy .btn-copy {
+        display: block;
+        // text-align: center;
+        @include font-size(14);
+        line-height: 16px;
+        padding: 14px 10px;
+        color: theme-color('dark');
+        // font-weight: $font-weight-bold;
+    }
+
+    &.code-copy {
+        background: rgba($white, 0.75);
+        border: 1px dotted theme-color('dark');
+        border-radius: 3px;
+        // letter-spacing: 5px;
+        position: relative;
+        margin-bottom: 20px;
+        @extend .text-truncate;
+
+        .btn-copy {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            box-shadow: none;
+            border: 0;
+        }
+    }
+}

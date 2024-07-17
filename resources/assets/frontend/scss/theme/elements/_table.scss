@@ -1,0 +1,438 @@
+.table {
+    &.custom-table {
+        background: $white;
+        width: 100% !important;
+        font-family: $font-family-secondary;
+
+        th,
+        td {
+            padding: 0.625rem (0.625rem / 2);
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: theme-color("dark");
+            @extend .border-top-0;
+            @include font-size(9);
+            @extend .text-uppercase;
+            @extend .font-weight-bold;
+            @extend .text-uppercase;
+            color: $white;
+            border-bottom-width: 1px;
+            border-bottom-color: $white;
+        }
+
+        td {
+            border-bottom: 1px solid #e5e5ea;
+            @extend .border-top-0;
+            @include font-size(12);
+            white-space: nowrap;
+        }
+
+        tbody {
+            tr {
+                td {
+                    color: $black;
+
+                    &.has-cup {
+                        i {
+                            @extend .font-weight-bold;
+                        }
+                    }
+
+                    .has-card {
+                        img {
+                            width: 12px;
+                            vertical-align: text-top;
+                        }
+                    }
+
+                    >div {
+                        line-height: 1.2;
+                    }
+
+                    .team-name {
+                        @extend .font-weight-bold;
+                        color: theme-color("dark");
+                    }
+
+                    &.team-player-details {
+                        min-width: 180px;
+                    }
+
+                    a {
+                        color: #7F7F96;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+
+                    .player-wrapper {
+                        @extend .d-flex;
+                        @extend .align-items-center;
+                        min-width: 100px;
+                        flex-direction: row;
+
+                        &.min-width-auto {
+                            min-width: auto;
+                        }
+
+                        .custom-badge {
+                            @extend .mr-2;
+                        }
+                    }
+
+                    .icon-plus {
+                        vertical-align: sub;
+                    }
+
+                    .won-player {
+                        @include font-size(10);
+
+                        span {
+                            border-radius: 10px;
+                        }
+                    }
+
+                    .quota-player,
+                    .formation-validation,
+                    .won-by {
+                        @include font-size(10);
+
+                        &.is-disabled,
+                        &:disabled {
+                            color: $btn-link-disabled-color;
+                            opacity: $btn-disabled-opacity;
+                            @include box-shadow(none);
+                            cursor: not-allowed;
+                            pointer-events: none;
+                        }
+                    }
+
+                    .player-state-indicator {
+                        bottom: -7px;
+                        right: -0.25rem;
+                        @include font-size(14);
+                    }
+                }
+
+                &.is-success {
+                    background-color: mix(theme-color("primary"), #fff, 10%);
+                }
+
+                &.is-disabled {
+                    background-color: $gray-100;
+
+                    td {
+                        opacity: 0.3;
+
+                        // &:last-child {
+                        //     opacity: 1;
+                        // }
+                    }
+                }
+            }
+        }
+
+        tfoot {
+            td {
+                @extend .font-weight-bold;
+            }
+        }
+
+        &.is-transparent {
+            background: transparent;
+
+            thead {
+                th {
+                    background-color: transparent;
+                }
+            }
+
+            tbody {
+                tr {
+                    td {
+                        color: $white;
+
+                        a {
+                            color: $white;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.v-align-top {
+            vertical-align: top;
+        }
+
+        &.fixed-column {
+
+            thead,
+            tbody {
+                tr {
+
+                    th,
+                    td {
+                        &:first-child {
+                            position: sticky;
+                            left: -1px;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+
+            tbody {
+                tr {
+                    td {
+                        &:first-child {
+                            background-color: $white;
+                        }
+                    }
+                }
+            }
+
+            &.premier-league-table {
+                thead,
+                tbody {
+                    tr {
+                        th {
+                            background-color: theme-color("dark");
+                        }
+                        td {
+                            background-color: $white;
+                        }
+                        th,
+                        td {
+                            &:nth-child(2) {
+                                position: sticky;
+                                left: auto;
+                                z-index: 1;
+                            }
+                        }
+                        &.sub-header {
+                            th {
+                                position:relative;
+                                left: auto;
+                                z-index: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.table-striped {
+                tbody {
+                    tr {
+                        &:nth-child(odd) {
+                            td:first-child {
+                                background-color: $custom-table-striped-bg;
+                            }
+                        }
+
+                        &:nth-child(even) {
+                            td:first-child {
+                                background-color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.table-hover {
+                tbody {
+                    tr {
+                        &:hover {
+                            background-color: $custom-table-hover-bg;
+
+                            td {
+                                background-color: $custom-table-hover-bg;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.auction-table {
+
+            th,
+            td {
+                padding: $table-cell-padding;
+
+                @include media-breakpoint-down(sm) {
+                    padding: 0.5rem;
+                }
+            }
+        }
+
+        &.manager-teams-list-table {
+            td {
+                &:first-child {
+                    width: 210px;
+                }
+            }
+
+            &.has-player-short-code {
+
+                td {
+                    &:first-child {
+                        width: 80px;
+                    }
+                }
+
+                td {
+                    &:nth-child(2) {
+                        width: 210px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    &.table-with-no-error-msg {
+
+        .form-group {
+
+
+            &.is-invalid {
+
+                .form-control {
+                    border-color: theme-color('danger');
+                }
+
+                .invalid-feedback {
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+    &.point-settings {
+
+        background-color: transparent;
+
+        thead {
+            tr {
+                th {
+                    @include media-breakpoint-up(md) {
+                        &:first-child {
+                            min-width: 150px;
+                        }
+                    }
+
+                    &:not(:first-child) {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        thead,
+        tbody {
+            tr {
+
+                th {
+                    border-bottom-color: theme-color('dark');
+
+                    &:first-child {
+                        padding-left: 0.75rem;
+                        padding-right: 0.75rem;
+                    }
+                }
+
+                td {
+                    background-color: $white;
+                }
+            }
+        }
+
+        thead {
+            tr {
+
+                th,
+                td {
+                    padding-top: 0.75rem;
+                    padding-bottom: 0.75rem;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+
+                th,
+                td {
+                    padding-top: 0.35rem;
+                    padding-bottom: 0.35rem;
+                }
+            }
+        }
+
+        @at-root {
+            .table-input {
+                .form-control {
+                    height: auto;
+                    padding: 2px 5px;
+                    text-align: center;
+                    border-color: $white;
+
+                    &:focus {
+                        background-color: #f7f7f7;
+                        border-color: darken(#f7f7f7, 5);
+                    }
+                    &.has-small-font {
+                        &.else-mobile {
+                            @include media-breakpoint-up(sm) {
+                                @include font-size(12);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .form-control {
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: center;
+            border-color: theme-color('light');
+
+            @include media-breakpoint-down('xs') {
+                @include font-size(10);
+            }
+
+            &:focus {
+                border-color: theme-color('dark');
+            }
+        }
+    }
+}
+
+table {
+    &.dataTable {
+        &.dtr-inline {
+            &.collapsed {
+                >tbody {
+                    >tr[role="row"] {
+                        >td,
+                        >th {
+                            &:first-child {
+                                &:before {
+                                    line-height: 17px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

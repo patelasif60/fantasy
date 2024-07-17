@@ -1,0 +1,10 @@
+.contact {
+    display: flex;
+    align-items: center;
+    min-height: auto;
+    padding-bottom: 0;
+    padding-top: 10%;
+    & + footer {
+        padding-top: 20px;
+    }
+}

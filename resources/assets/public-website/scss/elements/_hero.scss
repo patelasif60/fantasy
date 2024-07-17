@@ -1,0 +1,191 @@
+.hero-section {
+    display: flex;
+    min-height: calc(90vh);
+
+    >.container,
+    >.container-fluid {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+    }
+
+    @at-root {
+        .players-images {
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            //overflow: hidden;
+            z-index: 1;
+
+            .pl-img-item {
+                position: relative;
+                height: 100%;
+                // flex: 1;
+                display: flex;
+                align-items: center;
+
+                img {
+                    // height: 100%;
+                    // max-height: 460.699px;
+                    height: calc(100vh - 200px);
+                    display: block;
+                    margin: 0 auto;
+                }
+
+                &:first-child {
+                    img {
+                        z-index: -1;
+                        // transform: translateX(41%) scale(0.75);
+
+                        @include media-breakpoint-up(md) {
+                            transform: translateX(42%) scale(0.90);
+                        }
+                    }
+                }
+
+                &:last-child {
+                    img {
+                        z-index: -1;
+                        // transform: translateX(-55%) scale(0.75);
+
+                        @include media-breakpoint-up(md) {
+                            transform: translateX(-62%) scale(0.85);
+                        }
+                    }
+                }
+            }
+
+            &.slick-slider {
+
+                .pl-img-item {
+
+                    img {
+                        height: 70vh;
+
+                        @include media-breakpoint-down(md) {
+                            height: auto;
+                            max-height: calc(100vh - 200px);
+                            max-width: 100%;
+                        }
+                    }
+
+                    &:first-child,
+                    &:last-child {
+                        img {
+                            z-index: initial;
+                            transform: none;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    &.hero-about {
+        .players-images {
+            .pl-img-item {
+                &:last-child {
+                    img {
+                        @include media-breakpoint-up(md) {
+                            transform: translateX(-30%) scale(0.75);
+                        }
+
+                        @include media-breakpoint-only(md) {
+                            transform: translateX(-51%) scale(0.75);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 1 auto;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+    }
+
+    .hero-title {
+        z-index: 4;
+        font-family: $font-family-secondary;
+        text-transform: uppercase;
+        // @include font-size(105);
+        // line-height: 85px;
+        font-size: 16vh;
+        line-height: 14vh;
+        color: $white;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 4rem;
+            line-height: 55px;
+        }
+    }
+
+    &.is-about {
+        .players-images {
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            z-index: -1;
+
+            .pl-img-item {
+                position: relative;
+                height: 100%;
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 72px;
+
+                img {
+                    height: 100%;
+                    max-height: 77vh;
+                    display: block;
+                    margin: 0 auto;
+                    transform: none;
+                }
+            }
+        }
+
+        .shape-layer {
+            svg {
+                max-width: 580px;
+                // margin-left: 28px;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .shape-layer {
+            transform: translateY(-4%) rotate(90deg);
+        }
+    }
+
+    .shape-layer svg {
+        height: 77vh;
+        max-height: 77vh;
+    }
+}
+
+.action-area {
+    position: relative;
+    // padding: 10px;
+    display: flex;
+    justify-content: center;
+}

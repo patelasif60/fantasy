@@ -1,0 +1,24 @@
+.form-group {
+    .select2-container--default {
+        @extend .w-100;
+
+        .select2-selection--single {
+            height: 45px;
+            border-color: $input-border-color;
+            // border-right: none;
+
+            &:focus,
+            &:active {
+                border-color: $input-border-color;
+            }
+        }
+    }
+
+    // .input-group {
+    //     .select2-container--default {
+    //         .select2-selection--single {
+    //             border-right: none;
+    //         }
+    //     }
+    // }
+}

@@ -1,0 +1,86 @@
+// .left-side-navigation,
+// .right-side-navigation {
+//     @extend .position-relative;
+//     z-index: 1;
+
+//     &:before {
+//         content: '';
+//         @extend .position-absolute;
+//         @extend .h-100;
+//         @extend .w-100;
+//         left: 0;
+//         top: 0;
+//         opacity: 0.5;
+//         z-index: -1;
+//     }
+// }
+
+.left-side-navigation {
+    // @extend .pt-4;
+
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+
+    // &:before {
+    //     background: mix(theme-color('dark'), $white, 95%);
+    // }
+}
+
+.right-side-navigation {
+    // @extend .px-4;
+
+    // &:before {
+    //     background: mix(theme-color('dark'), $white, 85%);
+    // }
+}
+
+// IE Specific
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .incompatible-browser-alert {
+        ~ .navbar {
+            &.fixed-top {
+                top: 40px;
+            }
+        }
+    }
+}
+
+@supports (-ms-accelerator:true) {
+    .incompatible-browser-alert {
+        ~ .navbar {
+            &.fixed-top {
+                top: 40px;
+            }
+        }
+    }
+}
+
+_:-ms-fullscreen, :root .incompatible-browser-alert {
+    ~ .navbar {
+        &.fixed-top {
+            top: 40px;
+        }
+    }
+}
+
+@supports (-ms-ime-align: auto) {
+    .incompatible-browser-alert {
+        ~ .navbar {
+            &.fixed-top {
+                top: 40px;
+            }
+        }
+    }
+}
+
+@supports (-ms-ime-align: auto) {
+    .incompatible-browser-alert {
+        ~ .navbar {
+            &.fixed-top {
+                top: 40px;
+            }
+        }
+    }
+}

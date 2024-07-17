@@ -1,0 +1,9 @@
+.loader {
+    border: 7px solid $gray-100;
+    border-top: 7px solid theme-color("secondary");
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spinner-border 2s linear infinite;
+    margin: 0 auto;
+}

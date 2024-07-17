@@ -1,0 +1,61 @@
+// @each $color,
+// $value in $colors {
+//     @if $color=="white" {
+//         .btn-outline-#{$color} {
+//             @include button-outline-variant($value);
+//         }
+//     }
+// }
+
+.btn {
+    @extend .text-uppercase;
+    box-shadow: 0 5px 10px 0 rgba($black, 0.12);
+
+    &.has-icon {
+        text-align: left;
+        padding: 0.5625rem; // 9px + 1px of border
+        @extend .d-inline-flex;
+        @extend .align-items-center;
+
+        i,
+        svg {
+            margin-right: 10px;
+            width: $btn-icon-font-size;
+            font-size: 1.5rem;
+        }
+    }
+
+    &.has-badge {
+        .custom-badge {
+            @extend .d-inline-block;
+            // @extend .align-middle;
+            border-radius: 9px;
+            height: 18px;
+            width: initial;
+            padding: 1px 9px;
+            // @include font-size(15);
+            @include font-size(14);
+            line-height: 16px;
+        }
+    }
+
+    &.btn-boxshadow-none {
+        box-shadow: none;
+    }
+
+    &.disabled,
+    &[disabled] {
+        pointer-events: none;
+        background-color: mix(theme-color('secondary'), $white , 50%);
+        border-color: mix(theme-color('secondary'), $white , 50%);
+        color: color-yiq(theme-color('secondary'));
+        opacity: 1;
+    }
+}
+
+.btn-outline-white {
+    @include hover-focus {
+        color: mix($white, #000, 90%);
+        border-color: mix($white, #000, 90%);
+    }
+}

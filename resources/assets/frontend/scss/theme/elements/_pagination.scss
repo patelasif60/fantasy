@@ -1,0 +1,16 @@
+.dataTables_paginate {
+	.pagination {
+		@extend .list-unstyled;
+		padding-top: 10px;
+		.page-item {
+			display: inline;
+			padding: 0 5px;
+			.page-link {
+				@extend .text-white;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

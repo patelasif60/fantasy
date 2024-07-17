@@ -1,0 +1,318 @@
+.cta-block {
+    // @include gradient-directional(#F2F2F4, #CCCCD5, 180deg);
+    padding: 20px;
+    // border-radius: 2px;
+    box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.5), 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+    // @extend .position-relative;
+    background: rgba(242, 242, 244, 0.84);
+    transition: all 0.25s ease-in-out;
+    @extend .d-flex;
+    @extend .justify-content-between;
+    color: theme-color("dark");
+
+    .league-image {
+        // @extend .position-absolute;
+        // left: -13px;
+        // top: 15px;
+        // height: 60px;
+        // width: 60px;
+
+        // .league-crest {
+        //     max-width: 100%;
+        //     width: 100%;
+        //     object-fit: contain;
+        //     object-position: center;
+        // }
+        flex: none;
+        margin-right: 5px;
+
+        span {
+            &.green {
+                color: lighten(theme-color("primary"), 5%);
+            }
+
+            &.silver {
+                color: lighten(theme-color("secondary"), 5%);
+            }
+
+            &.orange {
+                color: lighten(theme-color("tertiary"), 5%);
+            }
+
+            i {
+                font-size: 4rem;
+            }
+        }
+    }
+
+    .cta-wrapper {
+        // @extend .d-flex;
+        // @extend .justify-content-between;
+        // padding-left: 52px;
+
+        .cta-title {
+            @extend .m-0;
+            @extend .font-weight-bold;
+            @include font-size(20);
+            line-height: 28px;
+            // color: theme-color("dark");
+        }
+
+        // .cta-link-block {
+        // flex: 0 0 108px;
+        // max-width: 108px;
+        // @extend .text-center;
+        // @extend .d-flex;
+        // @extend .justify-content-center;
+
+        // span {
+        //     font-size: 0.625rem;
+        //     color: theme-color("dark");
+        //     text-decoration: $link-hover-decoration;
+        //     @extend .text-uppercase;
+        // }
+        // }
+
+        .badge {
+            // background-color: theme-color("primary");
+            // color: $white;
+            padding: 0;
+            // border-radius: 12px;
+            @include font-size(16);
+            line-height: 20px;
+            @extend .font-weight-bold;
+            // @extend .mb-0;
+
+            small {
+                @include font-size(8);
+                line-height: 1;
+                vertical-align: middle;
+                display: block;
+            }
+        }
+
+        .cta-text {
+            @include font-size(12);
+            // line-height: 20px;
+            @extend .mb-0;
+        }
+    }
+
+    .cta-wrapper+.cta-wrapper {
+        flex: none;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    // .cta-link-block+.cta-link-block {
+    //     margin-top: 3px;
+    // }
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        // box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.5), 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+        // @include gradient-directional($white, #E5E5EA, 180deg);
+        background-color: theme-color("primary");
+        color: $white;
+        box-shadow: none;
+
+        .league-image {
+            span {
+
+                &.green,
+                &.silver,
+                &.orange {
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    // &:focus,
+    // &.active,
+    // &:active {
+    //     box-shadow: 0 0 10px 0 theme-color("tertiary");
+    //     @include gradient-directional(#efe6dd, #f7cf9b, 180deg);
+    // }
+}
+
+.cta-block-stepper {
+    @include gradient-directional(#F2F2F4, #CCCCD5, 180deg);
+    padding: 1.25rem;
+    border-radius: 2px;
+    box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.5), 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+
+    a {
+        @extend .d-block;
+        color: theme-color("dark");
+        font-size: $font-size-base * 1.125;
+        @extend .font-weight-bold;
+
+        &:after {
+            @extend %fa-icon;
+            @extend .fas;
+            content: fa-content($fa-var-angle-right);
+            font-family: 'Font Awesome 5 pro';
+            @extend .float-right;
+            margin-left: 0.9375rem;
+            margin-top: 3px;
+        }
+
+        &:hover {
+            color: theme-color("primary");
+            text-decoration: $link-decoration;
+        }
+    }
+
+    p {
+        @extend .mb-0;
+        margin-top: $label-font-size;
+        font-size: $label-font-size;
+        padding-right: 60px;
+    }
+
+    &:hover {
+        box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.5), 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+        @include gradient-directional($white, #E5E5EA, 180deg);
+    }
+
+    &:focus,
+    &.active {
+        box-shadow: 0 0 10px 0 theme-color("tertiary");
+        @include gradient-directional(#FEF9F4, #FBEAD3, 180deg);
+    }
+}
+
+.cta-block-stepper-options {
+    @extend .d-block;
+    @extend .rounded-0;
+    color: theme-color("dark");
+    // font-size: $font-size-base * 1.125;
+    @extend .font-weight-bold;
+    background: rgba(242, 242, 244, 0.84);
+
+    .img-cup {
+        // margin-left: -24px;
+        // margin-top: -25px;
+        margin-right: 20px;
+        font-size: 60px;
+
+        @include media-breakpoint-down(sm) {
+            margin-right: 10px;
+            font-size: 40px;
+        }
+    }
+
+    p {
+        @extend .mb-0;
+        // margin-top: $label-font-size;
+        font-size: $label-font-size;
+        padding-right: 60px;
+        font-weight: $font-weight-normal;
+        line-height: 16px;
+    }
+
+    &.team-management-stepper {
+        background-image: none;
+        transition: all 0.25s ease-in-out;
+
+        &:hover,
+        &:focus {
+            background-image: none;
+            background-color: theme-color("primary");
+            color: $white;
+            box-shadow: none;
+        }
+
+        .team-management-block {
+            @extend .align-items-start;
+
+            .content-wrapper {
+                flex: 1;
+            }
+        }
+    }
+}
+
+.cta-block-preauction-wrapper {
+    // @include gradient-directional(#F2F2F4, #CCCCD5, 180deg);
+    // padding: 10px $grid-gutter-width / 2;
+    // box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.5), 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+    // background-image: linear-gradient(180deg, #F2F2F4 0%, #CCCCD5 100%);
+    // box-shadow: 0 2px 20px 0 rgba($black, 0.25);
+
+    // @include media-breakpoint-up(md) {
+    //     padding: 10px 0;
+    // }
+
+    .cta-block-preauction {
+        display: flex;
+
+        // .league-image {
+        //     height: 58px;
+        //     width: 58px;
+        //     overflow: hidden;
+
+        //     .league-crest {
+        //         width: 100%;
+        //     }
+        // }
+
+        .cta-wrapper {
+            @extend .d-flex;
+            @extend .justify-content-between;
+            // @extend .align-items-center;
+            flex: 1;
+            // padding-left: 10px;
+
+            .cta-title {
+                @extend .mb-0;
+                @extend .font-weight-bold;
+                @include font-size(14);
+                line-height: 20px;
+                @extend .text-uppercase;
+                // color: theme-color("dark");
+                @extend .text-truncate;
+
+                @include media-breakpoint-up(md) {
+                    @include font-size(18);
+                }
+            }
+
+            .cta-link {
+                @include font-size(12);
+                line-height: 20px;
+                @extend .text-uppercase;
+                // text-decoration: underline;
+
+                // @include media-breakpoint-up(md) {
+                //     @include font-size(14);
+                // }
+
+                a {
+                    color: $white;
+                    display: inline-block;
+                    // text-decoration: underline;
+                    transition: all 0.25s ease;
+
+                    @include hover-focus {
+                        opacity: 0.56;
+                    }
+
+                    .icon-add {
+                        img {
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+
+            .cta-add-friend {
+                flex-shrink: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.modal-fullscreen {
+    .modal-dialog {
+        max-width: 100%;
+        margin: 0;
+        height: 100vh;
+
+        .modal-content {
+            display: flex;
+            flex-direction: column;
+            height: calc(100vh);
+            overflow: hidden;
+
+            .modal-header {
+                padding: 0;
+                > div {
+                    width: 100%;
+                }
+            }
+
+            .modal-header,
+            .modal-footer {
+                align-items: center;
+                display: flex;
+                flex-shrink: 0;
+                position: relative;
+            }
+
+            .modal-body {
+                webkit-overflow-scrolling: touch;
+                flex-grow: 1;
+                flex-shrink: 1;
+                overflow: auto;
+                padding: 0;
+            }
+        }
+    }
+}

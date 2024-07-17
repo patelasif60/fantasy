@@ -1,0 +1,34 @@
+footer {
+    padding: 100px 0;
+    text-align: center;
+
+    h5 {
+        font-family: $font-family-secondary;
+        text-transform: uppercase;
+        font-size: 4vh;
+        line-height: 2.3vh;
+    }
+
+    .social-el {
+        margin: $grid-gutter-width/2 auto;
+
+        .social-btns {
+            @extend .list-unstyled;
+            @extend .list-inline;
+
+            .social-item {
+                @extend .list-inline-item;
+            }
+
+            .social-link {
+                font-size: 5vh;
+                transition: all 0.25s ease;
+
+                @include hover {
+                    text-decoration: none;
+                    color: theme-color('success');
+                }
+            }
+        }
+    }
+}

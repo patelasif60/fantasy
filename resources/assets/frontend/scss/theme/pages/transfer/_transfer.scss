@@ -1,0 +1,22 @@
+.player-transfer-icon {
+    @include font-size(24);
+
+    span+span {
+        margin-left: 15px;
+    }
+}
+
+.transfer-process {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    color: $white;
+    background: $red;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}

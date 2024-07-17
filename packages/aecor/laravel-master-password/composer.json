@@ -1,0 +1,53 @@
+{
+    "name": "aecor/laravel-master-password",
+    "description": "laravel-master-password",
+    "keywords": [
+        "aecor",
+        "laravel-master-password"
+    ],
+    "homepage": "https://github.com/aecor/laravel-master-password",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohin Lakdawala",
+            "email": "mlakdawala@aecordigital.com",
+            "homepage": "https://aecordigital.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.0",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aecor\\MasterPassword\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aecor\\MasterPassword\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aecor\\MasterPassword\\MasterPasswordServiceProvider"
+            ],
+            "aliases": {
+                "MasterPassword": "Aecor\\MasterPassword\\MasterPasswordFacade"
+            }
+        }
+    }
+}

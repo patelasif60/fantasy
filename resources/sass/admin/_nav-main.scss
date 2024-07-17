@@ -1,0 +1,29 @@
+// Custom styles
+//
+// Main Navigation
+// --------------------------------------------------
+
+// Sidebar
+.nav-main {
+    // Default links
+    a {
+        &.nav-submenu::before,
+        &.nav-submenu::after {
+            font-family: 'Font Awesome 5 Pro';
+            font-weight: 300
+        }
+    }
+}
+
+// Header
+.nav-main-header {
+    @include media-breakpoint-up(lg) {
+        // Default links
+        a {
+            &.nav-submenu::before {
+                font-family: 'Font Awesome 5 Pro';
+                font-weight: 300
+            }
+        }
+    }
+}

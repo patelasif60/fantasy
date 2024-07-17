@@ -1,0 +1,238 @@
+input[name="crest"] {
+    visibility: hidden;
+}
+
+.fileuploader-theme-thumbnails {
+    margin-top: 0;
+    background-color: transparent;
+    border-radius: $btn-border-radius;
+
+    .fileuploader-items {
+        .fileuploader-items-list {
+            margin: 0;
+            // @include make-row();
+            .fileuploader-item {
+                padding: 0;
+                height: 150px;
+                .fileuploader-item-image {
+                    border-radius: $btn-border-radius;
+                    background: theme-color('dark');
+                }
+            }
+        }
+
+        .fileuploader-thumbnails-input,
+        .fileuploader-items-list .fileuploader-item {
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            // @include make-col-ready();
+            // @include make-col(12);
+        }
+
+        .fileuploader-item {
+            border-bottom: 0;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        .fileuploader-item-inner {
+            background: rgba(0, 0, 0, 0.02);
+            overflow: hidden;
+            z-index: 1;
+        }
+    }
+
+    .fileuploader-thumbnails-input-inner,
+    .fileuploader-item-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: $btn-border-radius;
+    }
+
+    .fileuploader-thumbnails-input-inner {
+        // background: $body-bg-light;
+        // border: 2px dotted $input-border-color;
+        // text-align: center;
+        // font-size: $h4-font-size;
+        // line-height: $headings-line-height;
+        // color: $input-color;
+        // cursor: pointer;
+        // // opacity: 0.5;
+        // -webkit-user-select: none;
+        // -moz-user-select: none;
+        // -ms-user-select: none;
+        // user-select: none;
+        // -webkit-transition: all 0.2s ease;
+        // transition: all 0.2s ease;
+
+        // &:hover {
+        //     // opacity: 1;
+        //     background-color: $input-focus-bg;
+        //     border-color: $input-focus-border-color;
+        // }
+
+        // &:active {
+        //     background-color: $input-focus-bg;
+        // }
+        @extend .btn;
+        @extend .btn-outline-white;
+        > i {
+            display: none;
+        }
+        // &:after {
+        //     content: 'Upload Your Own Icon';
+        // }
+    }
+
+    .fileuploader-dragging .fileuploader-thumbnails-input-inner {
+        background-color: $input-focus-bg;
+        border-color: $input-focus-border-color;
+    }
+
+    .fileuploader-thumbnails-input-inner i {
+        position: absolute;
+        font-style: normal;
+        left: 0;
+        top: 0;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .fileuploader-item-inner .thumbnail-holder {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fileuploader-items-list .fileuploader-item-image {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .fileuploader-items .fileuploader-item {
+        .fileuploader-item-icon i {
+            display: none;
+        }
+
+        .fileuploader-action-popup {
+            border-radius: 6px;
+            z-index: 1;
+        }
+    }
+
+    .fileuploader-item {
+        .type-holder {
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            padding: 4px 6px;
+            background: rgba(0, 0, 0, 0.4);
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 12px;
+            border-radius: 4px;
+            z-index: 2;
+        }
+
+        .actions-holder {
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            z-index: 2;
+            height: 20px;
+        }
+    }
+
+    .fileuploader-items .fileuploader-item .fileuploader-action {
+        color: #fff;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+
+        +.fileuploader-action {
+            margin-left: 8px;
+        }
+    }
+
+    .fileuploader-item .content-holder {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 6px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+        background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+        z-index: 2;
+
+        h5 {
+            display: block;
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            font-weight: normal;
+            color: #fff;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        span {
+            display: block;
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+
+    .fileuploader-items .fileuploader-item.upload-failed .fileuploader-item-inner {
+        background: #db6868;
+    }
+
+    .fileuploader-item .progress-holder {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        display: none;
+        z-index: 1;
+
+        .fileuploader-progressbar {
+            position: relative;
+            top: 50%;
+            width: 80%;
+            height: 6px;
+            margin: 0 auto;
+            margin-top: -6px;
+            background: #dde4f6;
+        }
+    }
+
+    .fileuploader-items .fileuploader-item.sorting {
+        padding-top: 0;
+        margin: 0;
+    }
+
+    .fileuploader-sorter-placeholder {
+        background: #f0f3f9;
+        border-radius: 6px;
+    }
+}
+
+.fileuploader-popup {
+    .fileuploader-popup-content {
+        @include media-breakpoint-down(md) {
+            position: absolute;
+            top: auto;
+            bottom: 0;
+        }
+    }
+}

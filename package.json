@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.7.0",
+    "axios": "^0.18",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.1",
+    "jquery": "^3.4.1",
+    "laravel-mix": "^2.0",
+    "lodash": "^4.17.5",
+    "popper.js": "^1.15.0",
+    "vue": "^2.5.17"
+  },
+  "dependencies": {
+    "@zip-software/vue-virtual-stream": "^1.8.0",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.14",
+    "element-ui": "^2.10.1",
+    "firebase": "^6.0.2",
+    "fitty": "^2.2.6",
+    "jquery-mousewheel": "^3.1.13",
+    "laravel-echo": "^1.5.3",
+    "lazyload": "^2.0.0-beta.2",
+    "malihu-custom-scrollbar-plugin": "^3.1.5",
+    "moment": "^2.24.0",
+    "owl.carousel": "^2.3.4",
+    "paroller.js": "^1.4.6",
+    "pusher-js": "^4.4.0",
+    "slick-carousel": "^1.8.1",
+    "v-suggestions": "^1.1.1",
+    "vee-validate": "^2.2.7",
+    "vue-axios": "^2.1.4",
+    "vue-moment": "^4.0.0",
+    "vue-multiselect": "^2.1.4",
+    "vue-popperjs": "^2.0.3",
+    "vue-simple-suggest": "^1.9.5",
+    "vuedraggable": "^2.20.0",
+    "vuex": "^3.1.1",
+    "vuexfire": "^3.0.0-alpha.18"
+  }
+}

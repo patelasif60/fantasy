@@ -1,0 +1,114 @@
+@function get-breakpoints($key: "md") {
+    @return map-get($container-max-widths, $key);
+}
+
+.chat-modal {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: $zindex-popover + 1;
+
+    @include media-breakpoint-up(lg) {
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    &.show {
+        display: flex !important;
+    }
+
+    .header,
+    .footer {
+        position: relative;
+    }
+
+    .modal-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh);
+        overflow: hidden;
+        -ms-overflow-y: visible;
+
+        @include media-breakpoint-up(lg) {
+            height: calc(100vh - 100px);
+            width: 100%;
+            // flex: 0 0 50%;
+            align-items: flex-end;
+            // align-items: stretch;
+            max-width: get-breakpoints("lg");
+            margin-bottom: $header-footer-height;
+            margin-right: auto;
+            margin-left: auto;
+            flex-direction: row;
+        }
+
+        @include media-breakpoint-up(xl) {
+            max-width: get-breakpoints("xl");
+        }
+    }
+
+    .dismiss-area {
+        display: none;
+
+        @include media-breakpoint-up(lg) {
+            display: flex;
+            width: 50%;
+            height: 100%;
+        }
+    }
+
+    .modal-card-head,
+    .modal-card-foot {
+        align-items: center;
+        background-color: theme-color('dark');
+        display: flex;
+        flex-shrink: 0;
+        justify-content: flex-start;
+        position: relative;
+
+        @include media-breakpoint-up(lg) {
+            display: none;
+        }
+    }
+
+    .modal-card-body {
+        -webkit-overflow-scrolling: touch;
+        background-color: $white;
+        flex-grow: 1;
+        flex-shrink: 1;
+        overflow: auto;
+
+        @include media-breakpoint-up(lg) {
+            width: 50%;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+    }
+
+    .modal-card-head {
+        .top-navigation-bar {
+            flex: 1;
+        }
+    }
+}
+
+.chat-appears {
+    @include media-breakpoint-up(lg) {
+        .modal-backdrop {
+            ;
+            background-color: transparent;
+
+            &.show {
+                opacity: 0;
+            }
+        }
+    }
+}

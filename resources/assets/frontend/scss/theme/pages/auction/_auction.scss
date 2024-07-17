@@ -1,0 +1,528 @@
+.live-auction {
+    &.pitch-layout {
+        .pitch-area {
+
+            .pitch-players-standing,
+            .pitch-players-standing .pitch-player-position-wrapper,
+            .pitch-players-standing .pitch-player-position-wrapper .player-position-view {
+                display: flex;
+            }
+
+            .pitch-players-standing .pitch-player-position-wrapper,
+            .pitch-players-standing .pitch-player-position-wrapper .player-position-view {
+                flex: 1;
+                position: relative;
+                padding: 0 8px;
+            }
+
+            .pitch-players-standing {
+
+                .player-position-view {
+                    flex-direction: column;
+
+                    .player-position-grid {
+                        @include make-row();
+                        justify-content: space-around;
+
+                        &.gutters-tiny {
+                            margin-right: (-($space-row-gutter-sm / 2));
+                            margin-left: (-($space-row-gutter-sm / 2));
+
+                            >.player-position-col,
+                            >[class*="player-position-col"] {
+                                padding-left: ($space-row-gutter-sm / 2);
+                                padding-right: ($space-row-gutter-sm / 2);
+
+                                @include media-breakpoint-down(sm) {
+                                    padding-left: 1px;
+                                    padding-right: 1px;
+                                }
+                            }
+                        }
+
+                        .player-position-col {
+                            @include make-col-ready();
+                            // @include make-col(1, 5);
+                            flex: 0 0 75px;
+                            max-width: 75px;
+                            @include media-breakpoint-down(md) {
+                                flex: 0 0 90px;
+                                max-width: 90px;
+                            }
+                            // @include media-breakpoint-down(lg) {
+                            //     @include make-col(1, 4);
+                            // }
+                        }
+                    }
+
+                    .player-position-grid {
+                        position: relative;
+                        flex: 1 0 auto;
+                        // @include make-row();
+                        justify-content: center;
+                        align-items: center;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+
+                        @include media-breakpoint-down(lg) {
+                            padding-top: 10px;
+                            padding-bottom: 0px;
+                        }
+
+                        &:before {
+                            content: '';
+                            background: rgba(0, 0, 0, 0.3);
+                            position: absolute;
+                            right: -(($space-row-gutter-sm/2) * 3);
+                            bottom: 0;
+                            top: 0;
+                            left: -(($space-row-gutter-sm/2) * 3);
+                        }
+
+                        &:nth-child(even) {
+                            &:before {
+                                background: rgba(0, 0, 0, 0.5);
+                            }
+                        }
+
+                        .position-wrapper {
+                            position: absolute;
+                            top: 0;
+                            right: ($space-row-gutter-sm / 2);
+                            bottom: auto;
+                            left: ($space-row-gutter-sm / 2);
+
+                            .position-action-area {
+                                position: relative;
+                                margin-top: $space-row-gutter-sm*3;
+
+                                @include media-breakpoint-down(lg) {
+                                    margin-top: $space-row-gutter-sm;
+                                }
+
+                                // margin-left: $space-row-gutter-sm*3;
+                                display: flex;
+                                flex-direction: column;
+
+                                a {
+                                    position: relative;
+                                    text-decoration: none;
+                                    transition: all 0.25s ease-in-out;
+
+                                    @include hover-focus {
+                                        text-decoration: none;
+                                        opacity: 0.9;
+                                    }
+                                }
+
+                                .player-position-indicator {
+                                    position: absolute;
+                                    top: -13px;
+
+                                    @include media-breakpoint-down(lg) {
+                                        top: -2px;
+                                    }
+
+                                    left: -9px;
+                                    z-index: 2;
+
+                                    img {
+                                        width: 27px;
+
+                                        @include media-breakpoint-down(lg) {
+                                            width: 19px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .standing-view-player-position {
+                                @extend .text-white;
+                                @extend .text-uppercase;
+                                @extend .rounded;
+                                @include font-size(12);
+                                padding: 4px 6px 4px 13px;
+                                @extend .font-weight-bold;
+                                font-family: $font-family-secondary;
+                                letter-spacing: 0.5px;
+
+                                a {
+                                    color: $white;
+
+                                    &:hover,
+                                    &:focus {
+                                        color: inherit;
+                                        text-decoration: none;
+                                    }
+                                }
+
+                                &.info-text {
+                                    @include font-size(11);
+                                    @extend .font-weight-normal;
+                                }
+                            }
+                        }
+
+                        &.has-no-player {
+                            align-items: flex-start;
+                        }
+
+                        .time-indicator {
+                            width: 14px;
+                            height: 14px;
+                            margin-right: 5px;
+
+                            img {
+                                max-width: 14px;
+                                max-height: 14px;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.auction-content-wrapper {
+    .auction-content {
+        flex: 1;
+
+        .auction-crest {
+            width: 50px;
+            flex-shrink: 0;
+
+            img {
+                max-width: 100%;
+                width: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+
+        .auction-body {
+            p {
+                @extend .text-truncate;
+            }
+        }
+    }
+
+    .remaining-budget {
+        background: $gray-100;
+
+        h6 {
+            @include font-size(12);
+            font-family: $font-family-secondary;
+        }
+    }
+}
+
+.auction-listing {
+    // padding: 0 $list-group-item-padding-x;
+
+    .auction-list-group {
+        // margin: ($grid-gutter-width/2) 0;
+
+        .auction-list-group-item {
+            position: relative;
+            display: block;
+            padding: $list-group-item-padding-x;
+            // Place the border on the list items and negative margin up for better styling
+            margin-bottom: -$list-group-border-width;
+            color: theme-color('dark');
+            // background-color: $list-group-bg;
+            background: rgba(242, 242, 244, 0.84);
+            box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.5), 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+            transition: all 0.25s ease-in-out;
+            // border-top: $list-group-border-width solid $list-group-border-color;
+
+            &:last-child {
+                margin-bottom: 0;
+                // border-bottom: $list-group-border-width solid $list-group-border-color;
+            }
+
+            &.disabled,
+            &:disabled {
+                color: $list-group-disabled-color;
+                pointer-events: none;
+                background-color: $list-group-disabled-bg;
+            }
+
+            @include hover-focus {
+                color: inherit;
+                text-decoration: none;
+            }
+
+            &[href] {
+                transition: all 0.25s ease;
+
+                @include hover-focus {
+                    color: inherit;
+                    text-decoration: none;
+                    opacity: 0.54;
+                }
+
+                &:active {
+                    opacity: 0.54;
+                }
+            }
+
+            .auction-items {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-items: center;
+
+                .item {
+                    display: flex;
+                    align-items: center;
+
+                    &:first-child {
+                        // flex: 0 0 50%;
+                        flex: 1;
+                    }
+
+                    >form {
+                        margin-top: 15px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        // flex: 0 0 100%;
+                    }
+
+                    .league-crest {
+                        margin-right: 8px;
+                        border-radius: 2px;
+                        overflow: hidden;
+                        width: 50px;
+                        height: 50px;
+                        overflow: hidden;
+                        flex: 0 0 50px;
+
+                        @include media-breakpoint-up(md) {
+                            margin-right: 10px;
+                        }
+
+                        img {
+                            width: 50px;
+
+                            // @include media-breakpoint-up(md) {
+                            //     width: 48px;
+                            // }
+                        }
+                    }
+
+                    .team-name {
+                        @include font-size(16);
+                        color: theme-color('dark');
+                        line-height: 20px;
+                        text-transform: uppercase;
+                        font-weight: bold;
+
+                        // @include media-breakpoint-up(md) {
+                        //     @include font-size(18);
+                        // }
+
+                        &[href] {
+                            transition: all 0.25s ease;
+
+                            @include hover-focus {
+                                color: inherit;
+                                text-decoration: none;
+                                opacity: 0.54;
+                            }
+
+                            &:active {
+                                opacity: 0.54;
+                            }
+                        }
+                    }
+
+                    .owner-name {
+                        @include font-size(11);
+                        // color: #7F7F96;
+                        line-height: 16px;
+                        @extend .text-uppercase;
+
+                        // @include media-breakpoint-up(md) {
+                        //     @include font-size(14);
+                        // }
+                    }
+
+                    .status {
+                        display: inline-flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        padding-left: $btn-padding-x;
+                        padding-right: $btn-padding-x;
+
+                        i {
+                            @include font-size(16);
+
+                            @include media-breakpoint-up(md) {
+                                @include font-size(20);
+                            }
+                        }
+
+                        &[href] {
+                            transition: all 0.25s ease;
+
+                            @include hover-focus {
+                                color: inherit;
+                                text-decoration: none;
+                                opacity: 0.54;
+                            }
+
+                            &:active {
+                                opacity: 0.54;
+                            }
+                        }
+
+                        .status-text {
+                            @include font-size(11);
+                            white-space: nowrap;
+                            line-height: 1;
+                            font-family: $font-family-secondary;
+
+                            @include media-breakpoint-up(md) {
+                                @include font-size(12);
+                            }
+                        }
+
+                        &.is-paid {
+                            color: theme-color('primary');
+                        }
+
+                        &.is-unpaid,
+                        &.is-delete {
+                            // display: inline-block;
+                            font-family: $btn-font-family;
+                            // font-weight: $btn-font-weight;
+                            // color: $body-color;
+                            text-align: right;
+                            vertical-align: middle;
+                            user-select: none;
+                            background-color: transparent;
+                            border: $btn-border-width solid transparent;
+                            @extend .shadow-none;
+                            padding-top: 0;
+                            padding-bottom: 0;
+                            color: theme-color('danger');
+
+                            @include hover {
+                                color: inherit;
+                                text-decoration: none;
+                                opacity: 0.54;
+                            }
+
+                            &:focus,
+                            &.focus {
+                                outline: 0;
+                                box-shadow: $btn-focus-box-shadow;
+                            }
+
+                            // Disabled comes first so active can properly restyle
+                            &.disabled,
+                            &:disabled {
+                                opacity: $btn-disabled-opacity;
+                                @include box-shadow(none);
+                            }
+
+                            &:not(:disabled):not(.disabled):active,
+                            &:not(:disabled):not(.disabled).active {
+                                @include box-shadow($btn-active-box-shadow);
+
+                                &:focus {
+                                    @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+                                }
+                            }
+
+                            a,
+                            a i {
+                                color: theme-color('danger');
+
+                                @include hover-focus {
+                                    color: inherit;
+                                    text-decoration: none;
+                                    opacity: 0.54;
+                                }
+                            }
+                        }
+
+                        &.stretched-link {
+                            @include hover-focus {
+                                text-decoration: none;
+                            }
+                        }
+
+                        &[button] {
+                            @extend .btn;
+                            @extend .shadow-none;
+                        }
+                    }
+                }
+            }
+
+            &:hover,
+            &:focus,
+            &:active,
+            &.active {
+                background-color: theme-color("primary");
+                box-shadow: none;
+                color: $white;
+
+                .auction-items {
+                    .team-name {
+                        color: $white;
+                    }
+
+                    .item{
+                        .status {
+                            &.is-paid,
+                            &.is-unpaid,
+                            &.is-delete,
+                            a,
+                            a i {
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.progress-status {
+    display: block;
+    text-align: right;
+    @include font-size(12);
+    line-height: 16px;
+    color: theme-color('dark');
+    margin-top: 9px;
+
+    @include media-breakpoint-up(md) {
+        @include font-size(14);
+        text-align: center;
+    }
+}
+
+.league-crest {
+    width: 48px;
+    flex: 0 0 48px;
+
+    &.league-info-crest {
+        width: 35px;
+        flex: 0 0 35px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+}

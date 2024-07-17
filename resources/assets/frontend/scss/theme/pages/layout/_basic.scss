@@ -1,0 +1,22 @@
+.container-wrapper {
+    @extend .d-flex;
+    @extend .flex-column;
+    @extend .justify-content-between;
+
+    .container-body {}
+}
+
+.section-title {
+    @extend .mb-2;
+    @extend .pb-2;
+    border-bottom: 1px solid $white;
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
+
+* {
+    min-height: 0;
+    min-width: 0;
+}

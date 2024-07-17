@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="28px" viewBox="0 0 19 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Auctions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OSB-M-4" transform="translate(-290.000000, -432.000000)">
+            <g id="Group-21" transform="translate(0.000000, 390.000000)">
+                <g id="Group-19" transform="translate(290.000000, 42.000000)">
+                    <path d="M0,9.33333333 C0,4.17867567 4.25329488,0 9.5,0 C14.7467051,0 19,4.17867567 19,9.33333333 C19,11.6405771 17.4688504,14.1109281 14.4065511,16.7443865 L14.4065536,16.7443895 C13.3020159,17.694249 12.6666667,19.0785954 12.6666667,20.5353853 L12.6666667,26 C12.6666667,27.1045695 11.7712362,28 10.6666667,28 L8.33333333,28 C7.22876383,28 6.33333333,27.1045695 6.33333333,26 L6.33334045,20.5353914 C6.33334045,19.0785982 5.69798982,17.6942488 4.59344956,16.7443871 C1.53114985,14.1109285 0,11.6405772 0,9.33333333 Z" id="Path" fill="#000"></path>
+                    <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="9.7052399 4 13.40955 7.6653068 10.6201599 7.6653068 10.6201599 14.1338741 8.78939014 14.1338741 8.78939014 7.6653068 6 7.6653068"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

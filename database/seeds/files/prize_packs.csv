@@ -1,0 +1,6 @@
+name,price,short_description,long_description,is_enabled,is_default,badge_color
+No Prize Pack,0,I don't want a prize pack,,Yes,FALSE,green
+Premium,5,"Gold, silver and bronze pin badges and a T-shirt","Gold silver and bronze lapel pins, plus an exclusive “FL Winners” TOFFS long-sleeved T-shirt",Yes,FALSE,gold
+Standard,2.5,"Gold, silver and bronze medals","Gold, silver and bronze medals (including display cases)",Yes,TRUE,silver
+Pin Badges,0,"Gold, silver and bronze pin badges","Gold, silver and bronze pin badges.",Yes,FALSE,gold
+Medals,0,"Gold, silver and bronze medals","Gold, silver and bronze medals (including display cases)",Yes,TRUE,silver

@@ -1,0 +1,274 @@
+.section-img,
+.section-img-wide {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-img {
+    max-height: 77vh;
+}
+
+.section-img-wide {
+    max-height: 60vh;
+}
+
+.img-combo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .img-wrapper {
+        position: absolute;
+        height: 100%;
+
+        img {
+            position: relative;
+        }
+
+        &.is-radio {
+            img {
+                transform: rotate(15deg);
+            }
+        }
+        &.is-mac {
+            img {
+                width: 30%;
+            }
+        }
+    }
+}
+
+.left-col-img-1 {
+
+    // Index
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        transform: translate(-10%, 3%);
+        width: 400px;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    // @media (min-width: 768px) and (max-width: 991.98px) { ... }
+    @include media-breakpoint-only(md) {
+        transform: translate(-14%, 28%);
+        width: 470px;
+    }
+}
+
+.right-col-img-1 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        width: 390px;
+        transform: translate(-4%, 15%);
+    }
+
+    // Medium devices (tablets, 768px and up)
+    // @media (min-width: 768px) and (max-width: 991.98px) { ... }
+    @include media-breakpoint-only(md) {
+        width: 560px;
+        transform: translate(-10%, 12%);
+    }
+}
+
+.left-col-img-2 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        transform: translate(-21%, 0%);
+        width: 440px;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    // @media (min-width: 768px) and (max-width: 991.98px) { ... }
+    @include media-breakpoint-only(md) {
+        transform: translate(-30%, 0%);
+        width: 680px;
+    }
+
+}
+
+.right-col-img-2 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        width: 430px;
+        transform: translate(-16%, 10%);
+    }
+
+    // Medium devices (tablets, 768px and up)
+    // @media (min-width: 768px) and (max-width: 991.98px) { ... }
+    @include media-breakpoint-only(md) {
+        width: 700px;
+        transform: translate(-43%, 10%);
+    }
+
+}
+
+.right-col-shape-layer-3 {
+
+    &.is-right-aligned {
+
+        // Small devices (landscape phones, less than 768px)
+        @include media-breakpoint-down(sm) {
+            margin-left: 0%;
+        }
+    }
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        transform: translate(15%, 20%) rotate(90deg);
+    }
+
+    &.is-right-aligned {
+
+        // Medium devices (tablets, 768px and up)
+        // @media (min-width: 768px) and (max-width: 991.98px) { ... }
+        @include media-breakpoint-only(md) {
+            margin-left: 10%;
+        }
+    }
+
+}
+
+.right-col-shape-layer-4 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        transform: translate(25%, 25%) rotate(90deg);
+    }
+
+    &.is-right-aligned {
+
+        // Small devices (landscape phones, less than 768px)
+        @include media-breakpoint-down(sm) {
+            margin-left: 0%;
+        }
+    }
+
+    // Medium devices (tablets, 768px and up)
+    // @media (min-width: 768px) and (max-width: 991.98px) { ... }
+    @include media-breakpoint-only(md) {
+        transform: translate(-8%, 0);
+    }
+
+
+}
+
+
+.left-col-img-3 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        transform: translate(-6%, 40%);
+        width: 370px;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    // @media (min-width: 768px) and (max-width: 991.98px) { ... }
+    @include media-breakpoint-only(md) {
+        transform: translate(-14%, 40%);
+        width: 460px;
+    }
+
+
+}
+
+.right-col-img-3 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        width: 370px;
+        transform: translate(-4%, -34%);
+    }
+
+    // Medium devices (tablets, 768px and up)
+    // @media (min-width: 768px) and (max-width: 991.98px) { ... }
+    @include media-breakpoint-only(md) {
+        width: 520px;
+        // transform: translate(-17%, -39%);
+    }
+
+
+}
+
+.right-col-img-4 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        width: 180px;
+        transform: translate(35%, 0%) rotate(20deg);
+    }
+
+    // Medium devices (tablets, 768px and up)
+    // @media (min-width: 768px) and (max-width: 991.98px) { ... }
+    @include media-breakpoint-only(md) {
+        width: 380px;
+        // transform: translate(-3%, -40%);
+    }
+
+
+}
+
+.right-col-shape-layer-2 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        transform: translate(15%, 15%) rotate(90deg);
+    }
+
+    // Medium devices (tablets, 768px and up)
+    // @media (min-width: 768px) and (max-width: 991.98px) { ... }
+    // @include media-breakpoint-only(md) {
+    //     margin-left: 20% !important;
+    // }
+
+
+}
+
+
+
+.left-col-shape-layer-2 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        transform: translate(-45%, 25%) rotate(90deg);
+    }
+}
+
+.left-col-shape-layer-3 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        transform: translate(-25%, 25%) rotate(90deg);
+    }
+}
+
+
+.left-col-shape-layer-1 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        transform: translate(-25%, 30%) rotate(90deg);
+    }
+}
+
+.right-col-shape-layer-1 {
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+        transform: translate(5%, 25%) rotate(90deg);
+    }
+}
+
+.left-col-img,
+.right-col-img {
+
+    // Medium devices (tablets, less than 992px)
+    @include media-breakpoint-down(md) {
+        // position: absolute;
+        max-width: max-content;
+    }
+}

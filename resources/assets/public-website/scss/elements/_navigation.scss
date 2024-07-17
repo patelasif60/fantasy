@@ -1,0 +1,411 @@
+.navbar {
+    // animation-name: fadeInDown;
+    // animation-iteration-count: 1;
+    // animation-timing-function: ease-in;
+    // animation-duration: 0.35s;
+    // animation-fill-mode: both;
+    overflow: hidden;
+    // -webkit-transition: height 0.35s ease-in-out;
+    // transition: height 0.35s ease-in-out;
+    height: 112px;
+    padding-left: 0;
+    padding-right: 0;
+
+    @include media-breakpoint-down(sm) {
+        height: 66px;
+    }
+
+    @include media-breakpoint-between(sm, lg) {
+        height: 76px;
+    }
+
+    .color-layer {
+        animation-name: fadeInDown;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 0.35s;
+        animation-fill-mode: both;
+        background-color: rgba(theme-color('primary'), .85);
+    }
+
+    .watermark,
+    .color-layer,
+    .players {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: height 0.35s ease;
+        transition: height 0.35s ease;
+        justify-content: center;
+        animation-name: fadeInDown;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 0.35s;
+        animation-fill-mode: both;
+    }
+
+    .watermark {
+        animation-name: fadeInDown;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 0.35s;
+        animation-fill-mode: both;
+
+        img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .color-layer {
+        z-index: -2;
+    }
+
+    .players {
+        z-index: -3;
+
+        .players-images {
+            width: initial;
+            overflow: visible;
+
+            @include media-breakpoint-down(md) {
+
+                &.slick-slider {
+                    display: flex;
+
+                    .slick-list {
+                        flex: 1;
+                    }
+                }
+            }
+
+            .pl-img-item {
+                height: initial;
+            }
+        }
+    }
+
+    .navbar-brand {
+        .brand-logo {
+            .brand-img {
+                display: inline-block;
+
+                span {
+                    svg {
+                        height: 86px;
+                        width: auto;
+
+                        @include media-breakpoint-down(sm) {
+                            height: 40px;
+                        }
+
+                        @include media-breakpoint-between(sm, lg) {
+                            height: 50px;
+                        }
+                    }
+                }
+
+                .logo-star {
+                    display: none;
+                    opacity: 0;
+                    transition: all 0.7s ease-in-out
+                }
+
+                .logo-big {
+                    display: block;
+                    opacity: 1;
+                    // transition: all 0.7s ease-in-out;
+                    // animation-name: fadeInDown;
+                    // animation-iteration-count: 1;
+                    // animation-timing-function: ease-in;
+                    // animation-duration: 0.35s;
+                    // animation-fill-mode: both;
+                }
+            }
+        }
+    }
+
+    .navbar-toggler {
+        // animation-name: fadeInDown;
+        // animation-iteration-count: 1;
+        // animation-timing-function: ease-in;
+        // animation-duration: 0.35s;
+        // animation-fill-mode: both;
+
+        .nav-btn {
+            .fl {
+                font-size: 5vh;
+                color: theme-color('success');
+                // transition: all 0.25s ease-in-out;
+
+                &:before {
+                    // transition: all 0.25s ease-in-out;
+                }
+            }
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &.is-open {
+        // background: mix(theme-color('primary'), $white, 85%);
+        background: $white;
+        align-items: flex-start;
+        height: 100vh;
+        bottom: 0;
+
+        .watermark,
+        .color-layer,
+        .players {
+            display: flex;
+            height: auto;
+        }
+
+        .brand-logo {
+            .brand-img {
+
+                span {
+                    svg {
+
+                        .stars,
+                        .fl-el {
+                            fill: $white
+                        }
+                    }
+                }
+            }
+        }
+
+        .nav-btn {
+            .fl {
+                font-size: 30px;
+                color: theme-color('secondary');
+
+                &.fl-bar {
+                    &:before {
+                        content: "\E902";
+                    }
+                }
+            }
+        }
+    }
+
+    &.sticky-logo {
+        &:not(.is-open) {
+            .brand-logo {
+                .brand-img {
+                    .logo-star {
+                        display: block;
+                        opacity: 1;
+                        animation-name: fadeInDown;
+                        animation-iteration-count: 1;
+                        animation-timing-function: ease-in;
+                        animation-duration: 0.35s;
+                        animation-fill-mode: both;
+                    }
+
+                    .logo-big {
+                        display: none;
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navigation {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+
+
+    .navigation-bar {
+        animation-name: fadeInDown;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 0.35s;
+        animation-fill-mode: both;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap; // allow us to do the line break for collapsing content
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 38px;
+
+        .brand-logo {
+            .brand-img {
+                display: inline-block;
+
+                span {
+                    svg {
+                        height: 86px;
+                        width: auto;
+
+                        @include media-breakpoint-down(sm) {
+                            height: 40px;
+                        }
+
+                        @include media-breakpoint-between(sm, lg) {
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .nav-btn {
+            .fl {
+                font-size: 30px;
+                color: theme-color('success');
+            }
+        }
+
+        .collapse {
+            &:not(.show) {
+                display: none;
+            }
+        }
+
+        .navbar-collapse {
+            flex-basis: 100%;
+            flex-grow: 1;
+            align-items: center;
+            margin-top: 60px
+        }
+    }
+}
+
+
+.navbar-nav {
+    margin-top: 50px;
+
+    &:after {
+        @extend .fl;
+        content: '\e904';
+        @include font-size(60);
+        text-align: center;
+        color: $white;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .nav-link {
+        padding: 0;
+        font-family: $font-family-secondary;
+        @include font-size(44);
+        line-height: 40px;
+        text-transform: uppercase;
+        color: $white;
+        transition: all 0.25s ease;
+
+        @include hover {
+            text-decoration: none;
+            color: mix(theme-color('secondary'), $white, 85%);
+        }
+    }
+
+    .active>.nav-link,
+    .nav-link.active {
+        color: theme-color('secondary');
+    }
+}
+
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// IE Specific
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .incompatible-browser-alert {
+        ~ .navbar {
+            &.fixed-top {
+                top: 40px;
+            }
+        }
+    }
+}
+
+@supports (-ms-accelerator:true) {
+    .incompatible-browser-alert {
+        ~ .navbar {
+            &.fixed-top {
+                top: 40px;
+            }
+        }
+    }
+}
+
+_:-ms-fullscreen, :root .incompatible-browser-alert {
+    ~ .navbar {
+        &.fixed-top {
+            top: 40px;
+        }
+    }
+}
+
+@supports (-ms-ime-align: auto) {
+    .incompatible-browser-alert {
+        ~ .navbar {
+            &.fixed-top {
+                top: 40px;
+            }
+        }
+    }
+}
+
+@supports (-ms-ime-align: auto) {
+    .incompatible-browser-alert {
+        ~ .navbar {
+            &.fixed-top {
+                top: 40px;
+            }
+        }
+    }
+}

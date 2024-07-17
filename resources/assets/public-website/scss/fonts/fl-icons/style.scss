@@ -1,0 +1,114 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?f0dqqv');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?f0dqqv#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?f0dqqv') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?f0dqqv') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?f0dqqv##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fl {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fl-angle-up {
+  &:before {
+    content: $fl-angle-up; 
+  }
+}
+.fl-badge {
+  &:before {
+    content: $fl-badge; 
+  }
+}
+.fl-bar {
+  &:before {
+    content: $fl-bar; 
+  }
+}
+.fl-bar-close {
+  &:before {
+    content: $fl-bar-close; 
+  }
+}
+.fl-chevron-circle-right {
+  &:before {
+    content: $fl-chevron-circle-right; 
+  }
+}
+.fl-facebook {
+  &:before {
+    content: $fl-facebook; 
+  }
+}
+.fl-info {
+  &:before {
+    content: $fl-info; 
+  }
+}
+.fl-instagram {
+  &:before {
+    content: $fl-instagram; 
+  }
+}
+.fl-logo {
+  &:before {
+    content: $fl-logo; 
+  }
+}
+.fl-shape-shear {
+  &:before {
+    content: $fl-shape-shear; 
+  }
+}
+.fl-star {
+  &:before {
+    content: $fl-star; 
+  }
+}
+.fl-stars {
+  &:before {
+    content: $fl-stars; 
+  }
+}
+.fl-trophy {
+  &:before {
+    content: $fl-trophy; 
+  }
+}
+.fl-twitter {
+  &:before {
+    content: $fl-twitter; 
+  }
+}
+.fl-whistle {
+  &:before {
+    content: $fl-whistle; 
+  }
+}
+.fl-whistle-cirlcle {
+  &:before {
+    content: $fl-whistle-cirlcle; 
+  }
+}
+.fl-winners {
+  &:before {
+    content: $fl-winners; 
+  }
+}
+

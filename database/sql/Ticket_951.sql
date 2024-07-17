@@ -1,0 +1,2 @@
+INSERT INTO `fixture_event_details` (`event_id`, `field`, `field_value`, `created_at`, `updated_at`) VALUES ('5766', 'assist', '257', NOW(), NOW());
+UPDATE team_player_points SET goal = 0 WHERE team_id = 506 AND player_id = 257 AND id = 981564;

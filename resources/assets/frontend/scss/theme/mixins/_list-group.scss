@@ -1,0 +1,18 @@
+@mixin custom-list-group-bg($theme-color) {
+    // background-color: lighten($theme-color, 20%);
+    background-color: rgba($theme-color, 0.5);
+
+    li {
+
+        .list-element,
+        .list-element a[href=""] {
+            color: color-yiq($theme-color);
+            border-bottom: 1px solid rgba(color-yiq($theme-color), 0.5);
+
+        }
+    }
+
+    a {
+        color: color-yiq($theme-color);
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 890 1300" style="enable-background:new 0 0 890 1300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#819C12;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#799203;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g>
+	<rect y="0" class="st0" width="890" height="100"/>
+	<rect y="800" class="st0" width="890" height="100"/>
+	<rect y="400" class="st0" width="890" height="100"/>
+	<rect y="1200" class="st0" width="890" height="100"/>
+	<rect y="200" class="st0" width="890" height="100"/>
+	<rect y="1000" class="st0" width="890" height="100"/>
+	<rect y="600" class="st0" width="890" height="100"/>
+	<rect y="100" class="st1" width="890" height="100"/>
+	<rect y="900" class="st1" width="890" height="100"/>
+	<rect y="500" class="st1" width="890" height="100"/>
+	<rect y="300" class="st1" width="890" height="100"/>
+	<rect y="1100" class="st1" width="890" height="100"/>
+	<rect y="700" class="st1" width="890" height="100"/>
+	<path class="st2" d="M835,60H55v1180h780V60z M845,50v1200H45V50H845z"/>
+	<path class="st2" d="M340,650c0-58,47-105,105-105s105,47,105,105s-47,105-105,105S340,708,340,650z M350,650c0,52.5,42.5,95,95,95
+		s95-42.5,95-95s-42.5-95-95-95S350,597.5,350,650z M526,230H363.1c18.1,25.4,47.9,42,81.5,42S507.9,255.4,526,230z M534.1,235.8
+		c-20.5,28.8-53.6,46.2-89.6,46.2s-69.1-17.4-89.6-46.2L343.6,220h201.8L534.1,235.8z M526,1070c-18.1-25.4-47.9-42-81.5-42
+		s-63.3,16.6-81.5,42H526z M545.4,1080H343.6l11.3-15.8c20.5-28.8,53.6-46.2,89.6-46.2s69.1,17.4,89.6,46.2L545.4,1080z"/>
+	<polygon class="st3" points="845,645 845,655 45,655 45,645 	"/>
+	<path class="st2" d="M534,60H354v40h180V60z M544,50v60H344V50H544z M534,1200H354v40h180V1200z M544,1190v60H344v-60H544z"/>
+	<path class="st2" d="M654,60H234v160h420V60z M664,50v180H224V50H664z M654,1080H234v160h420V1080z M664,1070v180H224v-180H664z
+		 M845,1204c0,6.5,0,9.7,0,9.7s-15.9,2.2-25,11.3s-11.5,25-11.5,25s-3.2,0-9.5,0C799,1224.6,819.6,1204,845,1204z"/>
+	<path class="st2" d="M845,96c0-6.5,0-9.7,0-9.7s-15.9-2.2-25-11.3s-11.5-25-11.5-25s-3.2,0-9.5,0C799,75.4,819.6,96,845,96z"/>
+	<path class="st2" d="M45,1204c0,6.5,0,9.7,0,9.7s15.9,2.2,25,11.3s11.5,25,11.5,25s3.2,0,9.5,0C91,1224.6,70.4,1204,45,1204z"/>
+	<path class="st2" d="M45,96c0-6.5,0-9.7,0-9.7S60.9,84.1,70,75s11.5-25,11.5-25s3.2,0,9.5,0C91,75.4,70.4,96,45,96z"/>
+</g>
+</svg>

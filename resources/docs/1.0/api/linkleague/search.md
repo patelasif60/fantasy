@@ -1,0 +1,297 @@
+# API Docs
+
+At [Binary Torch](https://binarytorch.com.my/) we use LaRecipe internally to write docs for our products/services and share the access with our developers. Here is an example of writing API docs in a nice human-readable way.
+
+---
+
+- [Search Leagues](#search_league)
+
+<a name="search_league"></a>
+## Search Leagues
+
+Search Leagues as per ID or Name passed in params
+
+### Endpoint
+
+|Method|URI|Headers|
+|:-|:-|:-|
+|POST|`/api/league/{division}/linkedLeagues/search/value`|`Bearer Token`|
+
+### URL Params
+
+|Param|Type|Values|Example
+|:-|:-|:-|:-
+|`division`|`integer`|`required`|Ex: `1`
+|`search_type`|`String`|`enum`|Ex: `leagueId or leagueName`
+|`search_league`|`String or integer`|`required`|Ex: `if search_type = leagueName then string like "Matt's New League", if search_type = leagueId then integer like 1`
+
+> {success} Success Response
+
+Code `200`
+
+Content
+
+```json
+{
+    "data": [
+        {
+            "id": 673,
+            "name": "Matt's New League",
+            "uuid": "71586037-e4dd-4872-9d96-826fbea4169f",
+            "chairman_id": 6117,
+            "package_id": 8,
+            "prize_pack": 1,
+            "introduction": "",
+            "parent_division_id": null,
+            "auction_types": "Live offline",
+            "allow_passing_on_nominations": null,
+            "remote_nomination_time_limit": null,
+            "remote_bidding_time_limit": null,
+            "allow_managers_to_enter_own_bids": null,
+            "auction_date": null,
+            "pre_season_auction_budget": 200,
+            "pre_season_auction_bid_increment": null,
+            "budget_rollover": null,
+            "seal_bids_budget": null,
+            "seal_bid_increment": null,
+            "seal_bid_minimum": "0.00",
+            "manual_bid": null,
+            "first_seal_bid_deadline": null,
+            "seal_bid_deadline_repeat": null,
+            "max_seal_bids_per_team_per_round": null,
+            "money_back": null,
+            "tie_preference": null,
+            "rules": null,
+            "default_squad_size": null,
+            "default_max_player_each_club": null,
+            "available_formations": null,
+            "defensive_midfields": null,
+            "merge_defenders": null,
+            "allow_weekend_changes": null,
+            "enable_free_agent_transfer": null,
+            "free_agent_transfer_authority": null,
+            "free_agent_transfer_after": null,
+            "season_free_agent_transfer_limit": null,
+            "monthly_free_agent_transfer_limit": null,
+            "champions_league_team": null,
+            "europa_league_team_1": null,
+            "europa_league_team_2": null,
+            "created_at": "2019-07-10 09:39:59",
+            "updated_at": "2019-07-10 14:49:35",
+            "auction_venue": null,
+            "auctioneer_id": 6117,
+            "auction_closing_date": null,
+            "is_round_process": false,
+            "is_viewed_package_selection": 1,
+            "is_legacy": 0,
+            "consumer": {
+                "id": 6117,
+                "user_id": 6120,
+                "dob": null,
+                "address_1": null,
+                "address_2": null,
+                "town": null,
+                "county": null,
+                "post_code": null,
+                "country": null,
+                "telephone": null,
+                "country_code": null,
+                "favourite_club": null,
+                "introduction": null,
+                "has_games_news": false,
+                "has_third_parities": false,
+                "created_at": "2019-07-10 09:39:51",
+                "updated_at": "2019-07-10 09:39:51",
+                "user": {
+                    "id": 6120,
+                    "first_name": "Matt",
+                    "last_name": "Sims",
+                    "email": "mattsims1612+fl24@gmail.com",
+                    "username": "mattsims1612+fl24@gmail.com",
+                    "email_verified_at": null,
+                    "status": "Active",
+                    "last_login_at": "2019-07-10 14:27:32",
+                    "provider": "email",
+                    "provider_id": null,
+                    "remember_url": "https://fl.aecordigitalqa.com/manage/division/create",
+                    "push_registration_id": null,
+                    "created_at": "2019-07-10 09:39:51",
+                    "updated_at": "2019-07-10 14:27:32"
+                }
+            }
+        },
+        {
+            "id": 677,
+            "name": "Matt's New League",
+            "uuid": "68bc090b-a171-4503-87f7-afc4ff11ebc4",
+            "chairman_id": 6,
+            "package_id": 8,
+            "prize_pack": 1,
+            "introduction": null,
+            "parent_division_id": null,
+            "auction_types": "Live offline",
+            "allow_passing_on_nominations": null,
+            "remote_nomination_time_limit": null,
+            "remote_bidding_time_limit": null,
+            "allow_managers_to_enter_own_bids": "Yes",
+            "auction_date": "2019-07-09 11:00:00",
+            "pre_season_auction_budget": 1000,
+            "pre_season_auction_bid_increment": "10.00",
+            "budget_rollover": "Yes",
+            "seal_bids_budget": null,
+            "seal_bid_increment": null,
+            "seal_bid_minimum": "0.00",
+            "manual_bid": null,
+            "first_seal_bid_deadline": null,
+            "seal_bid_deadline_repeat": null,
+            "max_seal_bids_per_team_per_round": null,
+            "money_back": null,
+            "tie_preference": "no",
+            "rules": null,
+            "default_squad_size": null,
+            "default_max_player_each_club": null,
+            "available_formations": null,
+            "defensive_midfields": null,
+            "merge_defenders": null,
+            "allow_weekend_changes": null,
+            "enable_free_agent_transfer": null,
+            "free_agent_transfer_authority": null,
+            "free_agent_transfer_after": null,
+            "season_free_agent_transfer_limit": null,
+            "monthly_free_agent_transfer_limit": null,
+            "champions_league_team": null,
+            "europa_league_team_1": null,
+            "europa_league_team_2": null,
+            "created_at": "2019-07-10 12:43:35",
+            "updated_at": "2019-07-11 12:45:27",
+            "auction_venue": null,
+            "auctioneer_id": 6,
+            "auction_closing_date": null,
+            "is_round_process": false,
+            "is_viewed_package_selection": 1,
+            "is_legacy": 0,
+            "consumer": {
+                "id": 6,
+                "user_id": 11,
+                "dob": "1974-12-16",
+                "address_1": "4a Manland Avenue",
+                "address_2": null,
+                "town": "Harpenden",
+                "county": null,
+                "post_code": "AL5 4RF",
+                "country": "United Kingdom",
+                "telephone": null,
+                "country_code": "+44",
+                "favourite_club": "Tottenham Hotspur",
+                "introduction": null,
+                "has_games_news": false,
+                "has_third_parities": false,
+                "created_at": "2019-07-09 12:12:24",
+                "updated_at": "2019-07-10 03:27:46",
+                "user": {
+                    "id": 11,
+                    "first_name": "Matt",
+                    "last_name": "Sims",
+                    "email": "matts@fantasyleague.com",
+                    "username": "msims",
+                    "email_verified_at": "2019-07-09 12:12:24",
+                    "status": "Active",
+                    "last_login_at": "2019-12-10 08:29:01",
+                    "provider": "email",
+                    "provider_id": null,
+                    "remember_url": null,
+                    "push_registration_id": "faw_8uAoQqA:APA91bH-3O0wO5wq-93yAXR34Q0LD89PUHAXIMWGsMkk0f_nlUD3-T13s6T3g0Yat-xkrmyDK1bf8vjv7-Ki-_C1D_MVtx5SIBJISxootGhmXM_SEQXmYg28TjJmKUVAdvz06tML47Sv",
+                    "created_at": "2019-07-09 12:12:24",
+                    "updated_at": "2019-12-10 08:29:01"
+                }
+            }
+        },
+        {
+            "id": 679,
+            "name": "Matt's New League",
+            "uuid": "f5dddc7e-3911-45b5-9c4e-49159f1c2c38",
+            "chairman_id": 6120,
+            "package_id": 5,
+            "prize_pack": 3,
+            "introduction": "",
+            "parent_division_id": null,
+            "auction_types": "Live offline",
+            "allow_passing_on_nominations": null,
+            "remote_nomination_time_limit": null,
+            "remote_bidding_time_limit": null,
+            "allow_managers_to_enter_own_bids": null,
+            "auction_date": null,
+            "pre_season_auction_budget": 200,
+            "pre_season_auction_bid_increment": null,
+            "budget_rollover": null,
+            "seal_bids_budget": null,
+            "seal_bid_increment": null,
+            "seal_bid_minimum": "0.00",
+            "manual_bid": null,
+            "first_seal_bid_deadline": null,
+            "seal_bid_deadline_repeat": null,
+            "max_seal_bids_per_team_per_round": null,
+            "money_back": null,
+            "tie_preference": null,
+            "rules": null,
+            "default_squad_size": null,
+            "default_max_player_each_club": null,
+            "available_formations": null,
+            "defensive_midfields": null,
+            "merge_defenders": null,
+            "allow_weekend_changes": null,
+            "enable_free_agent_transfer": null,
+            "free_agent_transfer_authority": null,
+            "free_agent_transfer_after": null,
+            "season_free_agent_transfer_limit": null,
+            "monthly_free_agent_transfer_limit": null,
+            "champions_league_team": null,
+            "europa_league_team_1": null,
+            "europa_league_team_2": null,
+            "created_at": "2019-07-10 14:15:07",
+            "updated_at": "2019-07-12 14:23:07",
+            "auction_venue": null,
+            "auctioneer_id": 6120,
+            "auction_closing_date": null,
+            "is_round_process": false,
+            "is_viewed_package_selection": 1,
+            "is_legacy": 0,
+            "consumer": {
+                "id": 6120,
+                "user_id": 6123,
+                "dob": null,
+                "address_1": null,
+                "address_2": null,
+                "town": null,
+                "county": null,
+                "post_code": null,
+                "country": null,
+                "telephone": null,
+                "country_code": null,
+                "favourite_club": null,
+                "introduction": null,
+                "has_games_news": false,
+                "has_third_parities": false,
+                "created_at": "2019-07-10 14:14:17",
+                "updated_at": "2019-07-10 14:14:17",
+                "user": {
+                    "id": 6123,
+                    "first_name": "Matt",
+                    "last_name": "Sims 25",
+                    "email": "mattsims1612@gmail.com",
+                    "username": "mattsims1612@gmail.com",
+                    "email_verified_at": null,
+                    "status": "Active",
+                    "last_login_at": "2019-07-12 14:22:50",
+                    "provider": "google",
+                    "provider_id": "117077330148196788240",
+                    "remember_url": "https://fl.aecordigitalqa.com/manage/division/join/league/select",
+                    "push_registration_id": null,
+                    "created_at": "2019-07-10 14:14:17",
+                    "updated_at": "2019-07-12 14:22:50"
+                }
+            }
+        }
+    ]
+}
+```

@@ -1,0 +1,137 @@
+.custom-list-group {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+
+    li {
+        padding-top: 10px;
+
+        .list-element {
+            @extend .d-flex;
+            @extend .justify-content-between;
+            @extend .align-items-center;
+            flex: 1;
+            flex-wrap: nowrap;
+            padding: 0 1.25rem 0.75rem;
+            font-weight: $font-weight-bold;
+            @extend .text-uppercase;
+
+            a[href=""] {
+                @extend .d-flex;
+                @extend .justify-content-between;
+                @extend .flex-nowrap;
+                flex: 1;
+            }
+        }
+
+        &:last-child {
+            a {
+                border-bottom: none;
+            }
+        }
+
+        &.is-disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            pointer-events: none;
+
+            a {
+                cursor: not-allowed;
+            }
+        }
+    }
+
+    a {
+        width: 100%;
+
+        &:hover {
+            text-decoration: $link-decoration;
+        }
+
+        &.has-stepper {
+            .has-icon {
+                @extend .d-flex;
+                @extend .justify-content-between;
+                @extend .align-items-center;
+
+                &:after {
+                    float: right;
+                    @extend %fa-icon;
+                    @extend .fas;
+                    content: fa-content($fa-var-angle-right);
+                    font-family: 'Font Awesome 5 pro';
+                    margin-left: 15px;
+                }
+
+                &.verified-data {
+                    &:after {
+                        content: fa-content($fa-var-check);
+                    }
+                }
+            }
+        }
+    }
+
+    span+span {
+        float: right;
+    }
+
+    &.is-league-rule {
+        span+span {
+            float: none;
+        }
+
+        li {
+            @include font-size(16);
+            line-height: 19px;
+
+            .list-element {
+                justify-content: space-between;
+                border-bottom-color: rgba(#666681,0.25);
+                padding: 0 1rem 0.75rem;
+
+                span {
+                    &:first-child {
+                        flex-shrink: 0;
+                        flex-grow: 1;
+                        flex-basis: 190px;
+                    }
+                    &:last-child {
+                        text-align: right;
+                        color: #5B5B78;
+                    }
+                    .small {
+                        @include font-size(12);
+                        line-height: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@each $color,
+$value in $theme-colors {
+    .list-group-#{$color} {
+        @include custom-list-group-bg($value);
+
+        @if $color=="white" {
+            li {
+
+                .list-element,
+                .list-element a[href=""] {
+                    color: $white;
+                    border-bottom: 1px solid mix(theme-color('dark'), $white, 30%);
+                }
+            }
+
+            a {
+                color: $white;
+            }
+        }
+    }
+}
+
+.list-group-title {
+    padding-left: 1.25rem;
+}

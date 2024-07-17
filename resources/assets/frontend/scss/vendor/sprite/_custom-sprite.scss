@@ -1,0 +1,650 @@
+@import 'variables.scss';
+/*
+Responsive CSS Sprite created using: https://responsive-css.us/
+*/
+
+.#{$arsenal}_gk,
+.#{$arsenal}_gk-selected,
+.#{$arsenal}_player,
+.#{$arsenal}_player-selected,
+.#{$aston-villa}_gk,
+.#{$aston-villa}_gk-selected,
+.#{$aston-villa}_player,
+.#{$aston-villa}_player-selected,
+.#{$brighton}_gk,
+.#{$brighton}_gk-selected,
+.#{$brighton}_player,
+.#{$brighton}_player-selected,
+.#{$burnley}_gk,
+.#{$burnley}_gk-selected,
+.#{$burnley}_player,
+.#{$burnley}_player-selected,
+.#{$chelsea}_gk,
+.#{$chelsea}_gk-selected,
+.#{$chelsea}_player,
+.#{$chelsea}_player-selected,
+.#{$crystalpalace}_gk,
+.#{$crystalpalace}_gk-selected,
+.#{$crystalpalace}_player,
+.#{$crystalpalace}_player-selected,
+.#{$everton}_gk,
+.#{$everton}_gk-selected,
+.#{$everton}_player,
+.#{$everton}_player-selected,
+.#{$fulham}_gk,
+.#{$fulham}_gk-selected,
+.#{$fulham}_player,
+.#{$fulham}_player-selected,
+.#{$leeds}_gk,
+.#{$leeds}_gk-selected,
+.#{$leeds}_player,
+.#{$leeds}_player-selected,
+.#{$leicester}_gk,
+.#{$leicester}_gk-selected,
+.#{$leicester}_player,
+.#{$leicester}_player-selected,
+.#{$liverpool}_gk,
+.#{$liverpool}_gk-selected,
+.#{$liverpool}_player,
+.#{$liverpool}_player-selected,
+.#{$mancity}_gk,
+.#{$mancity}_gk-selected,
+.#{$mancity}_player,
+.#{$mancity}_player-selected,
+.#{$manutd}_gk,
+.#{$manutd}_gk-selected,
+.#{$manutd}_player,
+.#{$manutd}_player-selected,
+.#{$newcastle}_gk,
+.#{$newcastle}_gk-selected,
+.#{$newcastle}_player,
+.#{$newcastle}_player-selected,
+.#{$sheffield-utd}_gk,
+.#{$sheffield-utd}_gk-selected,
+.#{$sheffield-utd}_player,
+.#{$sheffield-utd}_player-selected,
+.#{$southampton}_gk,
+.#{$southampton}_gk-selected,
+.#{$southampton}_player,
+.#{$southampton}_player-selected,
+.#{$tottenham}_gk,
+.#{$tottenham}_gk-selected,
+.#{$tottenham}_player,
+.#{$tottenham}_player-selected,
+.#{$west-brom}_gk,
+.#{$west-brom}_gk-selected,
+.#{$west-brom}_player,
+.#{$west-brom}_player-selected,
+.#{$westham}_gk,
+.#{$westham}_gk-selected,
+.#{$westham}_player,
+.#{$westham}_player-selected,
+.#{$wolves}_gk,
+.#{$wolves}_gk-selected,
+.#{$wolves}_player,
+.#{$wolves}_player-selected {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url('/assets/frontend/img/sprite/sprite-2021.png');
+}
+
+.#{$arsenal}_gk {
+    width: 99px;
+    height: 108px;
+    background-position: 99.0251% 14.1921%;
+    background-size: 2068.69%;
+}
+
+.#{$arsenal}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 0.515996% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$arsenal}_player {
+    width: 99px;
+    height: 107px;
+    background-position: 56.2340% 40.3490%;
+    background-size: 2068.69%;
+}
+
+.#{$arsenal}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 6.70795% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$aston-villa}_gk {
+    width: 98px;
+    height: 107px;
+    background-position: 61.7949% 40.3490%;
+    background-size: 2089.80%;
+}
+
+.#{$aston-villa}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 12.8999% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$aston-villa}_player {
+    width: 98px;
+    height: 107px;
+    background-position: 67.3333% 40.3490%;
+    background-size: 2089.80%;
+}
+
+.#{$aston-villa}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 19.0918% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$brighton}_gk {
+    width: 99px;
+    height: 107px;
+    background-position: 72.9092% 40.3490%;
+    background-size: 2068.69%;
+}
+
+.#{$brighton}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 25.2838% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$brighton}_player {
+    width: 98px;
+    height: 109px;
+    background-position: 98.9744% 1.09290%;
+    background-size: 2089.80%;
+}
+
+.#{$brighton}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 31.4757% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$burnley}_gk {
+    width: 110px;
+    height: 110px;
+    background-position: 43.8596% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$burnley}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 37.6677% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$burnley}_player {
+    width: 98px;
+    height: 107px;
+    background-position: 78.4615% 40.3490%;
+    background-size: 2089.80%;
+}
+
+.#{$burnley}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 50.0516% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$chelsea}_gk {
+    width: 99px;
+    height: 107px;
+    background-position: 84.0431% 40.3490%;
+    background-size: 2068.69%;
+}
+
+.#{$chelsea}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 56.2436% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$chelsea}_player {
+    width: 99px;
+    height: 107px;
+    background-position: 89.6357% 40.3490%;
+    background-size: 2068.69%;
+}
+
+.#{$chelsea}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 62.4355% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$crystalpalace}_gk {
+    width: 99px;
+    height: 108px;
+    background-position: 92.8681% 27.2926%;
+    background-size: 2068.69%;
+}
+
+.#{$crystalpalace}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 68.6275% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$crystalpalace}_player {
+    width: 98px;
+    height: 108px;
+    background-position: 98.4103% 27.2926%;
+    background-size: 2089.80%;
+}
+
+.#{$crystalpalace}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 74.8194% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$everton}_gk {
+    width: 99px;
+    height: 108px;
+    background-position: 0.513084% 40.3930%;
+    background-size: 2068.69%;
+}
+
+.#{$everton}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 81.0114% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$everton}_player {
+    width: 99px;
+    height: 108px;
+    background-position: 6.10570% 40.3930%;
+    background-size: 2068.69%;
+}
+
+.#{$everton}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 87.2033% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$fulham}_gk {
+    width: 110px;
+    height: 110px;
+    background-position: 0.515996% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$fulham}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 93.3953% 1.09409%;
+    background-size: 1861.82%;
+}
+
+.#{$fulham}_player {
+    width: 110px;
+    height: 110px;
+    background-position: 12.8999% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$fulham}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 6.70795% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$leeds}_gk {
+    width: 110px;
+    height: 110px;
+    background-position: 25.2838% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$leeds}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 19.0918% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$leeds}_player {
+    width: 110px;
+    height: 110px;
+    background-position: 37.6677% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$leeds}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 31.4757% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$leicester}_gk {
+    width: 99px;
+    height: 107px;
+    background-position: 95.2283% 40.3490%;
+    background-size: 2068.69%;
+}
+
+.#{$leicester}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 43.8596% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$leicester}_player {
+    width: 98px;
+    height: 107px;
+    background-position: 0.512821% 53.2170%;
+    background-size: 2089.80%;
+}
+
+.#{$leicester}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 50.0516% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$liverpool}_gk {
+    width: 99px;
+    height: 107px;
+    background-position: 6.05439% 53.2170%;
+    background-size: 2068.69%;
+}
+
+.#{$liverpool}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 56.2436% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$liverpool}_player {
+    width: 98px;
+    height: 108px;
+    background-position: 11.6923% 40.3930%;
+    background-size: 2089.80%;
+}
+
+.#{$liverpool}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 62.4355% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$mancity}_gk {
+    width: 98px;
+    height: 107px;
+    background-position: 11.6410% 53.2170%;
+    background-size: 2089.80%;
+}
+
+.#{$mancity}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 68.6275% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$mancity}_player {
+    width: 99px;
+    height: 107px;
+    background-position: 17.1883% 53.2170%;
+    background-size: 2068.69%;
+}
+
+.#{$mancity}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 74.8194% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$manutd}_gk {
+    width: 99px;
+    height: 108px;
+    background-position: 17.2396% 40.3930%;
+    background-size: 2068.69%;
+}
+
+.#{$manutd}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 81.0114% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$manutd}_player {
+    width: 98px;
+    height: 107px;
+    background-position: 22.7692% 53.2170%;
+    background-size: 2089.80%;
+}
+
+.#{$manutd}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 87.2033% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$newcastle}_gk {
+    width: 99px;
+    height: 108px;
+    background-position: 22.8322% 40.3930%;
+    background-size: 2068.69%;
+}
+
+.#{$newcastle}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 93.3953% 14.2232%;
+    background-size: 1861.82%;
+}
+
+.#{$newcastle}_player {
+    width: 98px;
+    height: 108px;
+    background-position: 28.4103% 40.3930%;
+    background-size: 2089.80%;
+}
+
+.#{$newcastle}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 0.515996% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$sheffield-utd}_gk {
+    width: 110px;
+    height: 110px;
+    background-position: 12.8999% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$sheffield-utd}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 6.70795% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$sheffield-utd}_player {
+    width: 99px;
+    height: 107px;
+    background-position: 28.3222% 53.2170%;
+    background-size: 2068.69%;
+}
+
+.#{$sheffield-utd}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 19.0918% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$southampton}_gk {
+    width: 99px;
+    height: 107px;
+    background-position: 33.9148% 53.2170%;
+    background-size: 2068.69%;
+}
+
+.#{$southampton}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 25.2838% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$southampton}_player {
+    width: 99px;
+    height: 107px;
+    background-position: 39.5074% 53.2170%;
+    background-size: 2068.69%;
+}
+
+.#{$southampton}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 31.4757% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$tottenham}_gk {
+    width: 98px;
+    height: 107px;
+    background-position: 45.0769% 53.2170%;
+    background-size: 2089.80%;
+}
+
+.#{$tottenham}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 37.6677% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$tottenham}_player {
+    width: 99px;
+    height: 108px;
+    background-position: 33.9661% 40.3930%;
+    background-size: 2068.69%;
+}
+
+.#{$tottenham}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 43.8596% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$west-brom}_gk {
+    width: 110px;
+    height: 110px;
+    background-position: 56.2436% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$west-brom}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 50.0516% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$west-brom}_player {
+    width: 98px;
+    height: 107px;
+    background-position: 50.6154% 53.2170%;
+    background-size: 2089.80%;
+}
+
+.#{$west-brom}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 62.4355% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$westham}_gk {
+    width: 99px;
+    height: 108px;
+    background-position: 39.5587% 40.3930%;
+    background-size: 2068.69%;
+}
+
+.#{$westham}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 68.6275% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$westham}_player {
+    width: 97px;
+    height: 106px;
+    background-position: 56.1251% 53.1590%;
+    background-size: 2111.34%;
+}
+
+.#{$westham}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 74.8194% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$wolves}_gk {
+    width: 98px;
+    height: 108px;
+    background-position: 45.1282% 40.3930%;
+    background-size: 2089.80%;
+}
+
+.#{$wolves}_gk-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 81.0114% 27.3523%;
+    background-size: 1861.82%;
+}
+
+.#{$wolves}_player {
+    width: 98px;
+    height: 108px;
+    background-position: 50.6667% 40.3930%;
+    background-size: 2089.80%;
+}
+
+.#{$wolves}_player-selected {
+    width: 110px;
+    height: 110px;
+    background-position: 87.2033% 27.3523%;
+    background-size: 1861.82%;
+}

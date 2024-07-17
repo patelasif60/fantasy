@@ -1,0 +1,18 @@
+.user-account-form {
+    .fileuploader-thumbnails-input-inner {
+        background: $white;
+        color: $input-color;
+        font-weight: $font-weight-normal;
+        cursor: pointer;
+
+        &:after {
+            content: "Upload";
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            background: transparent;
+        }
+    }
+}

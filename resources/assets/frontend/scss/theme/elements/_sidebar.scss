@@ -1,0 +1,83 @@
+.sidenav {
+    position: fixed;
+    z-index: $zindex-fixed - 1;
+    top: 0;
+    right: 0;
+    margin-right: -($sidebar-width);
+    background-color: theme-color('light');
+    transition: 0.5s;
+    padding: $header-footer-height 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    // @include media-breakpoint-up(md) {
+        // clip-path: polygon(0 0, 100% 0%, 100% 88%, 0 75%);
+        // clip-path: polygon(0 0, 430px 0, 430px 580px, 0 490px);
+        // clip-path: polygon(0 0, 100vh 0, 100vh 100vh, 0 75vh);
+    // }
+
+    // @include media-breakpoint-down(sm) {
+    //     height: calc(100vh);
+    // }
+
+
+    &.toggled {
+        margin-right: 0;
+        width: $sidebar-width;
+    }
+
+    .sidebar-container {
+        display: block;
+        padding: 20px 20px 40px;
+        position: relative;
+        width: 100%;
+
+        .sidebar-nav {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 30px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .sidebar-nav-item {
+                display: block;
+
+                .sidebar-nav-link {
+                    padding: $grid-gutter-width/4 0;
+                    font-size: $font-size-base;
+                    font-weight: $font-weight-bold;
+                    text-transform: uppercase;
+                    line-height: 1.2;
+                    display: inline-block;
+                    color: theme-color('dark');
+                    transition: all 0.25s ease-in-out;
+
+                    @include hover-focus {
+                        text-decoration: none;
+                        color: rgba(theme-color('primary'), 0.85);
+                    }
+                }
+            }
+
+            .sidebar-nav-item.active,
+            .sidebar-nav-item .sidebar-nav-link.active {
+                color: theme-color('primary');
+            }
+        }
+    }
+
+    // &:after {
+    //     position: absolute;
+    //     bottom: -88px;
+    //     height: 88px;
+    //     display: block;
+    //     width: 100%;
+    //     background: transparent;
+    //     content: '';
+    //     border-top: 0px solid transparent;
+    //     border-right: 320px solid theme-color('light');
+    //     border-bottom: 88px solid transparent;
+    // }
+}
